@@ -1,8 +1,10 @@
 .section-7 {
     position: relative;
     height: 100vh;
-    will-change: transform;
-    transform: translateZ(0); // force hardware acceleration
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 
     h2 {
         will-change: transform;

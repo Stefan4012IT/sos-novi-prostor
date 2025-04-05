@@ -46,20 +46,21 @@ function PinnedCtaSection() {
         opacity: 0,
         scrollTrigger: {
           trigger: section,
-          start: "top 80%",
-          end: "top 40%",
+          start: "top 30%",
+          end: "top 80%",
           scrub: true,
         },
       });
 
       // 👇 Parallax za text
       gsap.from(textRef.current, {
-        y: 80,
+        y: -300,
         opacity: 0,
+        duration: 3,
         scrollTrigger: {
           trigger: section,
-          start: "top 75%",
-          end: "top 30%",
+          start: "top bottom",
+          end: "bottom top",
           scrub: true,
         },
       });
@@ -67,15 +68,17 @@ function PinnedCtaSection() {
       // 👇 Parallax za sliku
       gsap.fromTo(
         imgRef.current,
-        { y: 80, opacity: 0, scale: 1.05 },
+        { y: -500, scale: .1, opacity: 0 },
         {
           y: 0,
           opacity: 1,
           scale: 1,
+          duration: 5.5,
+          ease: "power3.out",
           scrollTrigger: {
-            trigger: section,
-            start: "top 90%",
-            end: "top 20%",
+            trigger: sectionRef.current,
+            start: "top 60%",
+            end: "top 0%",
             scrub: true,
           },
         }

@@ -71,13 +71,24 @@ function InfiniteZoneScroll() {
           const triggerEl = document.querySelector(
             `.zone-text[data-zone='${zoneIndex}'][data-index='${textIndex}']`
           );
+          const fadeImage = (newSrc) => {
+            if (!imageRef.current) return;
+          
+            imageRef.current.classList.add('fade-out');
+          
+            setTimeout(() => {
+              imageRef.current.src = newSrc;
+              imageRef.current.classList.remove('fade-out');
+            }, 300); // vreme mora biti manje od CSS transition da ne “seče”
+          };
 
           ScrollTrigger.create({
             trigger: triggerEl,
             start: "top center",
             end: "bottom center",
+            
             onEnter: () => {
-              imageRef.current.src = zone.images[textIndex];
+                fadeImage(zone.images[textIndex]);
               setActiveBg(zone.bgColor);
                 // Ukloni aktivnu klasu sa svih tekstova
                 document.querySelectorAll('.zone-text').forEach(el => el.classList.remove('active'));
@@ -86,7 +97,7 @@ function InfiniteZoneScroll() {
                 triggerEl.classList.add('active');
             },
             onEnterBack: () => {
-                imageRef.current.src = zone.images[textIndex];
+                fadeImage(zone.images[textIndex]);
               setActiveBg(zone.bgColor);
               document.querySelectorAll('.zone-text').forEach(el => el.classList.remove('active'));
               triggerEl.classList.add('active');

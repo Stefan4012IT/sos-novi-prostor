@@ -5,7 +5,7 @@ function Benefit({ num, title, text, className }) {
         <div className="big-num">{num}</div>
         <div className="benefit--content">
           <div className="line"></div>
-          <h2 className="benefit--content---title">{title}</h2>
+          <h6 className="benefit--content---title">{title}</h6>
           <p className="benefit--content---text">{text}</p>
         </div>
 

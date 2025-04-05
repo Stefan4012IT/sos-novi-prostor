@@ -2,6 +2,7 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+    padding: 10vh 3vw;
 
     @media only screen and (max-width: 992px) {
         min-height: 100vh;
@@ -10,7 +11,7 @@
     &--title-right {
         position: relative;
         top: 20px;
-        right: 40px;
+        right: 0px;
         width: 70%;
         text-align: right;
         align-self: flex-end;
@@ -31,7 +32,7 @@
 
     &--title-left {
         position: relative;
-        left: 20px;
+        left: 0px;
         width: 100%;
         height: 260px;
         text-align: left;
@@ -49,6 +50,7 @@
             height: 250px; 
             width: 100%;
             overflow: hidden;
+            margin: 10vh 0;
 
             @media only screen and (max-width: 992px) {
                 height: 50px; 
@@ -66,7 +68,6 @@
     }
 
     .title {
-        margin: 40px 20px;
         font-size: 100px;
         width: 800px;
         text-align: right;
@@ -76,11 +77,11 @@
     .hero-img {
         position: relative;
         width: 100%;
-        
+        margin: 10vh 0;
         display: flex;
         flex-direction: row;
         gap: 30px;
-        padding: 0 30px;
+        padding: 0px;
         justify-content: space-between;
 
         img {

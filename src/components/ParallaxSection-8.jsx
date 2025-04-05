@@ -26,13 +26,14 @@ function ParallaxSection_8() {
       });
 
       gsap.from(textRef.current, {
-        y: -80,
+        y: 180,
         opacity: 0,
+        scale: 1,
         duration: 2.2,
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top 90%",
-          end: "top 20%",
+          end: "top 60%",
           scrub: true,
         },
       });
@@ -43,7 +44,7 @@ function ParallaxSection_8() {
           y: 0,
           opacity: 1,
           scale: 1,
-          duration: 1.5,
+          duration: 2.5,
           ease: "power3.out",
           scrollTrigger: {
             trigger: sectionRef.current,

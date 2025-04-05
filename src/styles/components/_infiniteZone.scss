@@ -4,7 +4,7 @@
     // transition: background-color 0.25s ease;
     will-change: background-color;
     background-color: #FFF;
-
+    width: 100%;
     // &::before {
     //     content: '';
     //     position: absolute;
@@ -60,8 +60,8 @@
     }
   
     .zone-text {
-        opacity: 0.3;
-        transition: opacity 0.75s ease;
+        opacity: 0.5;
+        transition: opacity 0.2 .3s ease-in-out;
 
         &.active {
             opacity: 1;
@@ -135,37 +135,27 @@
                 }
               }
         }
-      h2 {
-        font-size: 80px;
-        padding-top: 5px;
-      }
-  
-      p {
-        font-size: 1.1rem;
-        max-width: 600px;
-      }
-  
-      ul {
-        padding-left: 1rem;
-        margin-top: 0.5rem;
-        li {
-          margin-bottom: 0.3rem;
-          list-style-type: disc;
-        }
-      }
+      
     }
   
     .zone-image-box {
       width: 50%;
       position: sticky;
-      top: 20vh;
+      top: 10vh;
       z-index: 1000;
-      transition: all .3s;
+      transition: opacity .4s ease-in-out;
   
       img {
         width: 100%;
-        height: auto;
-        border-radius: 8px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 0;
+        opacity: 1;
+        transition: all 0.25s ease-in;
+      }
+
+      img.fade-out {
+        opacity: 0;
       }
     }
 
