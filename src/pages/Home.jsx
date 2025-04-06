@@ -22,6 +22,7 @@ import ctaImg from '../assets/open-day-hero-bw.jpg'
 import PinnedCtaSection from '../components/PinnedCtaSection';
 import ParallaxSection_8 from '../components/ParallaxSection-8';
 import InfiniteZoneScroll from '../components/InfiniteZoneScroll';
+import ParallaxSection_9 from '../components/ParallaxSection-9';
 
 
 const benefitsData = [
@@ -173,9 +174,7 @@ function Home() {
         <ScrollNarrative zones={zones} /> */}
         <PinnedCtaSection />
         <ParallaxSection_8 />
-        <div className="section-9">
-
-        </div>
+        <ParallaxSection_9 />
         <section className="section-10">
           <div className="section-10--base">
             <h1>savremena</h1>
