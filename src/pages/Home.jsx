@@ -1,7 +1,13 @@
 import React, {useState} from 'react';
+import SG_logo from '../assets/SG_logo.svg'
 import img_1 from '../assets/dump_img_1.avif'
 import img_2 from '../assets/dump_img_2.avif'
 import img_3 from '../assets/dump_img_3.avif'
+
+import num_1 from '../assets/nums/num_1.svg'
+import num_2 from '../assets/nums/num_2.svg'
+import num_3 from '../assets/nums/num_3.svg'
+import num_4 from '../assets/nums/num_4.svg'
 
 import prizelje_1 from '../assets/prizemlje_1.jpg'
 import prizelje_2 from '../assets/prizemlje_2.jpg'
@@ -21,15 +27,16 @@ import FloatingImagesSection from '../components/FloatingImagesSection';
 import ctaImg from '../assets/open-day-hero-bw.jpg'
 import PinnedCtaSection from '../components/PinnedCtaSection';
 import ParallaxSection_8 from '../components/ParallaxSection-8';
-import InfiniteZoneScroll from '../components/InfiniteZoneScroll';
+import InfiniteZoneScrollPrizemlje from '../components/InfiniteZoneScrollPrizemlje';
+import InfiniteZoneScroll_II_Sprat from '../components/InfiniteZoneScroll_II_sprat';
 import ParallaxSection_9 from '../components/ParallaxSection-9';
 
 
 const benefitsData = [
-    { num: "1", title: "Brzina", text: "Naš tim razvija rešenja ekspresno." },
-    { num: "2", title: "Kvalitet", text: "Svaki detalj je doveden do savršenstva." },
-    { num: "3", title: "Fleksibilnost", text: "Prilagođavamo se svakom projektu." },
-    { num: "4", title: "Podrška", text: "Tu smo i posle lansiranja." },
+    { num: num_1, title: "Designed to inspire:", subtitle: "najmodernija tehnologija za uspeh u budućnosti", text: "Prostor je dizajniran tako da podstiče inovativne načine razmišljanja i pomeranje granica. Savremene tehnologije i fleksibilni elementi stvaraju dinamično okruženje, dajuci učenicima mogucnost za stvaranje… nesto future." },
+    { num: num_2, title: "Where ideas take shape:", subtitle: "od ideje do akcije", text: "Ideje postaju konkretni projekti, a projekti postaju ciljevi koji se realizuju. Opremljen savremenim tehnologijama i osmišljen za budućnost – prostor koji raste zajedno s generacijama koje dolaze." },
+    { num: num_3, title: "Where trust begins:", subtitle: "uz partnerstvo i saradnju sa roditeljima", text: "Kada roditelji i škola imaju isti cilj, dete dobija najznačajniju podršku na svom putu. A poverenje ne nastaje slučajno - ono je nusprodukt otvorene komunikacije, međusobnog uvažavanja i zajedničke brige o detetu." },
+    { num: num_4, title: "Ready to grow:", subtitle: "Više mesta za više mogućnosti.", text: "Rastemo zajedno i stvaramo zajednicu koja pomera granice. Prošireni kapaciteti odgovaraju potražnji i omogućavaju većem broju učenika da postanu deo savremenog obrazovanja – drugačijeg, inovativnog i spremnog za budućnost." },
   ];
 
   const zones = [
@@ -92,11 +99,17 @@ function Home() {
       <main className="home">
 
         <section className="hero section-1">
+            <div className="logo-box"><img src={SG_logo} alt="SG_logo" /></div>
             <div className="hero--title-right">
-                <h1>For the one who is</h1>
+                <h1>NEW Savremeni prostor za više:</h1>
             </div>
             <div className="hero--title-left">
-                <RotatingWords words={["Colorful", "Driven", "Creative", "Sportive", "Sustainable"]} />
+                <RotatingWords words={["uspeha", "ideja", "uspomena", "pitanja", "projekata", "osmeha", "pobeda", "inovacija"]} />
+            </div>
+            <div className="hero--paragraph-text">
+              <p>
+              Od septembra 2025. učenici Savremene gimnazije dobijaju i II sprat u okviru modernog prostora Robne kuće Beograd. Nastava će se odvijati na 1557 kvadrata rasporedjenih na prizemlje, II, III, i IV sprata, sa 7 novih obrazovnih zona potpuno renoviranih i opremljenom po najvišim svetskim standardima.
+              </p>
             </div>
           <div className="hero-img">
             <img src={intro_img_1} alt="" className="img-1" />
@@ -105,7 +118,7 @@ function Home() {
             <img src={intro_img_4} alt="" className="img-4" />
           </div>
           <h2 className="title">
-            At the heart of the thriving
+            Novi prostorni koncept, nova era obrazovanja.
           </h2>
         </section>
         
@@ -114,6 +127,7 @@ function Home() {
             <Benefit
                 key={index}
                 num={benefit.num}
+                subtitle={benefit.subtitle}
                 title={benefit.title}
                 text={benefit.text}
                 className={`benefit--${index}`}
@@ -122,7 +136,7 @@ function Home() {
         </StackScroll>
         <section className="section-3">
           <h2 className="title">
-            At the heart of the thriving
+          Šta pomera granice obrazovanja?
           </h2>
           <div className="section-img">
             <img src={imgPrizemlje} alt="" />
@@ -131,7 +145,21 @@ function Home() {
             Prizemlje
           </h3>
         </section>
-        <InfiniteZoneScroll />
+        <InfiniteZoneScrollPrizemlje />
+        {/* <section className="section-3-II">
+          <h2 className="title">
+          Šta pomera granice obrazovanja?
+          </h2>
+          <div className="section-img">
+            <img src={imgPrizemlje} alt="" />
+          </div>
+          <h3 className="title-2">
+            Prizemlje
+          </h3>
+        </section>
+        <InfiniteZoneScroll_II_Sprat /> */}
+
+        
         {/* <ScrollNarrative zones={zones} /> */}
 
         {/* <section className="section-4">

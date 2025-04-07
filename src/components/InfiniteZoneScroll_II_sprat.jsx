@@ -63,6 +63,22 @@ function InfiniteZoneScroll() {
       ],
       images: [prizemlje_1, prizemlje_2],
     },
+    {
+      bgColor: "#f7b815",
+      text: [
+        {
+          title: "Presentation zone",
+          subtitle: "Ovo nije",
+          text: "Ovo je mesto gde je neko prvi put video oduševljenje ljudi na izložene radove. I svoj talenat pretvorio u uspešnu buducnost.",
+        },
+        {
+          title: "Moderno uređeno i prostrano prizemlje",
+          text: "Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.",
+          list: ["88m2", "aktivna zona", "kolektivno"]
+        },
+      ],
+      images: [prizemlje_1, prizemlje_2],
+    },
   ];
   useEffect(() => {
     const ctx = gsap.context(() => {
