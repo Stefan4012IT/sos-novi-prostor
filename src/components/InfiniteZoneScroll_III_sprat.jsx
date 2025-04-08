@@ -114,7 +114,7 @@ function InfiniteZoneScrollSprat() {
             setTimeout(() => {
               imageRef.current.src = newSrc;
               imageRef.current.classList.remove("fade-out");
-            }, 300);
+            }, 100);
           };
 
           ScrollTrigger.create({

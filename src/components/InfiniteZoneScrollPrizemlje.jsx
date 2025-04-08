@@ -56,7 +56,7 @@ function InfiniteZoneScroll() {
             setTimeout(() => {
               imageRef.current.src = newSrc;
               imageRef.current.classList.remove('fade-out');
-            }, 300); // vreme mora biti manje od CSS transition da ne “seče”
+            }, 100); // vreme mora biti manje od CSS transition da ne “seče”
           };
 
           ScrollTrigger.create({
