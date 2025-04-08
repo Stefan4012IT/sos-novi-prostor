@@ -12,7 +12,7 @@ import num_4 from '../assets/nums/num_4_black.svg'
 import prizelje_1 from '../assets/prizemlje_1.jpg'
 import prizelje_2 from '../assets/prizemlje_2.jpg'
 
-import intro_img_1 from '../assets/intro_1.jpg'
+import intro_img_1 from '../assets/intro_img_01.jpg'
 import intro_img_2 from '../assets/intro_2.jpg'
 import intro_img_3 from '../assets/intro_3.jpg'
 import intro_img_4 from '../assets/intro_4.jpg'
