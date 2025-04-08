@@ -39,17 +39,17 @@ function ParallaxSection_8() {
       });
 
       gsap.fromTo(imgRef.current,
-        { y: -200, scale: 1.2, opacity: 0 },
+        { y: 1400, scale: 1.2, opacity: 0 },
         {
           y: 0,
           opacity: 1,
           scale: 1,
-          duration: 2.5,
+          duration: 5.5,
           ease: "power3.out",
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top 60%",
-            end: "top 20%",
+            start: "top top%",
+            end: "top 50%",
             scrub: true,
           },
         }
@@ -65,7 +65,7 @@ function ParallaxSection_8() {
       <div className="text" ref={textRef}>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
       </div>
-      <img src={img_3} alt="Get in touch" className="img_gttouch" ref={imgRef} />
+      <img src={img_3} alt="Get in touch" className="img_prizemlje" ref={imgRef} />
     </section>
   );
 }

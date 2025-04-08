@@ -1,8 +1,9 @@
-.section-3 {
+.section-3-prizemlje {
     width: 100%;
     height: 100vh;
     padding: 64px 3vw;
     position: relative;
+    z-index: 100;
 
     .title {
         margin: 0;
@@ -34,7 +35,36 @@
         position: absolute;
         bottom: 64px;
         right: 3vw;
+        z-index: 200;
     }
+
+    .img_prizemlje {
+      position: absolute;
+      right: 0%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 500px;
+      z-index: 300;
+    }
+    .img_box {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 400px;
+      height: 100%;
+      z-index: 2;
+
+      .sticky-img {
+        position: sticky;
+        top: 0vh;
+        right: 0%;
+        height: auto;
+        width: 400px;
+        z-index: 2;
+        transition: opacity 0.5s ease;
+      }
+    }
+
 
     
 }

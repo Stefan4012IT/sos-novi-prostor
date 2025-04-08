@@ -25,6 +25,7 @@ import RotatingWords from '../components/RotatingWords';
 import StackScroll from '../components/StackScroll';
 import ScrollNarrative from '../components/ScrollNarrative';
 import FloatingImagesSection from '../components/FloatingImagesSection';
+import SectionPrizemlje from '../components/SectionPrizemlje';
 
 import ctaImg from '../assets/open-day-hero-bw.jpg'
 import PinnedCtaSection from '../components/PinnedCtaSection';
@@ -138,7 +139,7 @@ function Home() {
             />
             ))}
         </StackScroll>
-        <section className="section-3">
+        {/* <section className="section-3">
           <h2 className="title">
           Otvoreni prostor za prve utiske.
           </h2>
@@ -148,7 +149,8 @@ function Home() {
           <h3 className="title-2">
             Prizemlje
           </h3>
-        </section>
+        </section> */}
+        <SectionPrizemlje />
         <InfiniteZoneScrollPrizemlje />
         <section className="section-3-II">
           <h2 className="title">
