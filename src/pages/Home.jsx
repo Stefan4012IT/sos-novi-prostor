@@ -14,9 +14,6 @@ import benefits_2_img from '../assets/benefits/benefits_2.png'
 import benefits_3_img from '../assets/benefits/benefits_3.png'
 import benefits_4_img from '../assets/benefits/benefits_4.png'
 
-import prizelje_1 from '../assets/prizemlje_1.jpg'
-import prizelje_2 from '../assets/prizemlje_2.jpg'
-
 import intro_img_1 from '../assets/intro_img_01.jpg'
 import intro_img_2 from '../assets/intro_2.jpg'
 import intro_img_3 from '../assets/intro_3.jpg'
@@ -43,64 +40,11 @@ import ParallaxSection_9 from '../components/ParallaxSection-9';
 
 
 const benefitsData = [
-    { img: benefits_1_img, num: num_1, title: "Designed to inspire:", subtitle: "najmodernija tehnologija za uspeh u budućnosti", text: "Prostor je dizajniran tako da podstiče inovativne načine razmišljanja i pomeranje granica. Savremene tehnologije i fleksibilni elementi stvaraju dinamično okruženje, dajuci učenicima mogucnost za stvaranje… nesto future." },
-    { img: benefits_2_img, num: num_2, title: "Where ideas take shape:", subtitle: "od ideje do akcije", text: "Ideje postaju konkretni projekti, a projekti postaju ciljevi koji se realizuju. Opremljen savremenim tehnologijama i osmišljen za budućnost – prostor koji raste zajedno s generacijama koje dolaze." },
-    { img: benefits_3_img, num: num_3, title: "Where trust begins:", subtitle: "uz partnerstvo i saradnju sa roditeljima", text: "Kada roditelji i škola imaju isti cilj, dete dobija najznačajniju podršku na svom putu. A poverenje ne nastaje slučajno - ono je nusprodukt otvorene komunikacije, međusobnog uvažavanja i zajedničke brige o detetu." },
-    { img: benefits_4_img, num: num_4, title: "Ready to grow:", subtitle: "Više mesta za više mogućnosti.", text: "Rastemo zajedno i stvaramo zajednicu koja pomera granice. Prošireni kapaciteti odgovaraju potražnji i omogućavaju većem broju učenika da postanu deo savremenog obrazovanja – drugačijeg, inovativnog i spremnog za budućnost." },
-  ];
-
-  const zones = [
-    {
-      bgColor: "#9d1516",
-      text: [
-        {
-          title: "Presentation zone",
-          subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put video oduševljenje ljudi na izložene radove. I svoj talenat pretvorio u uspešnu buducnost.",
-        },
-        {
-          title: "Moderno uređeno i prostrano prizemlje",
-          text: "Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.",
-          list: ["88m2", "aktivna zona", "kolektivno"]
-        },
-      ],
-      images: [prizelje_1, prizelje_2],
-    },
-    {
-      bgColor: "#427042",
-      text: [
-        {
-          title: "Presentation zone",
-          subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put video oduševljenje ljudi na izložene radove. I svoj talenat pretvorio u uspešnu buducnost.",
-        },
-        {
-          title: "Moderno uređeno i prostrano prizemlje",
-          text: "Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.",
-          list: ["88m2", "aktivna zona", "kolektivno"]
-        },
-      ],
-      images: [prizelje_1, prizelje_2],
-    },
-    {
-      bgColor: "#f7b815",
-      text: [
-        {
-          title: "Presentation zone",
-          subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put video oduševljenje ljudi na izložene radove. I svoj talenat pretvorio u uspešnu buducnost.",
-        },
-        {
-          title: "Moderno uređeno i prostrano prizemlje",
-          text: "Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.",
-          list: ["88m2", "aktivna zona", "kolektivno"]
-        },
-      ],
-      images: [prizelje_1, prizelje_2],
-    },
-  ];
-
-
+  { img: benefits_1_img, num: num_1, title: "Designed to inspire:", subtitle: "najmodernija tehnologija za uspeh u budućnosti", text: "Prostor je dizajniran tako da podstiče inovativne načine razmišljanja i pomeranje granica. Savremene tehnologije i fleksibilni elementi stvaraju dinamično okruženje, dajuci učenicima mogucnost za stvaranje… nesto future." },
+  { img: benefits_2_img, num: num_2, title: "Where ideas take shape:", subtitle: "od ideje do akcije", text: "Ideje postaju konkretni projekti, a projekti postaju ciljevi koji se realizuju. Opremljen savremenim tehnologijama i osmišljen za budućnost – prostor koji raste zajedno s generacijama koje dolaze." },
+  { img: benefits_3_img, num: num_3, title: "Where trust begins:", subtitle: "uz partnerstvo i saradnju sa roditeljima", text: "Kada roditelji i škola imaju isti cilj, dete dobija najznačajniju podršku na svom putu. A poverenje ne nastaje slučajno - ono je nusprodukt otvorene komunikacije, međusobnog uvažavanja i zajedničke brige o detetu." },
+  { img: benefits_4_img, num: num_4, title: "Ready to grow:", subtitle: "Više mesta za više mogućnosti.", text: "Rastemo zajedno i stvaramo zajednicu koja pomera granice. Prošireni kapaciteti odgovaraju potražnji i omogućavaju većem broju učenika da postanu deo savremenog obrazovanja – drugačijeg, inovativnog i spremnog za budućnost." },
+];
 
 
 function Home() {
@@ -145,17 +89,6 @@ function Home() {
             />
             ))}
         </StackScroll>
-        {/* <section className="section-3">
-          <h2 className="title">
-          Otvoreni prostor za prve utiske.
-          </h2>
-          <div className="section-img">
-            <img src={nacrt_prizemlje} alt="" />
-          </div>
-          <h3 className="title-2">
-            Prizemlje
-          </h3>
-        </section> */}
         <SectionPrizemlje />
         <InfiniteZoneScrollPrizemlje />
         <section className="section-3-II">
@@ -196,46 +129,6 @@ function Home() {
         <InfiniteZoneScroll_IV_Sprat />
 
         
-        {/* <ScrollNarrative zones={zones} /> */}
-
-        {/* <section className="section-4">
-          <h2 className="title">
-            At the heart of the thriving
-          </h2>
-          <div className="section-img">
-
-          </div>
-          <h3 className="title-2">
-            I Sprat
-          </h3>
-        </section>
-        <ScrollNarrative zones={zones} />
-
-        <section className="section-5">
-          <h2 className="title">
-            At the heart of the thriving
-          </h2>
-          <div className="section-img">
-
-          </div>
-          <h3 className="title-2">
-            II Sprat
-          </h3>
-        </section>
-        <ScrollNarrative zones={zones} />
-
-        <section className="section-6">
-          <h2 className="title">
-            At the heart of the thriving
-          </h2>
-          <div className="section-img">
-
-          </div>
-          <h3 className="title-2">
-            III Sprat
-          </h3>
-        </section>
-        <ScrollNarrative zones={zones} /> */}
         <PinnedCtaSection />
         <ParallaxSection_8 />
         <ParallaxSection_9 />
