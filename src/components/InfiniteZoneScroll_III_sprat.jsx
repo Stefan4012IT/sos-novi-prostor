@@ -172,6 +172,7 @@ function InfiniteZoneScrollSprat() {
         <div className="zone-image-box">
           <img ref={imageRef} alt="Zone preview" />
         </div>
+        <div className="zone-background"></div>
       </div>
     </section>
   );
