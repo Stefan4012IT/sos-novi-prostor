@@ -4,8 +4,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 import prizemlje_1 from '../assets/prizemlje_1.jpg'
 import prizemlje_2 from '../assets/prizemlje_2.jpg'
-import prizemlje_3 from '../assets/prizemlje_3.jpg'
-import prizemlje_4 from '../assets/prizemlje_4.jpg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,38 +15,6 @@ function InfiniteZoneScroll() {
   const zones = [
     {
       bgColor: "#9d1516",
-      text: [
-        {
-          title: "Presentation zone",
-          subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put video oduševljenje ljudi na izložene radove. I svoj talenat pretvorio u uspešnu buducnost.",
-        },
-        {
-          title: "Moderno uređeno i prostrano prizemlje",
-          text: "Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.",
-          list: ["88m2", "aktivna zona", "kolektivno"]
-        },
-      ],
-      images: [prizemlje_1, prizemlje_2],
-    },
-    {
-      bgColor: "#427042",
-      text: [
-        {
-          title: "Presentation zone",
-          subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put video oduševljenje ljudi na izložene radove. I svoj talenat pretvorio u uspešnu buducnost.",
-        },
-        {
-          title: "Moderno uređeno i prostrano prizemlje",
-          text: "Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.",
-          list: ["88m2", "aktivna zona", "kolektivno"]
-        },
-      ],
-      images: [prizemlje_3, prizemlje_4],
-    },
-    {
-      bgColor: "#f7b815",
       text: [
         {
           title: "Presentation zone",
