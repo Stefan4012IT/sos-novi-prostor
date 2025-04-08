@@ -36,7 +36,7 @@ function InfiniteZoneScrollSprat() {
           list: ["90m2", "aktivna zona", "kolektivno"]
         },
       ],
-      images: [sprat_III_1, sprat_III_2],
+      images: [sprat_III_2, sprat_III_1],
     },
     {
       bgColor: "#9d1516",
@@ -77,17 +77,17 @@ function InfiniteZoneScrollSprat() {
       bgColor: "#427042",
       text: [
         {
-          title: "Reading zone",
+          title: "STEM zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put poželeo da pročita još jedno poglavlje – iako ga je društvo čekalo ispred škole.",
+          text: "Ovo je mesto gde se neko prvi put susreo s problemom koji ga je držao budnim noću. I kasnije razvio aplikaciju koja taj problem rešava.",
         },
         {
-          title: "Mirna zona za čitanje, učenje i koncentraciju",
-          text: "Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen tišini, samostalnom radu i čitanju. Opremljena je različitim tipovima sedenja koji omogućavaju učenicima da pronađu ambijent koji im najviše odgovara – za učenje u ritmu koji sami određuju. Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog – veštine koje su ključne za uspeh u svakom savremenom obrazovnom okruženju. ",
-          list: ["33m2", "tiha zona", "individualno/u malim grupama"]
+          title: "Naučno-tehnološka zona za praktičan rad i istraživanje",
+          text: "Savremeni naučno-tehnološki hub škole, namenjen razvoju praktičnih veština kroz analitički i projektno orijentisan rad. Prostor je opremljen digitalnim alatima, tehničkom opremom i nastavnim sredstvima koja omogućavaju učenicima da istražuju, testiraju i stvaraju.Kroz rad na konkretnim izazovima, učenici razvijaju logičko razmišljanje, preciznost i sigurnost u donošenju rešenja – veštine koje direktno vode ka uspehu u tehnološkom i akademskom svetu.",
+          list: ["42m2", "interaktivna zona", "u grupama/kolektivno"]
         },
       ],
-      images: [sprat_III_7, sprat_III_8],
+      images: [sprat_III_8, sprat_III_7],
     }
   ];
 

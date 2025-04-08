@@ -18,7 +18,8 @@ import intro_img_3 from '../assets/intro_3.jpg'
 import intro_img_4 from '../assets/intro_4.jpg'
 
 import nacrt_prizemlje from '../assets/prizemlje_nacrt.svg'
-import nacrt_II_sprat from '../assets/sprat_II/nacrt_II_sprat_optimized.svg'
+import nacrt_II_sprat from '../assets/sprat_II/nacrt_II_sprat.svg'
+import nacrt_III_sprat from '../assets/sprat_III/nacrt_III_sprat.svg'
 import Benefit from '../components/Benefit';
 import RotatingWords from '../components/RotatingWords';
 import StackScroll from '../components/StackScroll';
@@ -31,6 +32,7 @@ import ParallaxSection_8 from '../components/ParallaxSection-8';
 import InfiniteZoneScrollPrizemlje from '../components/InfiniteZoneScrollPrizemlje';
 import InfiniteZoneScroll_II_Sprat from '../components/InfiniteZoneScroll_II_sprat';
 import InfiniteZoneScroll_III_Sprat from '../components/InfiniteZoneScroll_III_sprat';
+import InfiniteZoneScroll_IV_Sprat from '../components/InfiniteZoneScroll_IV_sprat';
 import ParallaxSection_9 from '../components/ParallaxSection-9';
 
 
@@ -138,7 +140,7 @@ function Home() {
         </StackScroll>
         <section className="section-3">
           <h2 className="title">
-          Šta pomera granice obrazovanja?
+          Otvoreni prostor za prve utiske.
           </h2>
           <div className="section-img">
             <img src={nacrt_prizemlje} alt="" />
@@ -150,7 +152,7 @@ function Home() {
         <InfiniteZoneScrollPrizemlje />
         <section className="section-3-II">
           <h2 className="title">
-          Šta pomera granice obrazovanja?
+          Okruženje u kome se oblikuje budućnost. 
           </h2>
           <div className="section-img">
             <img src={nacrt_II_sprat} alt="" />
@@ -162,16 +164,28 @@ function Home() {
         <InfiniteZoneScroll_II_Sprat />
         <section className="section-3-III">
           <h2 className="title">
-          Šta pomera granice obrazovanja?
+          Mesto povezivanja i istraživanja.
           </h2>
           <div className="section-img">
-            <img src={nacrt_prizemlje} alt="" />
+            <img src={nacrt_III_sprat} alt="" />
           </div>
           <h3 className="title-2">
             III Sprat
           </h3>
         </section>
         <InfiniteZoneScroll_III_Sprat />
+        <section className="section-3-IV">
+          <h2 className="title">
+          Svaka ideja dobija priliku da se čuje.
+          </h2>
+          <div className="section-img">
+            <img src={nacrt_III_sprat} alt="" />
+          </div>
+          <h3 className="title-2">
+            IV Sprat
+          </h3>
+        </section>
+        <InfiniteZoneScroll_IV_Sprat />
 
         
         {/* <ScrollNarrative zones={zones} /> */}

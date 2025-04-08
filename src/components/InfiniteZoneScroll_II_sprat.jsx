@@ -44,12 +44,12 @@ function InfiniteZoneScrollSprat() {
         {
           title: "Classroom zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko samo uz jedno „zašto?“ pokrenuo  debatu koja je nekome promenila zivot. ",
+          text: "Ovo je mesto gde je neko prvi put preuzeo odgovornost za ceo tim.",
         },
         {
-          title: "Savremene učionice prilagođene stvarnim potrebama učenika",
-          text: "Obuhvata moderno opremljene učionice koje kombinuju funkcionalnost, prirodno osvetljenje i tehničku podršku za savremenu nastavu. Fleksibilan raspored, ergonomski nameštaj i digitalni alati omogućavaju nastavnicima i učenicima dinamičan rad i lakšu prilagodljivost različitim stilovima učenja. Ovakvo okruženje podstiče aktivno učešće, bolju koncentraciju i efikasnije usvajanje znanja – u skladu sa zahtevima savremenog obrazovanja.",
-          list: ["88m2", "aktivna zona", "kolektivno"]
+          title: "Učionice koje prate ritam savremenog učenja",
+          text: "Učionice su opremljene u skladu sa savremenim standardima, kombinujući prirodno osvetljenje, funkcionalan raspored i tehničku podršku za različite oblike nastave. Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.",
+          list: ["247m2", "interaktivna zona", "u grupama"]
         },
       ],
       images: [sprat_II_3, sprat_II_4],
