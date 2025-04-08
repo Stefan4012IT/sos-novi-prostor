@@ -19,7 +19,7 @@ function InfiniteZoneScroll() {
         {
           title: "Presentation zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put video oduševljenje ljudi na izložene radove. I svoj talenat pretvorio u uspešnu buducnost.",
+          text: "Ovo je mesto gde je neko prvi put izlozio svoje radove. I talenat pretvorio u uspešnu buducnost.",
         },
         {
           title: "Moderno uređeno i prostrano prizemlje",
