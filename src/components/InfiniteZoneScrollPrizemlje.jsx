@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 function InfiniteZoneScroll() {
   const wrapperRef = useRef(null);
   const imageRef = useRef(null);
-  const [activeBg, setActiveBg] = useState("#ffffff");
+  const [activeBg, setActiveBg] = useState("#9d1516");
 
   const zones = [
     {

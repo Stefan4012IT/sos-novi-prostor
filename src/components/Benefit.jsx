@@ -1,4 +1,4 @@
-import img_1 from '../assets/benefits/benefits_1.png'
+
 // src/components/Benefit.jsx
 function Benefit({ img, num, title, subtitle, text, className }) {
     return (
