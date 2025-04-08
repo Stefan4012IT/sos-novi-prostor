@@ -4,10 +4,13 @@ import img_1 from '../assets/dump_img_1.avif'
 import img_2 from '../assets/dump_img_2.avif'
 import img_3 from '../assets/dump_img_3.avif'
 
-import num_1 from '../assets/nums/num_1_black.svg'
-import num_2 from '../assets/nums/num_2_black.svg'
-import num_3 from '../assets/nums/num_3_black.svg'
-import num_4 from '../assets/nums/num_4_black.svg'
+import num_1 from '../assets/benefits/nums/num_1_black.svg'
+import num_2 from '../assets/benefits/nums/num_2_black.svg'
+import num_3 from '../assets/benefits/nums/num_3_black.svg'
+import num_4 from '../assets/benefits/nums/num_4_black.svg'
+
+import benefits_1_img from '../assets/benefits/benefits_1.png'
+import benefits_2_img from '../assets/benefits/benefits_2.png'
 
 import prizelje_1 from '../assets/prizemlje_1.jpg'
 import prizelje_2 from '../assets/prizemlje_2.jpg'
@@ -38,10 +41,10 @@ import ParallaxSection_9 from '../components/ParallaxSection-9';
 
 
 const benefitsData = [
-    { num: num_1, title: "Designed to inspire:", subtitle: "najmodernija tehnologija za uspeh u budućnosti", text: "Prostor je dizajniran tako da podstiče inovativne načine razmišljanja i pomeranje granica. Savremene tehnologije i fleksibilni elementi stvaraju dinamično okruženje, dajuci učenicima mogucnost za stvaranje… nesto future." },
-    { num: num_2, title: "Where ideas take shape:", subtitle: "od ideje do akcije", text: "Ideje postaju konkretni projekti, a projekti postaju ciljevi koji se realizuju. Opremljen savremenim tehnologijama i osmišljen za budućnost – prostor koji raste zajedno s generacijama koje dolaze." },
-    { num: num_3, title: "Where trust begins:", subtitle: "uz partnerstvo i saradnju sa roditeljima", text: "Kada roditelji i škola imaju isti cilj, dete dobija najznačajniju podršku na svom putu. A poverenje ne nastaje slučajno - ono je nusprodukt otvorene komunikacije, međusobnog uvažavanja i zajedničke brige o detetu." },
-    { num: num_4, title: "Ready to grow:", subtitle: "Više mesta za više mogućnosti.", text: "Rastemo zajedno i stvaramo zajednicu koja pomera granice. Prošireni kapaciteti odgovaraju potražnji i omogućavaju većem broju učenika da postanu deo savremenog obrazovanja – drugačijeg, inovativnog i spremnog za budućnost." },
+    { img: benefits_1_img, num: num_1, title: "Designed to inspire:", subtitle: "najmodernija tehnologija za uspeh u budućnosti", text: "Prostor je dizajniran tako da podstiče inovativne načine razmišljanja i pomeranje granica. Savremene tehnologije i fleksibilni elementi stvaraju dinamično okruženje, dajuci učenicima mogucnost za stvaranje… nesto future." },
+    { img: benefits_2_img, num: num_2, title: "Where ideas take shape:", subtitle: "od ideje do akcije", text: "Ideje postaju konkretni projekti, a projekti postaju ciljevi koji se realizuju. Opremljen savremenim tehnologijama i osmišljen za budućnost – prostor koji raste zajedno s generacijama koje dolaze." },
+    { img: benefits_1_img, num: num_3, title: "Where trust begins:", subtitle: "uz partnerstvo i saradnju sa roditeljima", text: "Kada roditelji i škola imaju isti cilj, dete dobija najznačajniju podršku na svom putu. A poverenje ne nastaje slučajno - ono je nusprodukt otvorene komunikacije, međusobnog uvažavanja i zajedničke brige o detetu." },
+    { img: benefits_1_img, num: num_4, title: "Ready to grow:", subtitle: "Više mesta za više mogućnosti.", text: "Rastemo zajedno i stvaramo zajednicu koja pomera granice. Prošireni kapaciteti odgovaraju potražnji i omogućavaju većem broju učenika da postanu deo savremenog obrazovanja – drugačijeg, inovativnog i spremnog za budućnost." },
   ];
 
   const zones = [
@@ -131,6 +134,7 @@ function Home() {
             {benefitsData.map((benefit, index) => (
             <Benefit
                 key={index}
+                img={benefit.img}
                 num={benefit.num}
                 subtitle={benefit.subtitle}
                 title={benefit.title}

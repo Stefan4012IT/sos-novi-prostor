@@ -54,6 +54,15 @@ function InfiniteZoneScrollSprat() {
   ];
 
   useEffect(() => {
+    zones.forEach((zone) => {
+      zone.images.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+    });
+  }, []);
+
+  useEffect(() => {
     const ctx = gsap.context(() => {
       zones.forEach((zone, zoneIndex) => {
         zone.text.forEach((_, textIndex) => {
@@ -132,7 +141,7 @@ function InfiniteZoneScrollSprat() {
           )}
         </div>
         <div className="zone-image-box">
-          <img ref={imageRef} alt="Zone preview" />
+          <img ref={imageRef} alt="Zone preview" loading="eager" />
         </div>
         <div className="zone-background"></div>
       </div>

@@ -30,6 +30,17 @@ function InfiniteZoneScroll() {
       images: [prizemlje_1, prizemlje_2],
     },
   ];
+
+  useEffect(() => {
+    zones.forEach((zone) => {
+      zone.images.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+    });
+  }, []);
+
+  
   useEffect(() => {
     const ctx = gsap.context(() => {
       zones.forEach((zone, zoneIndex) => {
@@ -115,7 +126,7 @@ function InfiniteZoneScroll() {
 
         {/* Desna strana: sticky slika */}
         <div className="zone-image-box">
-          <img ref={imageRef} alt="Zone preview" />
+          <img ref={imageRef} alt="Zone preview" loading="eager" />
         </div>
         <div className="zone-background"></div>
       </div>
