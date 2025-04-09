@@ -47,6 +47,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'KHTeka', sans-serif;
   font-size: 44px;
   font-weight: 300;
   line-height: .9em;
@@ -63,6 +64,7 @@ h4 {
 }
 
 h6 {
+    font-family: 'KHTeka', sans-serif;
     font-weight: 500;
     font-size: 26px;
     line-height: 0.8em;
@@ -76,4 +78,10 @@ p {
   line-height: 1.1;
   letter-spacing: -0.05em;
   z-index: 1000;
+}
+
+a {
+  font-family: 'KHTeka', sans-serif;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
 }

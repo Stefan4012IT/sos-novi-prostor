@@ -3,17 +3,24 @@
     height: 100vh;
     width: 100%;
     max-width: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
 
-    h2 {
-        will-change: transform;
-        margin: 40px 20px;
+    .heading-box {
         margin: 0;
-        padding: 40px 20px;
-        width: 30%;
-        word-wrap: break-word;
+        padding: 0;
+        width: 70%;
+        height: fit-content;
+        h2 {
+            margin: 0;
+            padding: 5vh 3vw;
+            width: 100%;
+            word-wrap: break-word;
+        }
     }
+
+
 
     .kids-img {
         position: absolute;
@@ -28,8 +35,14 @@
         position: absolute;
         left: 50%;
         margin-left: 20px;
-        bottom: 0;
+        padding: 0;
+        bottom: 0px;
         width: 23%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
     }
 
     .btn-box {
@@ -49,22 +62,28 @@
             z-index: 3;
             }
 
-        .btn-cta {
+        .cta-text {
             position: absolute;
-            bottom: 80px;
-            width: fit-content;
-            border: 1px solid #1d1d1d;
-            background-color: transparent;
+            bottom: 75px;
+            width: 100%;
             z-index: 10;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             align-self: center;
 
+            h4 {
+                padding-left: 20px;
+                padding-bottom: 20px;
+            }
+
             a {
                 width: 100%;
                 height: 100%;
-                padding:  10px 50px;
+                padding-left: 20px;
+                font-size: 24px;
+                text-decoration: underline;
             }
             
             span {

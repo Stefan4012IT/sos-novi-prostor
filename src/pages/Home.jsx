@@ -37,6 +37,7 @@ import InfiniteZoneScroll_II_Sprat from '../components/InfiniteZoneScroll_II_spr
 import InfiniteZoneScroll_III_Sprat from '../components/InfiniteZoneScroll_III_sprat';
 import InfiniteZoneScroll_IV_Sprat from '../components/InfiniteZoneScroll_IV_sprat';
 import ParallaxSection_9 from '../components/ParallaxSection-9';
+import TitleRevealHome from '../components/TitleRevealHome';
 
 
 const benefitsData = [
@@ -72,9 +73,12 @@ function Home() {
             <img src={intro_img_4} alt="" className="img-4" />
           </div>
           <h2 className="title">
-            Novi prostorni koncept, nova era obrazovanja.
+            Novi prostorni koncept,
+            <TitleRevealHome />
           </h2>
+          
         </section>
+        
         
         <StackScroll>
             {benefitsData.map((benefit, index) => (

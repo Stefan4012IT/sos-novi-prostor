@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import ctaImg from "../assets/open-day-hero-bw.jpg";
+import ctaImg from "../assets/img_cta_1.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,19 +42,19 @@ function PinnedCtaSection() {
 
       // 👇 Parallax za title
       gsap.from(titleRef.current, {
-        y: 60,
-        opacity: 0,
+        xPercent: -100,
+        opacity: .5,
         scrollTrigger: {
           trigger: section,
-          start: "top 30%",
-          end: "top 80%",
+          start: "top 100%",
+          end: "top 10%",
           scrub: true,
         },
       });
 
       // 👇 Parallax za text
       gsap.from(textRef.current, {
-        y: -300,
+        y: 500,
         opacity: 0,
         duration: 3,
         scrollTrigger: {
@@ -73,12 +73,12 @@ function PinnedCtaSection() {
           y: 0,
           opacity: 1,
           scale: 1,
-          duration: 5.5,
+          duration: 1.5,
           ease: "power3.out",
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top 60%",
-            end: "top 0%",
+            start: "top 75%",
+            end: "top 25%",
             scrub: true,
           },
         }
@@ -90,20 +90,25 @@ function PinnedCtaSection() {
 
   return (
     <section className="section-7" ref={sectionRef}>
-      <h2 className="title" ref={titleRef}>
-        At the heart of the thriving
-      </h2>
+      <div className="heading-box">
+        <h2 className="title" ref={titleRef}>
+          Savremen dizajn prostora za najbolje rezultate <br/>u učenju
+        </h2>
+      </div>
+
 
       <img src={ctaImg} alt="Kids" className="kids-img" ref={imgRef} />
 
       <div className="text" ref={textRef}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+        <p>Savremena gimnazija nisu samo aktuelni programi i tehnologije – to je podrška, razumevanje i put ka samostalnosti. Odabir prave škole je osnovni korak za budući uspeh.</p>
+        <p>Kombinacijom Cambridge standarda, savremenih nastavnih programa, inovativnog pristupa i okruženja punog podrške, stvoren je temelj za uspešnu i sigurnu budućnost svakog učenika.</p>
       </div>
 
       <div className="btn-box">
         <div className="floated-box" ref={boxRef}></div>
-        <div className="btn-cta">
-          <a href="#"><span>Prijavi se</span></a>
+        <div className="cta-text">
+          <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste </h4>
+          <a href="#">Upis za generaciju 2025/26 je toku!</a>
         </div>
       </div>
     </section>

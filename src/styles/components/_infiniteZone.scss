@@ -1,27 +1,12 @@
 .infinite-zone-wrapper {
   position: relative;
-  padding: 10vh 5vw;
-  // transition: background-color 0.25s ease;
+  padding: 10vh 3vw;
   will-change: background-color;
   background-color: #FFF;
   width: 100%;
   z-index: 100;
-  // &::before {
-  //     content: '';
-  //     position: absolute;
-  //     inset: 0;
-  //     background: var(--active-bg, #fff);
-  //     // transition: background 0.1s; 
-  // }
 
   .color-box {
-      // position: sticky;
-      // width: 300px;
-      // height: 500px;
-      // top: 20vh;
-      // left: 0%;
-      // z-index: 10;
-      // background-color: var(--active-bg);
 
       position: absolute;
       inset: 0; // zauzima celu sekciju, ali je izvan toka
