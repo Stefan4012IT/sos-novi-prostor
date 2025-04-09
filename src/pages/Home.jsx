@@ -78,7 +78,7 @@ function Home() {
           </h2>
           
         </section>
-        
+
         
         <StackScroll>
             {benefitsData.map((benefit, index) => (

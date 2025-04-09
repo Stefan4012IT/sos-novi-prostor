@@ -1,9 +1,20 @@
 .section-8 {
     position: relative;
-    height: 100vh;
+    height: 500px;
     width: 100%;
 
-    
+    .heading-box {
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        height: fit-content;
+        h2 {
+            margin: 0;
+            padding: 5vh 3vw;
+            width: 100%;
+            word-wrap: break-word;
+        }
+    }
 
     .title {
         margin: 40px 3vw;
@@ -19,8 +30,9 @@
     img {
         position: absolute;
         right: 0;
-        width: 50%;
-        bottom: 0;
-
+        width: auto;
+        height: 500px;
+        top: 0;
+        z-index: 0;
     }
 }

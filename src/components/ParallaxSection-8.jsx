@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import img_3 from "../assets/dump_img_3.avif";
+import img_3 from "../assets/beogradjanka.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,42 +14,41 @@ function ParallaxSection_8() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from(titleRef.current, {
-        y: 250,
-        opacity: 0,
-        duration: 2.5,
+        xPercent: -100,
+        opacity: .5,
         scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 60%",
-          end: "top 30%",
+          trigger: titleRef.current,
+          start: "top 100%",
+          end: "top 10%",
           scrub: true,
         },
       });
 
       gsap.from(textRef.current, {
-        y: 180,
+        y: 300,
         opacity: 0,
-        scale: 1,
-        duration: 2.2,
+        duration: 3,
         scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 90%",
-          end: "top 60%",
+          trigger: textRef.current,
+          start: "top 100%",
+          end: "top 70%",
           scrub: true,
         },
       });
 
-      gsap.fromTo(imgRef.current,
-        { y: 1400, scale: 1.2, opacity: 0 },
+      gsap.fromTo(
+        imgRef.current,
+        { y: -500, scale: .1, opacity: 0 },
         {
           y: 0,
           opacity: 1,
           scale: 1,
-          duration: 5.5,
+          duration: 1.5,
           ease: "power3.out",
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top top%",
-            end: "top 50%",
+            start: "top 80%",
+            end: "top 25%",
             scrub: true,
           },
         }
@@ -61,7 +60,11 @@ function ParallaxSection_8() {
 
   return (
     <section className="section-8" ref={sectionRef}>
-      <h2 className="title" ref={titleRef}>Get in touch</h2>
+      <div className="heading-box">
+        <h2 className="title" ref={titleRef}>
+        Get in touch
+        </h2>
+      </div>
       <div className="text" ref={textRef}>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
       </div>

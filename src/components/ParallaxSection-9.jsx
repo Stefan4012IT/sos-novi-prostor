@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import img_3 from "../assets/dump_img_3.avif";
+import img_1 from "../assets/sg_mapa.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,47 +15,45 @@ function ParallaxSection_9() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from(titleRef.current, {
-        y: 250,
-        opacity: 0,
-        duration: 2.5,
+        xPercent: -100,
+        opacity: .5,
         scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 60%",
-          end: "top 30%",
+          trigger: titleRef.current,
+          start: "top 100%",
+          end: "top 10%",
           scrub: true,
         },
       });
 
       gsap.from(textRef_1.current, {
-        y: 180,
+        y: -100,
         opacity: 0,
-        scale: 1,
-        duration: 2.2,
+        duration: 3,
         scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 90%",
+          trigger: textRef_1.current,
+          start: "top 100%",
           end: "top 60%",
           scrub: true,
         },
       });
 
+
+
       gsap.from(textRef_2.current, {
-        y: 180,
+        y: -100,
         opacity: 0,
-        scale: 1,
-        duration: 2.2,
+        duration: 3,
         scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 90%",
+          trigger: textRef_2.current,
+          start: "top 100%",
           end: "top 60%",
           scrub: true,
         },
       });
 
       gsap.fromTo(imgRef.current,
-        { y: -200, scale: 1.2, opacity: 0 },
+        { scale: .2, opacity: 0 },
         {
-          y: 0,
           opacity: 1,
           scale: 1,
           duration: 2.5,
@@ -79,11 +77,11 @@ function ParallaxSection_9() {
       <div className="text_1" ref={textRef_1}>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
       </div>
-      <div className="text_2" ref={textRef_2}>
-        <div className="line"></div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+      <div className="text_2">
+        <div className="line" ref={textRef_2}></div>
+        <p ref={textRef_2}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
       </div>
-      <img src={img_3} alt="Get in touch" className="img_gttouch" ref={imgRef} />
+      <img src={img_1} alt="Get in touch" className="img_gttouch" ref={imgRef} />
     </section>
   );
 }
