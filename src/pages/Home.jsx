@@ -19,17 +19,15 @@ import intro_img_2 from '../assets/intro_2.jpg'
 import intro_img_3 from '../assets/intro_3.jpg'
 import intro_img_4 from '../assets/intro_4.jpg'
 
-import nacrt_prizemlje from '../assets/prizemlje_nacrt.svg'
-import nacrt_II_sprat from '../assets/sprat_II/nacrt_II_sprat.svg'
-import nacrt_III_sprat from '../assets/sprat_III/nacrt_III_sprat.svg'
 import Benefit from '../components/Benefit';
 import RotatingWords from '../components/RotatingWords';
 import StackScroll from '../components/StackScroll';
-import ScrollNarrative from '../components/ScrollNarrative';
 import FloatingImagesSection from '../components/FloatingImagesSection';
 import SectionPrizemlje from '../components/SectionPrizemlje';
+import Section_II_sprat from '../components/Section_II_sprat';
+import Section_III_sprat from '../components/Section_III_sprat';
+import Section_IV_sprat from '../components/Section_IV_sprat';
 
-import ctaImg from '../assets/open-day-hero-bw.jpg'
 import PinnedCtaSection from '../components/PinnedCtaSection';
 import ParallaxSection_8 from '../components/ParallaxSection-8';
 import InfiniteZoneScrollPrizemlje from '../components/InfiniteZoneScrollPrizemlje';
@@ -95,41 +93,11 @@ function Home() {
         </StackScroll>
         <SectionPrizemlje />
         <InfiniteZoneScrollPrizemlje />
-        <section className="section-3-II">
-          <h2 className="title">
-          Okruženje u kome se oblikuje budućnost. 
-          </h2>
-          <div className="section-img">
-            <img src={nacrt_II_sprat} alt="" />
-          </div>
-          <h3 className="title-2">
-            II Sprat
-          </h3>
-        </section>
+        <Section_II_sprat />
         <InfiniteZoneScroll_II_Sprat />
-        <section className="section-3-III">
-          <h2 className="title">
-          Mesto povezivanja i istraživanja.
-          </h2>
-          <div className="section-img">
-            <img src={nacrt_III_sprat} alt="" />
-          </div>
-          <h3 className="title-2">
-            III Sprat
-          </h3>
-        </section>
+        <Section_III_sprat />
         <InfiniteZoneScroll_III_Sprat />
-        <section className="section-3-IV">
-          <h2 className="title">
-          Svaka ideja dobija priliku da se čuje.
-          </h2>
-          <div className="section-img">
-            <img src={nacrt_III_sprat} alt="" />
-          </div>
-          <h3 className="title-2">
-            IV Sprat
-          </h3>
-        </section>
+        <Section_IV_sprat />
         <InfiniteZoneScroll_IV_Sprat />
 
         
