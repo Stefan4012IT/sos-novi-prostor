@@ -40,7 +40,14 @@ function InfiniteZoneScroll() {
     });
   }, []);
 
-  
+  useEffect(() => {
+    // Postavi prvu sliku odmah na load
+    if (imageRef.current) {
+      imageRef.current.src = zones[0].images[0];
+    }
+  }, []);
+
+
   useEffect(() => {
     const ctx = gsap.context(() => {
       zones.forEach((zone, zoneIndex) => {
@@ -50,12 +57,12 @@ function InfiniteZoneScroll() {
           );
           const fadeImage = (newSrc) => {
             if (!imageRef.current) return;
-          
-            imageRef.current.classList.add('fade-out');
+
+            imageRef.current.classList.add('fade-in');
           
             setTimeout(() => {
               imageRef.current.src = newSrc;
-              imageRef.current.classList.remove('fade-out');
+              imageRef.current.classList.remove('fade-in');
             }, 100); // vreme mora biti manje od CSS transition da ne “seče”
           };
 
