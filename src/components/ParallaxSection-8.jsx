@@ -62,11 +62,11 @@ function ParallaxSection_8() {
     <section className="section-8" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title" ref={titleRef}>
-        Get in touch
+        Savremena otvara vrata budućnosti.
         </h2>
       </div>
       <div className="text" ref={textRef}>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+        <p>Novi prostorni koncept Savremene objedinjuje inovaciju, funkcionalnost i viziju budućnosti. Zone su osmišljene tako da prate obrazovne trendove i razvijaju kod učenika veštine koje nadilaze školske zidove.</p>
       </div>
       <img src={img_3} alt="Get in touch" className="img_prizemlje" ref={imgRef} />
     </section>
