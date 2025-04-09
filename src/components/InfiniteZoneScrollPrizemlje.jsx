@@ -23,7 +23,7 @@ function InfiniteZoneScroll() {
         },
         {
           title: "Moderno uređeno i prostrano prizemlje",
-          text: "Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.",
+          text: <>Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. <br/><br/> Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.</>,
           list: ["88m2", "aktivna zona", "kolektivno"]
         },
       ],

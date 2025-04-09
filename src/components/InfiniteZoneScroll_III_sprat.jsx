@@ -32,7 +32,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Jasno definisan prostor za partnerstvo i saradnju s roditeljima",
-          text: "U prirodnim materijalima i sa pažljivo odabranim nameštajem, ova zona predstavlja prostor za prijem i razgovor sa roditeljima. To je mesto gde škola i porodica grade međusobno razumevanje, dele informacije i postavljaju temelje zajedničke brige o razvoju deteta.",
+          text: <>U prirodnim materijalima i sa pažljivo odabranim nameštajem, ova zona predstavlja prostor za prijem i razgovor sa roditeljima. <br/><br/>To je mesto gde škola i porodica grade međusobno razumevanje, dele informacije i postavljaju temelje zajedničke brige o razvoju deteta.</>,
           list: ["90m2", "aktivna zona", "kolektivno"]
         },
       ],
@@ -48,7 +48,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Miran prostor fokusiran na rad, čitanje i istraživanje",
-          text: "Jasno definisana zona koji podstiče na istraživanje, koncentraciju i individualni razvoj, a direktno je povezana sa muzičkom zonom i zonom sedenja, čime se omogućava prirodan prelaz između različitih vrsta aktivnosti – od tihog rada do otvorene razmene ideja. Prostor je opremljen udobnim, fleksibilnim elementima za sedenje što doprinosti fleksibilnosti u učenju i radu na projektima.",
+          text: <>Jasno definisana zona koji podstiče na istraživanje, koncentraciju i individualni razvoj, a direktno je povezana sa muzičkom zonom i zonom sedenja, čime se omogućava prirodan prelaz između različitih vrsta aktivnosti – od tihog rada do otvorene razmene ideja. <br/><br/>Prostor je opremljen udobnim, fleksibilnim elementima za sedenje što doprinosti fleksibilnosti u učenju i radu na projektima.</>,
           list: ["36m2", "tiha zona", <>individualno/<br />u malim grupama</>]
         },
       ],
@@ -83,7 +83,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Naučno-tehnološka zona za praktičan rad i istraživanje",
-          text: "Savremeni naučno-tehnološki hub škole, namenjen razvoju praktičnih veština kroz analitički i projektno orijentisan rad. Prostor je opremljen digitalnim alatima, tehničkom opremom i nastavnim sredstvima koja omogućavaju učenicima da istražuju, testiraju i stvaraju.Kroz rad na konkretnim izazovima, učenici razvijaju logičko razmišljanje, preciznost i sigurnost u donošenju rešenja – veštine koje direktno vode ka uspehu u tehnološkom i akademskom svetu.",
+          text: <>Savremeni naučno-tehnološki hub škole, namenjen razvoju praktičnih veština kroz analitički i projektno orijentisan rad. Prostor je opremljen digitalnim alatima, tehničkom opremom i nastavnim sredstvima koja omogućavaju učenicima da istražuju, testiraju i stvaraju. <br/><br/>Kroz rad na konkretnim izazovima, učenici razvijaju logičko razmišljanje, preciznost i sigurnost u donošenju rešenja – veštine koje direktno vode ka uspehu u tehnološkom i akademskom svetu.</>,
           list: ["42m2", "interaktivna zona", "u grupama/kolektivno"]
         },
       ],

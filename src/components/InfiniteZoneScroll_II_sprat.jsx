@@ -33,7 +33,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Multidisciplinarni prostor za kreativna i tehnološka rešenja",
-          text: "U ovoj zoni učenici razvijaju veštine timskog rada, kreativnog mišljenja i rešavanja problema kroz multidisciplinarne zadatke. Savremeni prostor za prezentacije i projekcije opremljen je modernim gledalištem i projekcionim zidom. Zahvaljujući mobilnoj bini i inovativnom prostornom rešenju, zona omogućava različite formate javnog nastupa i kreativnog izražavanja.",
+          text: <>U ovoj zoni učenici razvijaju veštine timskog rada, kreativnog mišljenja i rešavanja problema kroz multidisciplinarne zadatke. Savremeni prostor za prezentacije i projekcije opremljen je modernim gledalištem i projekcionim zidom. <br/><br/>Zahvaljujući mobilnoj bini i inovativnom prostornom rešenju, zona omogućava različite formate javnog nastupa i kreativnog izražavanja.</>,
           list: ["76m2", "aktivna zona", "kolektivno"]
         },
       ],
@@ -49,7 +49,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Učionice koje prate ritam savremenog učenja",
-          text: "Učionice su opremljene u skladu sa savremenim standardima, kombinujući prirodno osvetljenje, funkcionalan raspored i tehničku podršku za različite oblike nastave. Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.",
+          text: <>Učionice su opremljene u skladu sa savremenim standardima, kombinujući prirodno osvetljenje, funkcionalan raspored i tehničku podršku za različite oblike nastave. <br/><br/>Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.</>,
           list: ["247m2", "interaktivna zona", "u grupama"]
         },
       ],
@@ -84,7 +84,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Mirna zona za čitanje, učenje i koncentraciju",
-          text: "Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen tišini, samostalnom radu i čitanju. Opremljena je različitim tipovima sedenja koji omogućavaju učenicima da pronađu ambijent koji im najviše odgovara – za učenje u ritmu koji sami određuju. Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog – veštine koje su ključne za uspeh u svakom savremenom obrazovnom okruženju. ",
+          text: <>Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen tišini, samostalnom radu i čitanju. Opremljena je različitim tipovima sedenja koji omogućavaju učenicima da pronađu ambijent koji im najviše odgovara – za učenje u ritmu koji sami određuju. <br/><br/>Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog – veštine koje su ključne za uspeh u svakom savremenom obrazovnom okruženju.</>,
           list: ["33m2", "tiha zona", "individualno/u malim grupama"]
         },
       ],

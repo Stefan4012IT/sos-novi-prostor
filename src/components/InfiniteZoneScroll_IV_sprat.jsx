@@ -28,7 +28,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Centralni deo koncipiran kao otvoreni forum",
-          text: "Centralni, kružno organizovan prostor škole, koncipiran kao savremeni forum za razmenu ideja, diskusiju i timski rad, sa elementima za sedenje omogućavaju različite prostorne konfiguracije prilagođene predavanjima, panelima, radionicama i timskim sastancima. Kroz aktivnosti u ovoj zoni učenici razvijaju veštine javnog nastupa, argumentovane komunikacije, timske saradnje i liderstva. ",
+          text: <>Centralni, kružno organizovan prostor škole, koncipiran kao savremeni forum za razmenu ideja, diskusiju i timski rad, sa elementima za sedenje omogućavaju različite prostorne konfiguracije prilagođene predavanjima, panelima, radionicama i timskim sastancima. <br/><br/>Kroz aktivnosti u ovoj zoni učenici razvijaju veštine javnog nastupa, argumentovane komunikacije, timske saradnje i liderstva.</>,
           list: ["64m2", "aktivna zona", "kolektivno"]
         },
       ],
@@ -44,7 +44,7 @@ function InfiniteZoneScrollSprat() {
         },
         {
           title: "Obrazovni ambijent koji podstiče aktivno učešće",
-          text: "Fleksibilna organizacija prostora uz funkcionalan raspored, prirodno osvetljenje i savremenu tehničku opremu omogućava realizaciju različitih nastavnih formata, što podstiče veću angažovanost učenika, efikasnije usvajanje znanja i aktivnije učešće u nastavnom procesu. Digitalni alati dodatno doprinose prilagođavanju individualnim stilovima učenja i unapređuju interakciju između nastavnika i učenika.",
+          text: <>Fleksibilna organizacija prostora uz funkcionalan raspored, prirodno osvetljenje i savremenu tehničku opremu omogućava realizaciju različitih nastavnih formata, što podstiče veću angažovanost učenika, efikasnije usvajanje znanja i aktivnije učešće u nastavnom procesu. <br/><br/>Digitalni alati dodatno doprinose prilagođavanju individualnim stilovima učenja i unapređuju interakciju između nastavnika i učenika.</>,
           list: ["231m2", "interaktivna zona", 'u grupama']
         },
       ],
