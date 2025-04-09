@@ -92,7 +92,7 @@ function PinnedCtaSection() {
     <section className="section-7" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title" ref={titleRef}>
-          Savremen dizajn prostora za najbolje rezultate <br/>u učenju
+          Savremen dizajn za<br/>najbolje rezultate u učenju
         </h2>
       </div>
 
