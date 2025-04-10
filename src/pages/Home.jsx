@@ -77,7 +77,7 @@ function Home() {
           
         </section>
 
-        
+
         <StackScroll>
             {benefitsData.map((benefit, index) => (
             <Benefit
@@ -100,10 +100,10 @@ function Home() {
         <Section_IV_sprat />
         <InfiniteZoneScroll_IV_Sprat />
 
-        
         <PinnedCtaSection />
         <ParallaxSection_8 />
         <ParallaxSection_9 />
+
         <section className="section-10">
           <div className="section-10--base">
             <h1>savremena</h1>

@@ -29,10 +29,16 @@
         bottom: 0;
         height: 500px;
         width: 50%;
+        object-fit: cover;
+        object-position: top;
+
+        @media screen and (min-width: 2560px) {
+            height: 800px;
+            background-size: cover;
+        }
     }
 
     .text {
-        font-size: 22px;
         position: absolute;
         left: 50%;
         margin-left: 20px;
@@ -44,6 +50,11 @@
         flex-direction: column;
         align-items: flex-start;
         row-gap: 20px;
+
+        @media screen and (min-width: 2560px) {
+            height: 800px;
+        }
+
     }
 
     .btn-box {
@@ -61,7 +72,11 @@
             background-color: #f7b815;
             position: relative;
             z-index: 3;
+
+            @media screen and (min-width: 2560px) {
+                height: 350px;
             }
+        }
 
         .cta-text {
             position: absolute;
@@ -83,7 +98,6 @@
                 width: 100%;
                 height: 100%;
                 padding-left: 20px;
-                font-size: 24px;
                 text-decoration: underline;
             }
             

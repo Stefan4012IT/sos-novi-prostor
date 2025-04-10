@@ -12,7 +12,11 @@
 
     .big-num {
       
-      height: 650px;
+      height: 75%;
+
+      @media screen and (min-width: 2560px) {
+        height: 65%;
+      }
       img {
         height: 100%;
         fill: #427042;
@@ -29,6 +33,10 @@
       justify-content: flex-end;
       padding-left: 40px;
 
+      @media screen and (min-width: 2560px) {
+        width: 500px;
+      }
+
       .line {
         height: 1px;
         width: 100%;
@@ -42,7 +50,6 @@
 
       &---title, &---subtitle {
         font-weight: 500;
-        font-size: 26px;
       }
 
       &---subtitle {
@@ -51,7 +58,6 @@
 
       &---text {
         font-weight: 200;
-        font-size: 26px;
         line-height: 1.1em;
       }
     }

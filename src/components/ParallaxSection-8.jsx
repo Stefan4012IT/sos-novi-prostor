@@ -62,7 +62,7 @@ function ParallaxSection_8() {
     <section className="section-8" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title" ref={titleRef}>
-        Savremena otvara vrata budućnosti.
+        <>Savremena otvara vrata <br/>budućnosti.</>
         </h2>
       </div>
       <div className="text" ref={textRef}>

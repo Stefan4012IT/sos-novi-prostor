@@ -88,6 +88,10 @@ function PinnedCtaSection() {
     return () => ctx.revert();
   }, []);
 
+  const currentYear = new Date().getFullYear();
+  const nextShort = (currentYear + 1).toString().slice(-2);
+  const dynamicYears = `${currentYear}/${nextShort}`;
+
   return (
     <section className="section-7" ref={sectionRef}>
       <div className="heading-box">
@@ -108,7 +112,7 @@ function PinnedCtaSection() {
         <div className="floated-box" ref={boxRef}></div>
         <div className="cta-text">
           <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste </h4>
-          <a href="#">Upis za generaciju 2025/26 je toku!</a>
+          <a href="#">{`Upis za generaciju ${dynamicYears} je toku!`}</a>
         </div>
       </div>
     </section>

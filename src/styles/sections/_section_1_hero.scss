@@ -4,14 +4,17 @@
     flex-direction: column;
     padding: 5vh 3vw;
 
+    @media only screen and (max-width: 1600px) {
+        min-height: 100vh;
+      }
+
     @media only screen and (max-width: 992px) {
         min-height: 100vh;
       }
 
     .logo-box {
         position: absolute;
-        height: 10vh;
-        margin: 20px;
+        height: 165px;
 
         img {
             position: relative;
@@ -21,7 +24,6 @@
 
     &--title-right {
         position: relative;
-        top: 20px;
         right: 0px;
         width: 70%;
         text-align: right;
@@ -45,9 +47,13 @@
         position: relative;
         left: 0px;
         width: 100%;
-        height: 260px;
+        height: 175px;
         text-align: left;
         align-self: flex-start;
+
+        @media screen and (min-width: 2560px) {
+            height: 200px;
+        }
 
         @media only screen and (max-width: 992px) {
             height: 50px;
@@ -58,10 +64,14 @@
 
         .rotating-words {
             position: relative;
-            height: 175px; 
+            height: 17.5em; 
             width: 100%;
             overflow: hidden;
-            margin: 10vh 0;
+            margin: 5vh 0;
+
+            @media screen and (min-width: 2560px) {
+                height: 20em;
+            }
 
             @media only screen and (max-width: 992px) {
                 height: 50px; 
@@ -82,6 +92,7 @@
         width: 40%;
         position: relative;
         margin-left: auto;
+        margin: 5vh 0 5vh auto;
     }
 
     .title {
