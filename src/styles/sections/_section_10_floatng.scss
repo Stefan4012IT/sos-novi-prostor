@@ -12,16 +12,31 @@
       background-color: #FFF;
       text-align: center;
       z-index: 1;
-  
-      h1 {
-        color: #1f1f1f;
-        font-size: 300px;
-        text-transform: uppercase;
 
-        @media only screen and (max-width: 992px) {
-          font-size: 50px;
+      .under-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(-50%);
+        h1 {
+          font-size: 300px;
+          text-transform: uppercase;
+
+  
+          @media only screen and (max-width: 992px) {
+            font-size: 50px;
+          }
+        }
+
+        h2 {
+          width: 100%;
+          font-size: 100px;
+          text-align: right;
+          margin-top: -30px;
         }
       }
+  
+
     }
   
     &--overlay {

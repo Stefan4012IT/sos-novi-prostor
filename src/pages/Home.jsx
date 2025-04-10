@@ -36,6 +36,7 @@ import InfiniteZoneScroll_III_Sprat from '../components/InfiniteZoneScroll_III_s
 import InfiniteZoneScroll_IV_Sprat from '../components/InfiniteZoneScroll_IV_sprat';
 import ParallaxSection_9 from '../components/ParallaxSection-9';
 import TitleRevealHome from '../components/TitleRevealHome';
+import Footer from '../components/Footer';
 
 
 const benefitsData = [
@@ -106,12 +107,16 @@ function Home() {
 
         <section className="section-10">
           <div className="section-10--base">
-            <h1>savremena</h1>
+            <div className="under-title">
+              <h1>savremena</h1>
+              <h2>gimnazija</h2>
+            </div>
           </div>
           <div className="section-10--overlay">
             <FloatingImagesSection />
           </div>
         </section>
+        <Footer />
       </main>
     );
   }

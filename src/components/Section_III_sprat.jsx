@@ -36,7 +36,7 @@ useEffect(() => {
   return (
     <section className="section-3-III" ref={sectionRef}>
     <h2 className="title">
-    Mesto povezivanja i istraživanja.
+    <>Stvarno drugačiji prostor <br/>za inovativno obrazovanje.</>
     </h2>
     <div className="section-img">
       <img src={nacrt_III_sprat} alt="" />

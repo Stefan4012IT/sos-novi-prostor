@@ -8,10 +8,13 @@ import img_3 from "../assets/floating/floating_3.png";
 import img_4 from "../assets/floating/floating_4.png";
 import img_5 from "../assets/floating/floating_5.png";
 import img_6 from "../assets/floating/floating_6.png";
+import img_7 from "../assets/floating/floating_7.png";
+import img_8 from "../assets/floating/floating_8.png";
+import img_9 from "../assets/floating/floating_9.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const imgList = [img_1, img_2, img_3, img_4, img_5, img_6];
+const imgList = [img_1, img_2, img_3, img_4, img_5, img_6, img_7, img_8, img_9];
 
 function FloatingImagesSection() {
   const sectionRef = useRef(null);

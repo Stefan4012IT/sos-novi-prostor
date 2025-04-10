@@ -36,7 +36,7 @@ useEffect(() => {
   return (
     <section className="section-3-II" ref={sectionRef}>
         <h2 className="title">
-        Okruženje u kome se oblikuje budućnost. 
+        Podsticajno okruženje koje oblikuje budućnost. 
         </h2>
         <div className="section-img">
         <img src={nacrt_II_sprat} alt="" />
