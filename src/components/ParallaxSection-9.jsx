@@ -73,7 +73,7 @@ function ParallaxSection_9() {
 
   return (
     <section className="section-9" ref={sectionRef}>
-      <h2 className="title" ref={titleRef}>Kontakt</h2>
+      <h2 className="title" ref={titleRef}>Your future just got bigger.</h2>
       <div className="text_1" ref={textRef_1}>
         <div className="contact-box">
         
@@ -98,7 +98,7 @@ function ParallaxSection_9() {
       </div>
       <div className="text_2">
         <div className="line" ref={textRef_2}></div>
-        <p ref={textRef_2}>Savremena ne raste slučajno – raste planski, sa ciljem da svakom učeniku pruži prostor u kojem može da uči, razmišlja, pita, stvara: uz četiri nova sprata, sedam novih zona i bezbroj novih mogućnosti.</p>
+        <p ref={textRef_2}>Savremena ne raste slučajno – raste planski, sa ciljem da svakom učeniku pruži prostor u kojem može da uči, razmišlja, pita, stvara: na četiri sprata, sedam novih zona i bezbroj novih mogućnosti.</p>
       </div>
       <img src={img_1} alt="Get in touch" className="img_gttouch" ref={imgRef} />
     </section>
