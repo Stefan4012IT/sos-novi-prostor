@@ -21,7 +21,7 @@ const SectionHero = () => {
             <div className="square"></div>
             <div className="name">
                 <h6 className="big">savremena</h6>
-                <h6>gimnazija</h6>
+                <h6 className="small">gimnazija</h6>
             </div>
         </div>
 

@@ -30,7 +30,7 @@
         width: fit-content;
 
         .line_1 {
-            height: 6vh;
+            height: calc(6vh + 4px);
             width: 2px;
             background-color: #000;
         }
@@ -38,10 +38,13 @@
         .square-name {
             display: flex;
             flex-direction: row;
+            position: absolute;
+            top: calc(6vh + 2px);
             .square {
-                width: 2.6em;
-                height: 2.6em;
+                width: 20px;
+                height: 20px;
                 background-color: #000;
+                margin-top: 1px;
             }
 
             .name {
@@ -49,6 +52,11 @@
 
                 .big {
                     text-transform: uppercase;
+                    transform: translateY(-2PX);
+                }
+
+                .small {
+                    transform: translateY(-8PX);
                 }
 
                 h6 {

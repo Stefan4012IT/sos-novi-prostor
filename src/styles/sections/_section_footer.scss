@@ -3,5 +3,23 @@
 
     .footer-inner{
         padding: 1vw 3vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-logo-rigt {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+
+            img {
+                height: 100%;
+            }
+        }
     }
+
+
 }
