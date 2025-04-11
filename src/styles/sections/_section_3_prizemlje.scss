@@ -9,6 +9,12 @@
         margin: 0;
         width: 70%;
         text-align: left;
+
+        @media screen and (max-width: 992px) {
+          position: relative;
+          width: 100%;
+          z-index: 10000;
+        }
     }
 
     .section-img {
@@ -18,6 +24,10 @@
         bottom: 0;
         left: 0;
         background-color: transparent;
+
+        @media screen and (max-width: 992px) {
+          width: 100%;
+        }
 
         img {
             object-fit: cover;
@@ -34,6 +44,11 @@
         bottom: 64px;
         right: 3vw;
         z-index: 200;
+
+        @media screen and (max-width: 992px) {
+          width: 100%;
+          text-align: right;
+        }
     }
 
     .img_box {
@@ -59,6 +74,11 @@
 
         @media screen and (min-width: 2560px) {
           width: 600px;
+        }
+
+        @media screen and (max-width: 992px) {
+          width: 50%;
+          float: right;
         }
       }
     }

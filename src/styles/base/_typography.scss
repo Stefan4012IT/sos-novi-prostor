@@ -72,6 +72,10 @@ h3 {
   @media screen and (min-width: 2560px) {
     font-size: 10em;
   }
+
+  @media only screen and (max-width: 776px) {
+    font-size: 4em;
+  }
 }
 
 h4 {
