@@ -12,14 +12,15 @@ function StackScroll({ children }) {
     const ctx = gsap.context(() => {
       const panels = panelsRef.current;
       const count = panels.length;
-      const scrollLength = window.innerHeight * (count - 1);
+      // const scrollLength = window.innerHeight * (count - 1);
+      const scrollLength = window.innerHeight * count;
   
       ScrollTrigger.matchMedia({
         // 👉 Horizontal stacking (desktop)
         "(min-width: 993px)": () => {
           panels.forEach((panel, i) => {
             gsap.set(panel, {
-              x: i === 0 ? 0 : "100%",
+              x: i === 0 ? 0 : "100vh",
               y: 0,
             });
           });
@@ -50,7 +51,7 @@ function StackScroll({ children }) {
         "(max-width: 992px)": () => {
           panels.forEach((panel, i) => {
             gsap.set(panel, {
-              y: i === 0 ? 0 : "100%",
+              y: i === 0 ? 0 : "100vh",
               x: 0,
             });
           });
@@ -58,8 +59,7 @@ function StackScroll({ children }) {
           const tl = gsap.timeline({
             scrollTrigger: {
               trigger: containerRef.current,
-              pinSpacing: true,
-              start: "top top",
+              start: "top top+=1",
               end: `+=${scrollLength}`,
               scrub: true,
               pin: true,
@@ -78,9 +78,11 @@ function StackScroll({ children }) {
           });
         },
       });
+      ScrollTrigger.refresh();
     }, containerRef);
   
     return () => ctx.revert(); // čisti samo ovaj kontekst
+    
   }, []);
 
   return (

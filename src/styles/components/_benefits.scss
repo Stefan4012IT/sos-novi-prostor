@@ -71,6 +71,9 @@
   .panel-0 .benefit {
     background-color: #9d1516;
     width: 100%;
+    @media only screen and (max-width: 992px) {
+      z-index: 5;
+    }
   }
   .panel-1 .benefit {
     background-color: #427042;
@@ -78,6 +81,7 @@
 
     @media only screen and (max-width: 992px) {
       width: 100%;
+      z-index: 4;
     }
   }
   .panel-2 .benefit {
@@ -86,14 +90,16 @@
 
     @media only screen and (max-width: 992px) {
       width: 100%;
+      z-index: 3;
     }
   }
   
   .panel-3 .benefit {
     background-color: #2b446b;
     width: 70%;
-    
+
     @media only screen and (max-width: 992px) {
       width: 100%;
+      z-index: 4;
     }
   }
