@@ -61,11 +61,11 @@ function InfiniteZoneScrollSprat() {
         {
           title: "Innovation zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde se neko prvi put zapitao zašto ovako nešto već ne postoji. I uz AI napravio prototip. A sada ga svi koristimo.",
+          text: "Ovo je mesto gde je neko samo uz jedno „zašto?“ pokrenuo  debatu koja je nekome promenila zivot.",
         },
         {
-          title: "Prostor za inovacije kroz savremene tehnologije i timsku dinamiku",
-          text: <>Innovation zone sastoji se iz niza manjih ambijenata prilagođenih timskom radu, razmeni znanja i praktičnoj primeni različitih oblasti na način koji podstiče rešavanje problema i primenu znanja kroz savremene tehnologije i interdisciplinarni pristup. <br /><br/>Prostor uključuje interaktivne zidne površine, brainstorming zone i studio, osmišljen da podstakne inovativno razmišljanje i saradnju.</>,
+          title: "Savremene učionice prilagođene stvarnim potrebama učenika",
+          text: <>Obuhvata moderno opremljene učionice koje kombinuju funkcionalnost, prirodno osvetljenje i tehničku podršku za savremenu nastavu. Fleksibilan raspored, ergonomski nameštaj i digitalni alati omogućavaju nastavnicima i učenicima dinamičan rad i lakšu prilagodljivost različitim stilovima učenja. <br/><br/> Ovakvo okruženje podstiče aktivno učešće, bolju koncentraciju i efikasnije usvajanje znanja – u skladu sa zahtevima savremenog obrazovanja. </>,
           list: ["126m2", "aktivna zona", <>
             individualno/<br />u malim grupama
           </>]

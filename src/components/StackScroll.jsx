@@ -58,6 +58,7 @@ function StackScroll({ children }) {
           const tl = gsap.timeline({
             scrollTrigger: {
               trigger: containerRef.current,
+              pinSpacing: true,
               start: "top top",
               end: `+=${scrollLength}`,
               scrub: true,

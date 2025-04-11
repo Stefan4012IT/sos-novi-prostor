@@ -10,6 +10,11 @@
     align-items: flex-end;
     z-index: 1000;
 
+    @media only screen and (max-width: 992px) {
+      padding: 20px;
+      max-height: 100vh; 
+    }
+
     .big-num {
       
       height: 75%;
@@ -70,13 +75,25 @@
   .panel-1 .benefit {
     background-color: #427042;
     width: 90%;
+
+    @media only screen and (max-width: 992px) {
+      width: 100%;
+    }
   }
   .panel-2 .benefit {
     background-color: #f7b815;
     width: 80%;
+
+    @media only screen and (max-width: 992px) {
+      width: 100%;
+    }
   }
   
   .panel-3 .benefit {
     background-color: #2b446b;
     width: 70%;
+    
+    @media only screen and (max-width: 992px) {
+      width: 100%;
+    }
   }
