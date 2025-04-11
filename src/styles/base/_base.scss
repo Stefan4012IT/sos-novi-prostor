@@ -20,11 +20,10 @@ body {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   overflow-y: scroll;
   max-width: 100%;
 }
-
 
 
 ul,

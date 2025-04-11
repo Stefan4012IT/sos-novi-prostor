@@ -64,7 +64,7 @@ const SectionHero = () => {
       </div>
 
       <h2 className="title">
-        Novi prostorni koncept,
+        <h2>Novi prostorni koncept,</h2>
         <TitleRevealHome />
       </h2>
     </section>

@@ -12,9 +12,18 @@
         min-height: 100vh;
       }
 
+    @media only screen and (max-width: 776px) {
+        padding: 20px;
+    }
+
     .logo-box {
         position: absolute;
         height: 165px;
+
+        @media only screen and (max-width: 776px) {
+            position: relative;
+            height: 65px;
+        }
 
         img {
             position: relative;
@@ -26,13 +35,19 @@
         position: absolute;
         top: 0;
         left: 25%;
-        height: 150px;
         width: fit-content;
+        @media only screen and (max-width: 776px) {
+            left: 50%;
+        }
 
         .line_1 {
             height: calc(6vh + 4px);
             width: 2px;
             background-color: #000;
+
+            @media only screen and (max-width: 776px) {
+                height: calc(4vh + 5px);
+            }
         }
 
         .square-name {
@@ -40,6 +55,10 @@
             flex-direction: row;
             position: absolute;
             top: calc(6vh + 2px);
+
+            @media only screen and (max-width: 776px) {
+                top: calc(4vh + 4px);
+            }
             .square {
                 width: 20px;
                 height: 20px;
@@ -79,13 +98,17 @@
 
         @media only screen and (max-width: 992px) {
             width: 40%;
-            padding-right: 40px;
             right: 0;
         }
 
+        @media only screen and (max-width: 776px) {
+            width: 85%;
+            padding-top: 40px;
+        }
+
         h1 {
-            @media only screen and (max-width: 992px) {
-                font-size: 50px;
+            @media only screen and (max-width: 776px) {
+                text-align: right;
             }
         }
     }
@@ -109,6 +132,13 @@
             left: 0;
         }
 
+        @media only screen and (max-width: 776px) {
+            height: 50px;
+            width: 100%;
+            padding-left: 0px;
+            left: 0;
+        }
+
         .rotating-words {
             position: relative;
             height: 17.5em; 
@@ -122,6 +152,10 @@
 
             @media only screen and (max-width: 992px) {
                 height: 50px; 
+            }
+
+            @media only screen and (max-width: 992px) {
+                margin: 2.5vh 0;
             }
         }
 
@@ -140,6 +174,11 @@
         position: relative;
         margin-left: auto;
         margin: 5vh 0 5vh auto;
+
+        @media only screen and (max-width: 992px) {
+            width: 100%; 
+            margin: 5vh 0;
+        }
     }
 
     .title {
@@ -147,6 +186,16 @@
         text-align: right;
         align-self: flex-end;
         margin-bottom: 10vh;
+
+        @media only screen and (max-width: 992px) {
+            width: 100%; 
+            margin-bottom: 5vh;
+        }
+
+        h2 {
+            font-size: inherit;
+            width: 100%;
+        }
     }
 
     .hero-img {
@@ -160,11 +209,21 @@
         padding: 0px;
         justify-content: space-between;
 
+        @media only screen and (max-width: 992px) {
+            margin-top: 0;
+            margin-bottom: 5vh;
+            flex-wrap: wrap;
+        }
+
         img {
             position: relative;
             height: auto;
             width: 23%;
             object-fit: cover;
+
+            @media only screen and (max-width: 992px) {
+                width: 45%;
+            }
         }
     }
 }

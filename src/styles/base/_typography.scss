@@ -40,6 +40,10 @@ h1 {
     @media screen and (min-width: 2560px) {
       font-size: 20em;
     }
+
+    @media only screen and (max-width: 776px) {
+      font-size: 5em;
+    }
 }
 
 h2 {
@@ -51,6 +55,10 @@ h2 {
 
     @media screen and (min-width: 2560px) {
       font-size: 15em;
+    }
+
+    @media only screen and (max-width: 776px) {
+      font-size: 4em;
     }
 }
 
