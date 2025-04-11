@@ -2,11 +2,13 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 function StackScroll({ children }) {
   const containerRef = useRef(null);
   const panelsRef = useRef([]);
+  
 
   useEffect(() => {
     const ctx = gsap.context(() => {

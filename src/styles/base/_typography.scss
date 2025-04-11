@@ -98,6 +98,10 @@ h6 {
     @media screen and (min-width: 2560px) {
       font-size: 3.4em;
     }
+
+    @media only screen and (max-width: 776px) {
+      font-size: 2.2em;
+    }
 }
 
 p {

@@ -11,8 +11,12 @@
     z-index: 1000;
 
     @media only screen and (max-width: 992px) {
-      padding: 20px;
       max-height: 100vh; 
+    }
+
+    @media only screen and (max-width: 992px) {
+      padding: 0;
+      justify-content: flex-end;
     }
 
     .big-num {
@@ -22,9 +26,18 @@
       @media screen and (min-width: 2560px) {
         height: 65%;
       }
+
+      @media only screen and (max-width: 992px) {
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+      }
       img {
         height: 100%;
-        fill: #427042;
+        @media only screen and (max-width: 992px) {
+          width: 100%;
+        }
       }
 
     }
@@ -40,6 +53,16 @@
 
       @media screen and (min-width: 2560px) {
         width: 500px;
+        justify-content: flex-end;
+      }
+
+      @media screen and (max-width: 992px) {
+        width: 50%;
+        border-left: 1px solid #000;
+        padding-left: 0;
+        justify-content: flex-end;
+        padding-bottom: 10px;
+        z-index: 100;
       }
 
       .line {
@@ -55,6 +78,9 @@
 
       &---title, &---subtitle {
         font-weight: 500;
+        @media screen and (max-width: 992px) {
+          padding: 0 5px;
+        }
       }
 
       &---subtitle {
@@ -64,6 +90,9 @@
       &---text {
         font-weight: 200;
         line-height: 1.1em;
+        @media screen and (max-width: 992px) {
+          padding: 0 5px;
+        }
       }
     }
   }
@@ -71,8 +100,21 @@
   .panel-0 .benefit {
     background-color: #9d1516;
     width: 100%;
+    .big-num {
+      @media only screen and (max-width: 992px) {
+        width: 50%;
+        left: 2%;
+      }
+    }
+
     @media only screen and (max-width: 992px) {
       z-index: 5;
+    }
+
+    &--content {
+      @media only screen and (max-width: 992px) {
+        background-color: #9d1516;
+      }
     }
   }
   .panel-1 .benefit {
@@ -83,7 +125,14 @@
       width: 100%;
       z-index: 4;
     }
+
+    &--content {
+      @media only screen and (max-width: 992px) {
+        background-color: #427042;
+      }
+    }
   }
+
   .panel-2 .benefit {
     background-color: #f7b815;
     width: 80%;
@@ -92,8 +141,13 @@
       width: 100%;
       z-index: 3;
     }
-  }
-  
+
+    &--content {
+      @media only screen and (max-width: 992px) {
+        background-color: #f7b815;
+      }
+    }
+}
   .panel-3 .benefit {
     background-color: #2b446b;
     width: 70%;
@@ -102,4 +156,11 @@
       width: 100%;
       z-index: 4;
     }
-  }
+
+    &--content {
+      @media only screen and (max-width: 992px) {
+        background-color: #2b446b;
+      }
+    }
+}
+
