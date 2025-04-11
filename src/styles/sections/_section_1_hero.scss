@@ -22,6 +22,44 @@
         }
     }
 
+    .sg_watermark {
+        position: absolute;
+        top: 0;
+        left: 25%;
+        height: 150px;
+        width: fit-content;
+
+        .line_1 {
+            height: 6vh;
+            width: 2px;
+            background-color: #000;
+        }
+
+        .square-name {
+            display: flex;
+            flex-direction: row;
+            .square {
+                width: 25px;
+                height: 25px;
+                background-color: #000;
+            }
+
+            .name {
+                padding-left: 10px;
+
+                .big {
+                    text-transform: uppercase;
+                }
+
+                h6 {
+                    font-weight: 300;
+                }
+            }
+        }
+
+
+    }
+
     &--title-right {
         position: relative;
         right: 0px;

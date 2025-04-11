@@ -37,6 +37,7 @@ import InfiniteZoneScroll_IV_Sprat from '../components/InfiniteZoneScroll_IV_spr
 import ParallaxSection_9 from '../components/ParallaxSection-9';
 import TitleRevealHome from '../components/TitleRevealHome';
 import Footer from '../components/Footer';
+import SectionHero from '../components/SectionHero';
 
 
 const benefitsData = [
@@ -51,34 +52,8 @@ function Home() {
     
     return (
       <main className="home">
-
-        <section className="hero section-1">
-            <div className="logo-box"><img src={SG_logo} alt="SG_logo" /></div>
-            <div className="hero--title-right">
-                <h1>NEW Savremeni prostor za više:</h1>
-            </div>
-            <div className="hero--title-left">
-                <RotatingWords words={["uspeha", "ideja", "uspomena", "pitanja", "projekata", "osmeha", "pobeda", "inovacija"]} />
-            </div>
-            <div className="hero--paragraph-text">
-              <p>
-              Od septembra 2025. učenici Savremene gimnazije dobijaju i II sprat u okviru modernog prostora Robne kuće Beograd. Nastava će se odvijati na 1557 kvadrata rasporedjenih na prizemlje, II, III, i IV sprata, sa 7 novih obrazovnih zona potpuno renoviranih i opremljenom po najvišim svetskim standardima.
-              </p>
-            </div>
-          <div className="hero-img">
-            <img src={intro_img_1} alt="" className="img-1" />
-            <img src={intro_img_2} alt="" className="img-2" />
-            <img src={intro_img_3} alt="" className="img-3" />
-            <img src={intro_img_4} alt="" className="img-4" />
-          </div>
-          <h2 className="title">
-            Novi prostorni koncept,
-            <TitleRevealHome />
-          </h2>
-          
-        </section>
-
-
+        <SectionHero />
+        
         <StackScroll>
             {benefitsData.map((benefit, index) => (
             <Benefit

@@ -73,6 +73,10 @@
     width: 100%;
     z-index: 1000;
 
+    @media screen and (max-width: 500px) {
+      padding: 10vh 20px;
+    }
+
     .color-box {
 
         position: absolute;
@@ -111,6 +115,14 @@
       flex-direction: column;
       gap: 500px; // razmak između tekstova
       z-index: 200;
+
+      @media screen and (max-width: 500px) {
+        width: 50%;
+      }
+
+      @media screen and (max-width: 500px) {
+        gap: 100px;
+      }
     }
   
     .zone-text-II-sprat {
@@ -131,9 +143,14 @@
               height: 621px;
             }
 
+            @media screen and (max-width: 500px) {
+              height: auto;
+            }
+
             h2 {
               padding-top: 5px;
               width: 50%;
+              line-height: 0.7em;
 
               @media screen and (min-width: 2560px) {
                 width: 75%;
@@ -141,6 +158,10 @@
             }
             p {
               padding-left: 30%;
+
+              @media screen and (max-width: 500px) {
+                padding-left: 0%;
+              }
             }
         }
 
@@ -210,6 +231,10 @@
         border-radius: 0;
         opacity: 1;
         transition: all 0.25s ease-in;
+
+        @media screen and (max-width: 500px) {
+          height: 100px;
+        }
 
         @media screen and (min-width: 2560px) {
           height: 100%;
