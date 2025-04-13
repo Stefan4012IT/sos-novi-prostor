@@ -9,6 +9,8 @@
 
     @media screen and (max-width: 992px) {
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .heading-box {
@@ -16,11 +18,17 @@
         padding: 0;
         width: 90%;
         height: fit-content;
+        @media screen and (max-width: 992px) {
+            width: 100%;
+        }
         h2 {
             margin: 0;
             padding: 5vh 3vw;
             width: 100%;
             word-wrap: break-word;
+            @media screen and (max-width: 992px) {
+                padding: 20px;
+            }
         }
     }
 
@@ -28,11 +36,20 @@
         margin: 40px 3vw;
         width: 800px;
         text-align: left;
+
+        @media screen and (max-width: 992px) {
+            width: 100%;
+        }
     }
 
     .text {
         width: 40%;
         padding-left: 3vw;
+        @media screen and (max-width: 992px) {
+            width: 100%;
+            padding: 20px;
+            padding-top: 0;
+        }
     }
 
     img {
@@ -44,10 +61,10 @@
         z-index: 0;
 
         @media screen and (max-width: 992px) {
-            height: 200px;
-            left: auto;
-            right: auto;
-            margin: auto 0;
+            width: 100%;
+            height: auto;
+            position: relative;
+            order: -1;
         }
     
 

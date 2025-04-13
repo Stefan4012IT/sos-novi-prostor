@@ -42,7 +42,8 @@ import InfiniteZoneScrollWrapper_II_sprat from '../components/infiniteScroll/2_s
 import InfiniteZoneScrollWrapperPrizemlje from '../components/infiniteScroll/0_prizemlje/InfiniteZoneScrollWrapperPrizemlje';
 import InfiniteZoneScrollWrapper_III_sprat from '../components/infiniteScroll/3_sprat/InfiniteZoneScrollWrapper_III_sprat';
 import InfiniteZoneScrollWrapper_IV_sprat from '../components/infiniteScroll/4_sprat/InfiniteZoneScrollWrapper_IV_sprat';
-import PinnedCtaSectionWrapper from '../components/pinnedCtaSection/pinnedCtaWrapper';
+import PinnedCtaSectionWrapper from '../components/pinnedCtaSection/PinnedCtaWrapper';
+import ParallaxSectionWrapper from '../components/parallaxSection-8/ParallaxSectionWrapper';
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 
@@ -102,7 +103,8 @@ function Home() {
         
         {/* <InfiniteZoneScroll_IV_Sprat /> */}
         <PinnedCtaSectionWrapper />
-        <ParallaxSection_8 />
+        <ParallaxSectionWrapper />
+        {/* <ParallaxSection_8 /> */}
         <ParallaxSection_9 />
 
           {/* <section className="section-10">

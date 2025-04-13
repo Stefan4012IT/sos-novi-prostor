@@ -1,5 +1,5 @@
 import React from "react";
-import useIsMobile from "../../components/infiniteScroll/common/useIsMobile";
+import useIsMobile from "../infiniteScroll/common/useIsMobile";
 import PinnedCtaSectionDesktop from "./PinnedCtaSectionDesktop";
 import PinnedCtaSectionMobile from "./PinnedCtaSectionMobile";
 
