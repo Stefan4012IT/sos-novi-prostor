@@ -32,7 +32,7 @@ const SectionHero = () => {
       </div>
 
       <div className="hero--title-left">
-        <RotatingWords
+        {/* <RotatingWords
           words={[
             "uspeha",
             "ideja",
@@ -43,7 +43,7 @@ const SectionHero = () => {
             "pobeda",
             "inovacija",
           ]}
-        />
+        /> */}
       </div>
 
       <div className="hero--paragraph-text">
@@ -63,10 +63,10 @@ const SectionHero = () => {
         <img src={intro_img_4} alt="" className="img-4" />
       </div>
 
-      <h2 className="title">
+      <div className="title">
         <h2>Novi prostorni koncept,</h2>
         <TitleRevealHome />
-      </h2>
+      </div>
     </section>
   );
 };

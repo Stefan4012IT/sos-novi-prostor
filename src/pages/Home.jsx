@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import SG_logo from '../assets/SG_logo.svg'
 import img_1 from '../assets/dump_img_1.avif'
 import img_2 from '../assets/dump_img_2.avif'
@@ -28,8 +28,8 @@ import Section_II_sprat from '../components/Section_II_sprat';
 import Section_III_sprat from '../components/Section_III_sprat';
 import Section_IV_sprat from '../components/Section_IV_sprat';
 
-import PinnedCtaSection from '../components/PinnedCtaSection';
-import ParallaxSection_8 from '../components/ParallaxSection-8';
+import PinnedCtaSection from '../components/pinnedCtaSection/PinnedCtaSectionDesktop';
+import ParallaxSection_8 from '../components/parallaxSection-8/ParallaxSection8Desktop';
 import InfiniteZoneScrollPrizemlje from '../components/InfiniteZoneScrollPrizemlje';
 import InfiniteZoneScroll_II_Sprat from '../components/InfiniteZoneScroll_II_sprat';
 import InfiniteZoneScroll_III_Sprat from '../components/InfiniteZoneScroll_III_sprat';
@@ -38,6 +38,12 @@ import ParallaxSection_9 from '../components/ParallaxSection-9';
 import TitleRevealHome from '../components/TitleRevealHome';
 import Footer from '../components/Footer';
 import SectionHero from '../components/SectionHero';
+import InfiniteZoneScrollWrapper_II_sprat from '../components/infiniteScroll/2_sprat/InfiniteZoneScrollWrapper_II_sprat';
+import InfiniteZoneScrollWrapperPrizemlje from '../components/infiniteScroll/0_prizemlje/InfiniteZoneScrollWrapperPrizemlje';
+import InfiniteZoneScrollWrapper_III_sprat from '../components/infiniteScroll/3_sprat/InfiniteZoneScrollWrapper_III_sprat';
+import InfiniteZoneScrollWrapper_IV_sprat from '../components/infiniteScroll/4_sprat/InfiniteZoneScrollWrapper_IV_sprat';
+import PinnedCtaSectionWrapper from '../components/pinnedCtaSection/pinnedCtaWrapper';
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 
 const benefitsData = [
@@ -48,12 +54,24 @@ const benefitsData = [
 ];
 
 
+
 function Home() {
-    
+  useEffect(() => {
+    setTimeout(() => {
+      console.log("🔥 REFRESHING SCROLLTRIGGER");
+      ScrollTrigger.refresh();
+    }, 1000);
+  }, []);
     return (
       <main className="home">
+
         <SectionHero />
-        
+        {/* <InfiniteZoneScrollWrapper_II_sprat /> */}
+        {/* <InfiniteZoneScrollWrapper_IV_sprat />
+        <InfiniteZoneScrollWrapper_III_sprat />
+        <InfiniteZoneScrollWrapperPrizemlje />
+        <InfiniteZoneScrollWrapper_II_sprat /> */}
+
         <StackScroll>
             {benefitsData.map((benefit, index) => (
             <Benefit
@@ -67,31 +85,38 @@ function Home() {
             />
             ))}
         </StackScroll>
-        <SectionPrizemlje />
-        <InfiniteZoneScrollPrizemlje />
-        <Section_II_sprat />
-        <InfiniteZoneScroll_II_Sprat />
-        <Section_III_sprat />
-        <InfiniteZoneScroll_III_Sprat />
-        <Section_IV_sprat />
-        <InfiniteZoneScroll_IV_Sprat />
 
-        <PinnedCtaSection />
+        <SectionPrizemlje />
+        <InfiniteZoneScrollWrapperPrizemlje />
+        {/* <InfiniteZoneScrollPrizemlje /> */}
+        <Section_II_sprat />
+        <InfiniteZoneScrollWrapper_II_sprat />
+        {/* <InfiniteZoneScroll_II_Sprat /> */}
+
+        <Section_III_sprat /> 
+        <InfiniteZoneScrollWrapper_III_sprat />
+        {/* <InfiniteZoneScroll_III_Sprat /> */}
+
+        <Section_IV_sprat />
+        <InfiniteZoneScrollWrapper_IV_sprat />
+        
+        {/* <InfiniteZoneScroll_IV_Sprat /> */}
+        <PinnedCtaSectionWrapper />
         <ParallaxSection_8 />
         <ParallaxSection_9 />
 
-        <section className="section-10">
-          <div className="section-10--base">
-            <div className="under-title">
-              <h1>savremena</h1>
-              <h2>gimnazija</h2>
+          {/* <section className="section-10">
+            <div className="section-10--base">
+              <div className="under-title">
+                <h1>savremena</h1>
+                <h2>gimnazija</h2>
+              </div>
             </div>
-          </div>
-          <div className="section-10--overlay">
-            <FloatingImagesSection />
-          </div>
-        </section>
-        <Footer />
+            <div className="section-10--overlay">
+              <FloatingImagesSection />
+            </div>
+          </section> */}
+        {/* <Footer /> */}
       </main>
     );
   }

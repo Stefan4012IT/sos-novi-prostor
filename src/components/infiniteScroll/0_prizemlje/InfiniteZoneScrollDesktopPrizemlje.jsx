@@ -2,34 +2,16 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-import prizemlje_1 from '../assets/prizemlje_1.jpg'
-import prizemlje_2 from '../assets/prizemlje_2.jpg'
+
 
 gsap.registerPlugin(ScrollTrigger);
 
-function InfiniteZoneScroll() {
+function InfiniteZoneScroll({ zones = [] }) {
   const wrapperRef = useRef(null);
   const imageRef = useRef(null);
   const [activeBg, setActiveBg] = useState("#9d1516");
 
-  const zones = [
-    {
-      bgColor: "#9d1516",
-      text: [
-        {
-          title: "Presentation zone",
-          subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put izlozio svoje radove. I talenat pretvorio u uspešnu buducnost.",
-        },
-        {
-          title: "Moderno uređeno i prostrano prizemlje",
-          text: <>Prostor Savremene gimnazije nalazi se u prizemlju Beograđanke i koncipirana je kao otvoreni prostor za prezentaciju školskih aktivnosti. <br/><br/> Prostor saglediv sa ulice, sa tipskim izložbenim postamentima za privremene izložbe i prezentacije, daje priliku učenicima da predstave svoje projekte, ideje i postignuća.</>,
-          list: ["88m2", "aktivna zona", "kolektivno"]
-        },
-      ],
-      images: [prizemlje_1, prizemlje_2],
-    },
-  ];
+
 
   useEffect(() => {
     zones.forEach((zone) => {
@@ -98,7 +80,7 @@ function InfiniteZoneScroll() {
     <section
       ref={wrapperRef}
       className="infinite-zone-wrapper"
-      style={{ '--active-bg-prizemlje': activeBg }}
+      style={{ '--active-bg': activeBg }}
     >
     <div className="color-box"></div>
       <div className="zone-content">

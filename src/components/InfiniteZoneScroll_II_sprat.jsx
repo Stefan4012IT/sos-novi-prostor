@@ -2,9 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-import prizemlje_1 from '../assets/prizemlje_1.jpg'
-import prizemlje_2 from '../assets/prizemlje_2.jpg'
-
 import sprat_II_1 from '../assets/sprat_II/sprat_II_1.jpg'
 import sprat_II_2 from '../assets/sprat_II/sprat_II_2.jpg'
 import sprat_II_3 from '../assets/sprat_II/sprat_II_3.jpg'
