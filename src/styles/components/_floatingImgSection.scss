@@ -5,55 +5,113 @@
     z-index: 20;
     background-color: transparent;
     pointer-events: none;
+
+    @media only screen and (max-width: 992px) {
+      height: 150vh;
+    }
   
     .float-image {
       position: absolute;
       width: 400px;
       height: auto;
+
+      @media only screen and (max-width: 992px) {
+        width: 40%;
+      }
   
       &--1 {
         top: 10%;
         left: 5%;
+
+        @media only screen and (max-width: 992px) {
+          top: 10%;
+          left: 5%;
+        }
       }
   
       &--2 {
         top: 15%;
         left: 40%;
+
+        @media only screen and (max-width: 992px) {
+          top: 7%;
+          right: 5%;
+          left: auto;
+        }
       }
   
       &--3 {
         top: 10%;
         right: 5%;
+
+        @media only screen and (max-width: 992px) {
+          top: 30%;
+          left: 5%;
+          right: auto;
+        }
       }
 
       &--4 {
         top: 40%;
         left: 5%;
+
+        @media only screen and (max-width: 992px) {
+          top: 35%;
+          right: 5%;
+          left: auto;
+        }
       }
 
       &--5 {
         top: 45%;
         left: 40%;
+
+        @media only screen and (max-width: 992px) {
+          top: 55%;
+          left: 5%;
+        }
       }
 
       &--6 {
         top: 40%;
         right: 5%;
+
+        @media only screen and (max-width: 992px) {
+          top: 57%;
+          right: 5%;
+        }
       }
 
       &--7 {
         bottom: 10%;
         left: 5%;
+
+        @media only screen and (max-width: 992px) {
+          bottom: 10%;
+          left: 5%;
+        }
       }
 
       &--8 {
         bottom: 5%;
         left: 40%;
+
+        @media only screen and (max-width: 992px) {
+          bottom: 5%;
+          right: 5%;
+          left: auto;
+        }
       }
 
       &--9 {
         bottom: 10%;
         right: 5%;
+
+        @media only screen and (max-width: 992px) {
+          bottom: 8%;
+          left: 5%;
+          display: none;
+        }
       }
   
       // dodaj dalje ako bude više slika

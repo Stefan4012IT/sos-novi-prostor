@@ -22,7 +22,7 @@ import intro_img_4 from '../assets/intro_4.jpg'
 import Benefit from '../components/Benefit';
 import RotatingWords from '../components/RotatingWords';
 import StackScroll from '../components/StackScroll';
-import FloatingImagesSection from '../components/FloatingImagesSection';
+import FloatingImagesSection from '../components/floatingImagesSection/FloatingImagesSectionDesktop';
 import SectionPrizemlje from '../components/SectionPrizemlje';
 import Section_II_sprat from '../components/Section_II_sprat';
 import Section_III_sprat from '../components/Section_III_sprat';
@@ -43,8 +43,10 @@ import InfiniteZoneScrollWrapperPrizemlje from '../components/infiniteScroll/0_p
 import InfiniteZoneScrollWrapper_III_sprat from '../components/infiniteScroll/3_sprat/InfiniteZoneScrollWrapper_III_sprat';
 import InfiniteZoneScrollWrapper_IV_sprat from '../components/infiniteScroll/4_sprat/InfiniteZoneScrollWrapper_IV_sprat';
 import PinnedCtaSectionWrapper from '../components/pinnedCtaSection/PinnedCtaWrapper';
-import ParallaxSectionWrapper from '../components/parallaxSection-8/ParallaxSectionWrapper';
+import ParallaxSection8Wrapper from '../components/parallaxSection-8/ParallaxSection8Wrapper';
+import ParallaxSection9Wrapper from '../components/parallaxSection-9/ParallaxSection9Wrapper';
 import ScrollTrigger from "gsap/ScrollTrigger";
+import FloatingWrapper from '../components/floatingImagesSection/FloatingWrapper';
 
 
 const benefitsData = [
@@ -103,9 +105,10 @@ function Home() {
         
         {/* <InfiniteZoneScroll_IV_Sprat /> */}
         <PinnedCtaSectionWrapper />
-        <ParallaxSectionWrapper />
+        <ParallaxSection8Wrapper />
+        <ParallaxSection9Wrapper />
         {/* <ParallaxSection_8 /> */}
-        <ParallaxSection_9 />
+        {/* <ParallaxSection_9 /> */}
 
           {/* <section className="section-10">
             <div className="section-10--base">
@@ -118,7 +121,8 @@ function Home() {
               <FloatingImagesSection />
             </div>
           </section> */}
-        {/* <Footer /> */}
+          <FloatingWrapper />
+        <Footer />
       </main>
     );
   }

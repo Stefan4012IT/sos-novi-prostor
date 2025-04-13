@@ -3,7 +3,11 @@
     height: 200vh; // ili više ako želiš dugačak efekat
 
     @media only screen and (max-width: 992px) {
-      display: none;
+      height: 150vh;
+    }
+
+    @media only screen and (max-width: 992px) {
+      // display: none;
     }
   
     &--base {
@@ -16,6 +20,9 @@
       background-color: #FFF;
       text-align: center;
       z-index: 1;
+      @media only screen and (max-width: 992px) {
+        height: 75vh;
+      }
 
       .under-title {
         display: flex;
@@ -28,7 +35,7 @@
 
   
           @media only screen and (max-width: 992px) {
-            font-size: 50px;
+            font-size: 60px;
           }
         }
 
@@ -37,6 +44,11 @@
           font-size: 100px;
           text-align: right;
           margin-top: -30px;
+
+          @media only screen and (max-width: 992px) {
+            font-size: 35px;
+            margin-top: -7px;
+          }
         }
       }
   
@@ -51,6 +63,10 @@
       height: 200vh;
       z-index: 2;
       pointer-events: none; // ne ometa korisnika
+
+      @media only screen and (max-width: 992px) {
+        height: 150vh;
+      }
     }
   }
   
