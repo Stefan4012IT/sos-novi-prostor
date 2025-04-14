@@ -1,14 +1,17 @@
 .stack-scroll {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   overflow: visible;
   z-index: 10000;
 
   @media only screen and (max-width: 992px) {
-    height: 100lvh; 
-    overflow: hidden;
+    min-height: 100lvh; 
+    // overflow: hidden;
     transform: translateZ(0); 
+    overflow: visible;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
 
@@ -26,7 +29,27 @@
 
   @media only screen and (max-width: 992px) {
     min-height: 100vh; 
-    min-height: 100vh;
     will-change: transform;
+    height: 100lvh;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.stack-scroll-section {
+  position: relative;
+  height: 100vh; // pinovana sekcija
+  overflow: hidden;
+
+  .panels-wrapper {
+    height: calc(100vh * 4); // ako imaš 4 panela
+    position: relative;
+  }
+
+  .panel {
+    height: 100vh;
+    position: sticky;
+    top: 0;
   }
 }

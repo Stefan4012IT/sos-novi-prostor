@@ -53,7 +53,7 @@ export const zones = [
         {
           title: "STEM zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde se neko prvi put susreo s problemom koji ga je držao budnim noću. I kasnije razvio aplikaciju koja taj problem rešava.",
+          text: "Ovo je mesto gde je neko prvi put video građu tkiva pod mikroskopom. I dobio ideju koju je predstavio na Science Fairu i koja je osvojila prvo mesto.",
         },
         {
           title: "Naučno-tehnološka zona za praktičan rad i istraživanje",

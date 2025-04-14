@@ -20,7 +20,7 @@ export const zones = [
         {
           title: "Education zone",
           subtitle: "Ovo nije",
-          text: "Ovo nije Education zone, ovo je mesto gde je neko prvi put shvatio značaj rada u timu. I to kasnije primenio u razvoju svog startapa.",
+          text: "Ovo je mesto gde je neko prvi put spojio znanje iz različitih predmeta u jedno rešenje. I to kasnije primenio kroz Cambridge programe, koji su mu otvorili vrata najboljih univerziteta.",
         },
         {
           title: "Obrazovni ambijent koji podstiče aktivno učešće",

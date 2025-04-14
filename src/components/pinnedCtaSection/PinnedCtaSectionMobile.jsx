@@ -13,33 +13,45 @@ function PinnedCtaSectionMobile() {
   const sectionRef = useRef(null);
   const textRef = useRef(null);
   const txtBoxRef = useRef(null);
+  const titleRef = useRef(null);
 
-    // useEffect(() => {
-    //   const section = sectionRef.current;
+    useEffect(() => {
+      const section = sectionRef.current;
 
-    //   const ctx = gsap.context(() => {
+      const ctx = gsap.context(() => {
+        
+      gsap.from(titleRef.current, {
+        xPercent: -100,
+        opacity: .5,
+        scrollTrigger: {
+          trigger: section,
+          start: "top 100%",
+          end: "top 10%",
+          scrub: true,
+        },
+      });
+      
 
-    //   gsap.from(textRef.current, {
-    //     xPercent: 100,
-    //     opacity: 1,
-    //     // duration: 1.5,
-    //     scrollTrigger: {
-    //       trigger: txtBoxRef.current,
-    //       start: "bottom bottom",
-    //       end: "bottom 90%",
-    //       scrub: true,
-    //     },
-    //   });
+      gsap.from(textRef.current, {
+        xPercent: 100,
+        opacity: 1,
+        // duration: 1.5,
+        scrollTrigger: {
+          trigger: txtBoxRef.current,
+          start: "bottom bottom",
+          end: "bottom 90%",
+          scrub: true,
+        },
+      });
+      }, sectionRef);
 
-    //   }, sectionRef);
-
-    //   return () => ctx.revert();
-    // }, []);
+      return () => ctx.revert();
+    }, []);
 
   return (
     <section className="section-7 mobile" ref={sectionRef}>
       <div className="heading-box">
-        <h2 className="title">
+        <h2 className="title" ref={titleRef}>
           Savremen dizajn za<br />najbolje rezultate u učenju
         </h2>
       </div>
