@@ -26,6 +26,7 @@
 
             @media screen and (max-width: 992px) {
                 padding: 5vh 20px 20px 20px;
+                width: 85%;
             }
         }
 
@@ -54,7 +55,8 @@
 
         @media screen and (max-width: 992px) {
             position: relative;
-            width: 100%;
+            width: 70%;
+            margin-left: auto;
             height: 175px;
             object-position: center;
             padding: 0 20px;
@@ -102,7 +104,7 @@
             position: relative;
             width: 100%;
             margin: 0;
-            height: 100px;
+            height: 150px;
         }
 
         .floated-box {
@@ -118,7 +120,7 @@
 
             @media screen and (max-width: 992px) {
                 position: absolute;
-                height: 100px;
+                height: 150px;
                 width: 100%;
                 left: 0;
             }
@@ -142,7 +144,8 @@
                 bottom: 0;
                 flex-direction: column;
                 justify-content: center;
-                height: 100px;
+                align-items: flex-start;
+                height: 150px;
             }
 
             h4 {

@@ -94,7 +94,7 @@ function ParallaxSection_9() {
           </div>
         </div>
 
- 
+  
       </div>
       <div className="text_2">
         <div className="line" ref={textRef_2}></div>

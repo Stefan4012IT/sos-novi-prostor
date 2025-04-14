@@ -1,12 +1,43 @@
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
 import ctaImg from "../../assets/img_cta_1.jpg";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 function PinnedCtaSectionMobile() {
   const currentYear = new Date().getFullYear();
   const nextShort = (currentYear + 1).toString().slice(-2);
   const dynamicYears = `${currentYear}/${nextShort}`;
 
+  const sectionRef = useRef(null);
+  const textRef = useRef(null);
+  const txtBoxRef = useRef(null);
+
+    // useEffect(() => {
+    //   const section = sectionRef.current;
+
+    //   const ctx = gsap.context(() => {
+
+    //   gsap.from(textRef.current, {
+    //     xPercent: 100,
+    //     opacity: 1,
+    //     // duration: 1.5,
+    //     scrollTrigger: {
+    //       trigger: txtBoxRef.current,
+    //       start: "bottom bottom",
+    //       end: "bottom 90%",
+    //       scrub: true,
+    //     },
+    //   });
+
+    //   }, sectionRef);
+
+    //   return () => ctx.revert();
+    // }, []);
+
   return (
-    <section className="section-7 mobile">
+    <section className="section-7 mobile" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title">
           Savremen dizajn za<br />najbolje rezultate u učenju
@@ -24,8 +55,8 @@ function PinnedCtaSectionMobile() {
         </p>
       </div>
 
-      <div className="btn-box">
-        <div className="cta-text">
+      <div className="btn-box" ref={txtBoxRef}>
+        <div className="cta-text" ref={textRef}>
           <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste</h4>
           <a href="https://www.savremena-gimnazija.edu.rs/prijava/">{`Upis za generaciju ${dynamicYears} je toku!`}</a>
         </div>
