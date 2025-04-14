@@ -21,7 +21,7 @@ function PinnedCtaSectionMobile() {
       const ctx = gsap.context(() => {
         
       gsap.from(titleRef.current, {
-        xPercent: -100,
+        xPercent: -90,
         opacity: .5,
         scrollTrigger: {
           trigger: section,
@@ -33,13 +33,13 @@ function PinnedCtaSectionMobile() {
       
 
       gsap.from(textRef.current, {
-        xPercent: 100,
+        xPercent: 80,
         opacity: 1,
-        // duration: 1.5,
+        duration: 1.5,
         scrollTrigger: {
-          trigger: txtBoxRef.current,
-          start: "bottom bottom",
-          end: "bottom 90%",
+          trigger: section,
+          start: "top 10%",
+          end: "bottom 30%",
           scrub: true,
         },
       });

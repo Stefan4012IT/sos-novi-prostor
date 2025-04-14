@@ -16,7 +16,7 @@ function ParallaxSection8Mobile() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from(titleRef.current, {
-        xPercent: -100,
+        xPercent: -90,
         opacity: .5,
         ease: "power3.out",
         scrollTrigger: {
@@ -50,7 +50,7 @@ function ParallaxSection8Mobile() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top 80%",
+            start: "top 90%",
             end: "top 25%",
             scrub: true,
           },
