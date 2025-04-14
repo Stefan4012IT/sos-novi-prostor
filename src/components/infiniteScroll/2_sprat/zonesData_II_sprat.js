@@ -9,8 +9,8 @@ export const zones = [
       },
       {
         title: "Multidisciplinarni prostor za kreativna i tehnološka rešenja",
-        text: <>U ovoj zoni učenici razvijaju veštine timskog rada, kreativnog mišljenja i rešavanja problema kroz multidisciplinarne zadatke. Savremeni prostor za prezentacije i projekcije opremljen je modernim gledalištem i projekcionim zidom. <br /><br />Zahvaljujući mobilnoj bini i inovativnom prostornom rešenju, zona omogućava različite formate javnog nastupa i kreativnog izražavanja.</>,
-        list: ["76m2", "aktivna zona", "kolektivno"]
+        text: <>U ovoj zoni učenici razvijaju veštine timskog rada, kreativnog mišljenja i rešavanja problema kroz multidisciplinarne zadatke. Savremeni prostor za prezentacije i projekcije opremljen je modernim gledalištem i projekcionim zidom.<br /><br />Zahvaljujući mobilnoj bini i inovativnom prostornom rešenju, zona omogućava različite formate javnog nastupa i kreativnog izražavanja.</>,
+        list: ["76 m²", "aktivna zona", "kolektivno"]
       },
     ],
   },
@@ -24,8 +24,8 @@ export const zones = [
       },
       {
         title: "Učionice koje prate ritam savremenog učenja",
-        text: <>Učionice su opremljene u skladu sa savremenim standardima, kombinujući prirodno osvetljenje, funkcionalan raspored i tehničku podršku za različite oblike nastave. <br /><br />Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.</>,
-        list: ["247m2", "interaktivna zona", "u grupama"]
+        text: <>Učionice su opremljene u skladu sa savremenim standardima, te kombinuju prirodno osvetljenje, funkcionalan raspored i tehničku podršku za različite oblike nastave.<br /><br />Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.</>,
+        list: ["247 m²", "interaktivna zona", "u grupama"]
       },
     ],
 
@@ -40,9 +40,9 @@ export const zones = [
       },
       {
         title: "Prostor za inovacije kroz savremene tehnologije i timsku dinamiku",
-        text: <>Innovation zone sastoji se iz niza manjih ambijenata prilagođenih timskom radu, razmeni znanja i praktičnoj primeni različitih oblasti na način koji podstiče rešavanje problema i primenu znanja kroz savremene tehnologije i interdisciplinarni pristup. <br /><br />Prostor uključuje interaktivne zidne površine, brainstorming zone i studio, osmišljen da podstakne inovativno razmišljanje i saradnju.</>,
-        list: ["126m2", "aktivna zona", <>
-          individualno/<br />u malim grupama
+        text: <>Innovation zone sastoji se iz niza manjih ambijenata prilagođenih timskom radu, razmeni znanja i praktičnoj primeni različitih oblasti na način koji podstiče rešavanje problema i primenu znanja kroz savremene tehnologije i interdisciplinarni pristup.<br /><br />Prostor uključuje interaktivne zidne površine, brejnstorming zonu i studio osmišljen da podstakne inovativno razmišljanje i saradnju.</>,
+        list: ["126 m²", "aktivna zona", <>
+          individualno /<br />u malim grupama
         </>]
       },
     ],
@@ -57,8 +57,8 @@ export const zones = [
       },
       {
         title: "Mirna zona za čitanje, učenje i koncentraciju",
-        text: <>Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen tišini, samostalnom radu i čitanju. Opremljena je različitim tipovima sedenja koji omogućavaju učenicima da pronađu ambijent koji im najviše odgovara – za učenje u ritmu koji sami određuju. <br /><br />Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog – veštine koje su ključne za uspeh u svakom savremenom obrazovnom okruženju.</>,
-        list: ["33m2", "tiha zona", "individualno/u malim grupama"]
+        text: <>Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen tišini, samostalnom radu i čitanju. Opremljen je različitim tipovima sedenja koji omogućavaju učenicima da pronađu ambijent koji im najviše odgovara – za učenje u ritmu koji sami određuju.<br /><br />Ovde se razvijaju fokus, strpljenje i sposobnost razumevanja pročitanog – veštine koje su ključne za uspeh u svakom savremenom obrazovnom okruženju.</>,
+        list: ["33 m²", "tiha zona", "individualno / u malim grupama"]
       },
     ],
   }

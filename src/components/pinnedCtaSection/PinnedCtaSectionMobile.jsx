@@ -17,21 +17,17 @@ function PinnedCtaSectionMobile() {
 
       <div className="text">
         <p>
-          Savremena gimnazija nisu samo aktuelni programi i tehnologije – to je
-          podrška, razumevanje i put ka samostalnosti. Odabir prave škole je
-          osnovni korak za budući uspeh.
+        Savremena gimnazija nisu samo aktuelni programi i tehnologije – ona podrazumeva podršku, razumevanje i put ka samostalnosti. Odabir prave škole je osnovni korak za budući uspeh.
         </p>
         <p>
-          Kombinacijom Cambridge standarda, savremenih nastavnih programa,
-          inovativnog pristupa i okruženja punog podrške, stvoren je temelj za
-          uspešnu i sigurnu budućnost svakog učenika.
+        Kombinacijom Cambridge standarda, savremenih nastavnih programa, inovativnog pristupa i okruženja punog podrške stvara se temelj za uspešnu i sigurnu budućnost svakog učenika.
         </p>
       </div>
 
       <div className="btn-box">
         <div className="cta-text">
           <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste</h4>
-          <a href="#">{`Upis za generaciju ${dynamicYears} je toku!`}</a>
+          <a href="https://www.savremena-gimnazija.edu.rs/prijava/">{`Upis za generaciju ${dynamicYears} je toku!`}</a>
         </div>
         <div className="floated-box" ></div>
       </div>

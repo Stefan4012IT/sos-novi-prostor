@@ -97,9 +97,9 @@ function InfiniteZoneScrollSprat({ zones = [] }) {
                 <p>{txt.text}</p>
                 {txt.list && (
                   <div className="list">
-                    <div className="povrsina"><p>povrsina</p><span>{txt.list[0]}</span></div>
-                    <div className="tip"><p>tip</p><span>{txt.list[1]}</span></div>
-                    <div className="koriscenje"><p>koriscenje</p><span>{txt.list[2]}</span></div>
+                    <div className="povrsina"><p>Površina:</p><span>{txt.list[0]}</span></div>
+                    <div className="tip"><p>Tip:</p><span>{txt.list[1]}</span></div>
+                    <div className="koriscenje"><p>Korišćenje:</p><span>{txt.list[2]}</span></div>
                   </div>
                 )}
               </div>

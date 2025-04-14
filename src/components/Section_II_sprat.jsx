@@ -52,7 +52,7 @@ useEffect(() => {
             </div>
         </div>
         <h3 className="title-2">
-        II Sprat
+        II sprat
         </h3>
     </section>
   );

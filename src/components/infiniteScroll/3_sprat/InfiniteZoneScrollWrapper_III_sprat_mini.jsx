@@ -61,15 +61,15 @@ const InfiniteZoneScrollMobile_III_Sprat_mini = ({ zones }) => {
                 {Array.isArray(text.list) && (
                   <div className="list">
                     <div className="povrsina">
-                      <p>površina</p>
+                      <p>Površina:</p>
                       <span>{text.list[0]}</span>
                     </div>
                     <div className="tip">
-                      <p>tip</p>
+                      <p>Tip:</p>
                       <span>{text.list[1]}</span>
                     </div>
                     <div className="koriscenje">
-                      <p>korišćenje</p>
+                      <p>Korišćenje:</p>
                       <span>{text.list[2]}</span>
                     </div>
                   </div>
