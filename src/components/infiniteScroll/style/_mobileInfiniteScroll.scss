@@ -32,7 +32,8 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      row-gap: 30px;
+      // row-gap: 100px;
+
 
       .zone-block-mobile{
         display: flex;
@@ -41,6 +42,12 @@
         justify-content: space-between;
         position: relative;
         z-index: 20;
+        // row-gap: 30px;
+        margin-top: 30px;
+
+        &[data-index="0"]:not(:first-of-type) {
+          margin-top: 100px;
+        }
       }
     }
   
