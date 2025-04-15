@@ -112,6 +112,10 @@
         bottom: 0;
         transform: translateX(-50%) !important;
 
+        @media screen and (max-width: 1366px) {
+            height: 400px;
+          }
+
         @media screen and (max-width: 992px) {
             width: 100%;
             height: auto;

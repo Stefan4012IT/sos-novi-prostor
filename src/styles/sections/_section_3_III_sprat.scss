@@ -118,6 +118,10 @@
       @media screen and (max-width: 1440px) {
         gap: 400px;
       }
+
+      @media screen and (max-width: 1366px) {
+        gap: 350px;
+      }
     }
   
     .zone-text-III-sprat {
@@ -142,6 +146,10 @@
               height: 400px;
             }
 
+            @media screen and (max-width: 1366px) {
+              height: 350px;
+            }
+
             h2 {
                 padding-top: 5px;
                 width: 50%;
@@ -162,7 +170,7 @@
           @media screen and (max-width: 1440px) {
             width: 100%;
           }
-          
+
           h2 {
             padding-bottom: 15px;
             @media screen and (min-width: 2560px) {
@@ -235,6 +243,10 @@
 
         @media screen and (max-width: 1440px) {
           height: 400px;
+        }
+
+        @media screen and (max-width: 1366px) {
+          height: 350px;
         }
       }
 
