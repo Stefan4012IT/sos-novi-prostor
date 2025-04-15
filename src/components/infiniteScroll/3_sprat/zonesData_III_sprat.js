@@ -9,7 +9,7 @@ export const zones = [
         },
         {
           title: "Prostor za partnerstvo i saradnju s roditeljima.",
-          text: <>U prirodnim materijalima i sa pažljivo odabranim nameštajem, ova zona predstavlja prostor za prijem i razgovor sa roditeljima. <br/><br/>To je mesto gde škola i porodica grade međusobno razumevanje, dele informacije i postavljaju temelje zajedničke brige o razvoju deteta.</>,
+          text: <>U prirodnim materijalima i sa pažljivo odabranim nameštajem, ova zona predstavlja prostor za prijem i razgovor sa roditeljima. <br/><br/>To je mesto gde škola i porodica grade međusobno razumevanje i postavljaju temelje zajedničke brige o razvoju deteta.</>,
           list: ["90 m²", "aktivna zona", "kolektivno"]
         },
       ],
@@ -36,12 +36,12 @@ export const zones = [
         {
           title: "Learning zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko samo uz jedno „zašto” pokrenuo debatu koja je mu je promenila život.",
+          text: "Ovo je mesto gde je neko samo uz jedno „zašto” pokrenulo debatu koja je mu je promenila život.",
         },
         {
           title: "Savremene učionice prilagođene stvarnim potrebama učenika",
           text: <>Obuhvata moderno opremljene učionice koje kombinuju funkcionalnost i tehničku podršku za savremenu nastavu. Fleksibilan raspored, ergonomski nameštaj i digitalni alati omogućavaju nastavnicima i učenicima dinamičan rad i lakše prilagođavanje različitim stilovima učenja.<br/><br/> Ovakvo okruženje podstiče aktivno učešće, bolju koncentraciju i efikasnije usvajanje znanja – u skladu sa zahtevima savremenog obrazovanja. </>,
-          list: ["126 m²", "aktivna zona", <>
+          list: ["126 m² / 16 učionica", "aktivna zona", <>
             individualno / <br />u malim grupama
           </>]
         },
@@ -51,7 +51,7 @@ export const zones = [
       bgColor: "#427042",
       text: [
         {
-          title: "STEM zone",
+          title: "STE(A)M zone",
           subtitle: "Ovo nije",
           text: "Ovo je mesto gde je neko prvi put video građu tkiva pod mikroskopom. I dobio ideju koju je predstavio na Science Fairu i koja je osvojila prvo mesto.",
         },

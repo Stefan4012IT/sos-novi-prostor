@@ -19,6 +19,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import FloatingWrapper from '../components/floatingImagesSection/FloatingWrapper';
 import StackScrollWrapper from '../components/stackScroll/StackScrollWrapper';
 import Preloader from '../components/Preloader';
+import FooterCtaSection from '../components/FooterCtaSection';
 
 
 
@@ -53,7 +54,7 @@ function Home() {
         <ParallaxSection9Wrapper />
 
         <FloatingWrapper />
-        
+        <FooterCtaSection />
         <Footer />
       </main>
     );

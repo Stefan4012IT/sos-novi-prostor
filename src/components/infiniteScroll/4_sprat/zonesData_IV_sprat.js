@@ -25,7 +25,7 @@ export const zones = [
         {
           title: "Obrazovni ambijent koji podstiče aktivno učešće",
           text: <>Fleksibilna organizacija prostora uz funkcionalan raspored i savremenu tehničku opremu omogućava realizaciju različitih nastavnih formata, što podstiče veću angažovanost učenika, efikasnije usvajanje znanja i aktivnije učešće u nastavnom procesu.<br/><br/>Digitalni alati dodatno doprinose prilagođavanju individualnim stilovima učenja i unapređuju interakciju između nastavnika i učenika.</>,
-          list: ["231 m²", "interaktivna zona", 'u grupama']
+          list: ["231 m² / 10 učionica", "interaktivna zona", 'u grupama']
         },
       ],
     },

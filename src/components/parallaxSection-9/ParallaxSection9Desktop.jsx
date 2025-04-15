@@ -85,12 +85,13 @@ function ParallaxSection_9() {
           </div>
           
           <div>
-            <p>Za informacije:</p>
-            <span>office@savremena-gimnazija.edu.rs</span>
+            <p>Sajt škole:</p>
+            <span><a href="www.savremena-gimnazija.edu.rs">www.savremena-gimnazija.edu.rs</a></span>
           </div>
+
           <div>
             <p>Sektor za upis:</p>
-            <span>upis@savremena-gimnazija.edu.rs</span>
+            <span><a href="mailto:upis@savremena-gimnazija.edu.rs">upis@savremena-gimnazija.edu.rs</a></span>
           </div>
         </div>
 

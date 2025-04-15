@@ -25,7 +25,7 @@ export const zones = [
       {
         title: "Učionice koje prate ritam savremenog učenja",
         text: <>Učionice su opremljene u skladu sa savremenim standardima, kombinuju funkcionalan raspored i tehničku podršku za različite oblike nastave.<br /><br />Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.</>,
-        list: ["247 m²", "interaktivna zona", "u grupama"]
+        list: ["247 m² / 6 učionica", "interaktivna zona", "u grupama"]
       },
     ],
 
