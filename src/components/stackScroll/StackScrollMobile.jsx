@@ -26,8 +26,10 @@ function StackScrollMobile({ children }) {
     const ctx = gsap.context(() => {
       const panels = panelsRef.current;
       const count = panels.length;
-      const scrollLength = window.innerHeight * count;
-
+      // const scrollLength = window.innerHeight * count;
+      const viewportHeight = window.visualViewport?.height || window.innerHeight;
+      const scrollLength = viewportHeight * count;
+      
       panels.forEach((panel, i) => {
         gsap.set(panel, {
           y: i === 0 ? 0 : "100vh",
