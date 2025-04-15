@@ -5,7 +5,7 @@ export const zones = [
       {
         title: "Future zone",
         subtitle: "Ovo nije",
-        text: "Ovo je mesto gde je neko prvi put izgovorio ono što će jednog dana postati uvod u njegov TED Talk.",
+        text: "Ovo je mesto gde je neko prvi put izgovorio ono što će postati uvod u njegov TED Talk.",
       },
       {
         title: "Multidisciplinarni prostor za kreativna i tehnološka rešenja",
@@ -24,7 +24,7 @@ export const zones = [
       },
       {
         title: "Učionice koje prate ritam savremenog učenja",
-        text: <>Učionice su opremljene u skladu sa savremenim standardima, te kombinuju prirodno osvetljenje, funkcionalan raspored i tehničku podršku za različite oblike nastave.<br /><br />Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.</>,
+        text: <>Učionice su opremljene u skladu sa savremenim standardima, kombinuju funkcionalan raspored i tehničku podršku za različite oblike nastave.<br /><br />Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju lako prilagođavanje različitim nastavnim formatima i metodama rada. Savremeni uslovi doprinose produktivnijem učenju, većoj mentalnoj prisutnosti i boljoj organizaciji časa.</>,
         list: ["247 m²", "interaktivna zona", "u grupama"]
       },
     ],
@@ -57,7 +57,7 @@ export const zones = [
       },
       {
         title: "Mirna zona za čitanje, učenje i koncentraciju",
-        text: <>Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen tišini, samostalnom radu i čitanju. Opremljen je različitim tipovima sedenja koji omogućavaju učenicima da pronađu ambijent koji im najviše odgovara – za učenje u ritmu koji sami određuju.<br /><br />Ovde se razvijaju fokus, strpljenje i sposobnost razumevanja pročitanog – veštine koje su ključne za uspeh u svakom savremenom obrazovnom okruženju.</>,
+        text: <>Reading zone predstavlja savremeno uređeni prostor biblioteke namenjen tišini, samostalnom radu i čitanju. Opremljen je različitim tipovima elemenata za sedenje koji omogućavaju učenicima da pronađu ambijent koji im najviše odgovara – za učenje u ritmu koji sami određuju.<br /><br />Ovde se razvijaju fokus, strpljenje i sposobnost razumevanja pročitanog – veštine koje su ključne za uspeh u svakom savremenom obrazovnom okruženju.</>,
         list: ["33 m²", "tiha zona", "individualno / u malim grupama"]
       },
     ],

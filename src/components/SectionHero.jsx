@@ -48,7 +48,7 @@ const SectionHero = () => {
 
       <div className="hero--paragraph-text">
         <p>
-        Od septembra 2025. učenici Savremene gimnazije dobijaju i II sprat u okviru modernog prostora Robne kuće „Beograd”. Nastava će se odvijati na 1.557 kvadrata raspoređenih na prizemlje, II, III i IV sprat, sa sedam novih obrazovnih zona potpuno renoviranih i opremljenih po najvišim svetskim standardima.
+        Od septembra 2025. učenici Savremene gimnazije dobijaju i II sprat u okviru modernog prostora Beograđanke. Nastava će se odvijati na 1.557 kvadrata raspoređenih na prizemlje, II, III i IV sprat, sa sedam novih obrazovnih zona potpuno renoviranih i opremljenih po najvišim svetskim standardima.
         </p>
       </div>
 

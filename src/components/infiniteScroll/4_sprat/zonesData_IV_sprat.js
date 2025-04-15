@@ -20,11 +20,11 @@ export const zones = [
         {
           title: "Education zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko prvi put spojio znanje iz različitih predmeta u jedno rešenje. I to kasnije primenio kroz Cambridge programe, koji su mu otvorili vrata najboljih univerziteta.",
+          text: "Ovo je mesto gde je neko položio svoj prvi Cambridge Checkpoint ispit. Danas se na zidu njegove kancelarije nalazi diploma Cambridge univerziteta.",
         },
         {
           title: "Obrazovni ambijent koji podstiče aktivno učešće",
-          text: <>Fleksibilna organizacija prostora uz funkcionalan raspored, prirodno osvetljenje i savremenu tehničku opremu omogućava realizaciju različitih nastavnih formata, što podstiče veću angažovanost učenika, efikasnije usvajanje znanja i aktivnije učešće u nastavnom procesu. <br/><br/>Digitalni alati dodatno doprinose prilagođavanju individualnim stilovima učenja i unapređuju interakciju između nastavnika i učenika.</>,
+          text: <>Fleksibilna organizacija prostora uz funkcionalan raspored i savremenu tehničku opremu omogućava realizaciju različitih nastavnih formata, što podstiče veću angažovanost učenika, efikasnije usvajanje znanja i aktivnije učešće u nastavnom procesu.<br/><br/>Digitalni alati dodatno doprinose prilagođavanju individualnim stilovima učenja i unapređuju interakciju između nastavnika i učenika.</>,
           list: ["231 m²", "interaktivna zona", 'u grupama']
         },
       ],

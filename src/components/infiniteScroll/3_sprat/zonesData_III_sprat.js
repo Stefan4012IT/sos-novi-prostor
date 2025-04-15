@@ -8,7 +8,7 @@ export const zones = [
           text: "Ovo je mesto gde roditelji osećaju podršku i razumevanje od škole i ponos zbog onoga šta njihovo dete postaje.",
         },
         {
-          title: "Jasno definisan prostor za partnerstvo i saradnju s roditeljima",
+          title: "Prostor za partnerstvo i saradnju s roditeljima.",
           text: <>U prirodnim materijalima i sa pažljivo odabranim nameštajem, ova zona predstavlja prostor za prijem i razgovor sa roditeljima. <br/><br/>To je mesto gde škola i porodica grade međusobno razumevanje, dele informacije i postavljaju temelje zajedničke brige o razvoju deteta.</>,
           list: ["90 m²", "aktivna zona", "kolektivno"]
         },
@@ -20,7 +20,7 @@ export const zones = [
         {
           title: "Exploration zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je nastala ideja koja je završila na školskom takmičenju. I postala startap godine koji je zaradio prvi million.",
+          text: "Ovo je mesto gde je nastala ideja koja je završila na školskom takmičenju. I postala StartUp godine koji je zaradio prvi million.",
         },
         {
           title: "Miran prostor fokusiran na rad, čitanje i istraživanje",
@@ -36,11 +36,11 @@ export const zones = [
         {
           title: "Learning zone",
           subtitle: "Ovo nije",
-          text: "Ovo je mesto gde je neko samo uz jedno „zašto“ pokrenuo debatu koja je nekome promenila zivot.",
+          text: "Ovo je mesto gde je neko samo uz jedno „zašto” pokrenuo debatu koja je mu je promenila život.",
         },
         {
           title: "Savremene učionice prilagođene stvarnim potrebama učenika",
-          text: <>Obuhvata moderno opremljene učionice koje kombinuju funkcionalnost, prirodno osvetljenje i tehničku podršku za savremenu nastavu. Fleksibilan raspored, ergonomski nameštaj i digitalni alati omogućavaju nastavnicima i učenicima dinamičan rad i lakše prilagođavanje različitim stilovima učenja.<br/><br/> Ovakvo okruženje podstiče aktivno učešće, bolju koncentraciju i efikasnije usvajanje znanja – u skladu sa zahtevima savremenog obrazovanja. </>,
+          text: <>Obuhvata moderno opremljene učionice koje kombinuju funkcionalnost i tehničku podršku za savremenu nastavu. Fleksibilan raspored, ergonomski nameštaj i digitalni alati omogućavaju nastavnicima i učenicima dinamičan rad i lakše prilagođavanje različitim stilovima učenja.<br/><br/> Ovakvo okruženje podstiče aktivno učešće, bolju koncentraciju i efikasnije usvajanje znanja – u skladu sa zahtevima savremenog obrazovanja. </>,
           list: ["126 m²", "aktivna zona", <>
             individualno / <br />u malim grupama
           </>]
