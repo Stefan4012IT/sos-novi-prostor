@@ -88,6 +88,11 @@
             height: 800px;
         }
 
+        @media screen and (max-width: 1440px) {
+            height: 400px;
+        }
+        
+
         @media screen and (max-width: 992px) {
             position: relative;
             width: 100%;

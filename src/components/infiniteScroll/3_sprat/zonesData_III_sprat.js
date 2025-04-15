@@ -34,7 +34,7 @@ export const zones = [
       bgColor: "#2b446b",
       text: [
         {
-          title: "Innovation zone",
+          title: "Learning zone",
           subtitle: "Ovo nije",
           text: "Ovo je mesto gde je neko samo uz jedno „zašto“ pokrenuo debatu koja je nekome promenila zivot.",
         },
