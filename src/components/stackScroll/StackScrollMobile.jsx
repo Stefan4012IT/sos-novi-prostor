@@ -9,6 +9,20 @@ function StackScrollMobile({ children }) {
   const panelsRef = useRef([]);
 
   useEffect(() => {
+    const setViewportHeight = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+  
+    setViewportHeight();
+    window.addEventListener('resize', setViewportHeight);
+  
+    return () => {
+      window.removeEventListener('resize', setViewportHeight);
+    };
+  }, []);
+
+  useEffect(() => {
     const ctx = gsap.context(() => {
       const panels = panelsRef.current;
       const count = panels.length;
