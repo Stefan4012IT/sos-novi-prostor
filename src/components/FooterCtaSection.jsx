@@ -34,7 +34,7 @@ const FooterCtaSection = () => {
     <section className="footer-cta-section" ref={sectionRef}>
       <div className="footer-cta-inner">
         <h4 ref={textRef}>
-          Stvarno drugačije obrazovanje za generacijekoje menjaju svet! <a href="">Prijavite se →</a>
+          Stvarno drugačije obrazovanje za generacije koje menjaju svet! <a href="https://www.savremena-gimnazija.edu.rs/prijava/">Prijavite se →</a>
         </h4>
       </div>
     </section>
