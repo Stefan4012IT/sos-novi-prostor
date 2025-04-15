@@ -24,7 +24,7 @@ export const zones = [
         },
         {
           title: "Miran prostor fokusiran na rad, čitanje i istraživanje",
-          text: <>Jasno definisana zona koji podstičeistraživanje, koncentraciju i individualni razvoj, a direktno je povezana sa muzičkom zonom i zonom sedenja, čime se omogućava prirodan prelaz između različitih vrsta aktivnosti – od tihog rada do otvorene razmene ideja.<br/><br/>Prostor je opremljen udobnim elementima za sedenje, što doprinosi fleksibilnosti u učenju i radu na projektima.</>,
+          text: <>Jasno definisana zona koja podstiče istraživanje, koncentraciju i individualni razvoj, a direktno je povezana sa muzičkom zonom i zonom sedenja, čime se omogućava prirodan prelaz između različitih vrsta aktivnosti – od tihog rada do otvorene razmene ideja.<br/><br/>Prostor je opremljen udobnim elementima za sedenje, što doprinosi fleksibilnosti u učenju i radu na projektima.</>,
           list: ["36 m²", "tiha zona", <>individualno / <br />u malim grupama</>]
         },
       ],

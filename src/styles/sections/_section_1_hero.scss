@@ -46,7 +46,7 @@
             background-color: #000;
 
             @media only screen and (max-width: 992px) {
-                height: calc(4vh + 5px);
+                height: calc(4vh + 8px);
             }
         }
 
@@ -57,13 +57,19 @@
             top: calc(6vh + 2px);
 
             @media only screen and (max-width: 992px) {
-                top: calc(4vh + 4px);
+                top: calc(4vh + 6px);
             }
             .square {
                 width: 20px;
                 height: 20px;
                 background-color: #000;
                 margin-top: 1px;
+
+                @media only screen and (max-width: 992px) {
+                    width: 18px;
+                    height: 18px;
+                    margin-top: 2px;
+                }
             }
 
             .name {
@@ -72,10 +78,17 @@
                 .big {
                     text-transform: uppercase;
                     transform: translateY(-2PX);
+
+                    @media only screen and (max-width: 992px) {
+                        transform: translateY(0PX);
+                    }
                 }
 
                 .small {
                     transform: translateY(-8PX);
+                    @media only screen and (max-width: 992px) {
+                        transform: translateY(-6PX);
+                    }
                 }
 
                 h6 {
