@@ -150,6 +150,10 @@
             justify-content: center;
             align-self: center;
 
+            @media screen and (max-width: 1280px) { 
+                bottom: 40px;
+            }
+
             @media screen and (max-width: 992px) {
                 position: absolute;
                 width: 100%;
@@ -179,6 +183,10 @@
                     font-size: 2.6em;
                 }
 
+                @media screen and (max-width: 1280px) { 
+                    font-size: 2.4em;
+                }
+
                 @media screen and (max-width: 992px) {
                     font-size: 3em;
                 }
@@ -202,6 +210,10 @@
 
                 @media only screen and (max-width: 1440px) {
                     font-size: 2.2em;
+                }
+
+                @media screen and (max-width: 1280px) { 
+                    font-size: 2em;
                 }
 
                 @media screen and (max-width: 992px) {

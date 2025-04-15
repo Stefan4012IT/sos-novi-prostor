@@ -221,6 +221,14 @@
         margin-left: auto;
         margin: 5vh 0 5vh auto;
 
+        @media only screen and (max-width: 1280px) {
+            width: 50%;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            width: 55%;
+        }
+
         @media only screen and (max-width: 992px) {
             margin: 5vh 0;
             width: 60%;

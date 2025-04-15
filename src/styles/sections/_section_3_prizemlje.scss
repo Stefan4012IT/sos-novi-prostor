@@ -76,6 +76,11 @@
           width: 600px;
         }
 
+        @media screen and (max-width: 1024px) {
+          width: 350px;
+          float: right;
+        }
+
         @media screen and (max-width: 992px) {
           width: 50%;
           float: right;
@@ -142,6 +147,9 @@
       gap: 250px;
     }
 
+    @media screen and (max-width: 992px) {
+      gap: 30px;
+    }
     
   }
 
@@ -205,6 +213,7 @@
               flex-direction: row;
               justify-content: space-between;
               padding-top: 60px;
+
         
               &>div {
                 display: flex;

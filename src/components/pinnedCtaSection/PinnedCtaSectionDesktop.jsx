@@ -112,7 +112,7 @@ function PinnedCtaSection() {
         <div className="floated-box" ref={boxRef}></div>
         <div className="cta-text">
           <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste </h4>
-          <a href="https://www.savremena-gimnazija.edu.rs/prijava/">{`Upis za generaciju ${dynamicYears} je toku!`}</a>
+          <a href="https://www.savremena-gimnazija.edu.rs/prijava/">{`Upis za generaciju ${dynamicYears} je toku →`}</a>
         </div>
       </div>
     </section>

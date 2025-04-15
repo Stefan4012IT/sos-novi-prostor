@@ -122,6 +122,10 @@
       @media screen and (max-width: 1366px) {
         gap: 250px;
       }
+
+      @media screen and (max-width: 992px) {
+        gap: 30px;
+      }
     }
   
     .zone-text-IV-sprat {
@@ -184,6 +188,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 padding-top: 60px;
+
           
                 &>div {
                   display: flex;
@@ -227,6 +232,7 @@
       @media screen and (min-width: 2560px) {
         width: fit-content;
       }
+      
 
       img {
         width: 100%;
