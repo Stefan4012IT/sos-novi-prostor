@@ -11,7 +11,7 @@ const Preloader = () => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
       document.body.style.overflowY = "scroll";
-    }, 2200); // 2 sekunde
+    }, 2200); // 2.2 sekunde
 
     const handleLoad = () => {
       setIsLoaded(true);

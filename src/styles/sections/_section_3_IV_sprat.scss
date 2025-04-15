@@ -114,6 +114,10 @@
       @media screen and (min-width: 2560px) {
         gap: 621px;
       }
+
+      @media screen and (max-width: 1440px) {
+        gap: 400px;
+      }
     }
   
     .zone-text-IV-sprat {
@@ -134,6 +138,10 @@
               height: 621px;
             }
 
+            @media screen and (max-width: 1440px) {
+              height: 400px;
+            }
+
             h2 {
               padding-top: 5px;
               width: 50%;
@@ -150,6 +158,11 @@
 
         &.zone-text-secondary {
           width: 80%;
+
+          @media screen and (max-width: 1440px) {
+            width: 100%;
+          }
+
             h2 {
                 padding-bottom: 15px;
 
@@ -218,6 +231,10 @@
         @media screen and (min-width: 2560px) {
           height: 100%;
           width: fit-content;
+        }
+
+        @media screen and (max-width: 1440px) {
+          height: 400px;
         }
       }
 

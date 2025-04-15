@@ -57,6 +57,10 @@
             background-size: cover;
         }
 
+        @media only screen and (max-width: 1440px) {
+            height: 400px;
+          }
+
         @media screen and (max-width: 992px) {
             position: relative;
             width: 70%;
@@ -160,6 +164,14 @@
                     font-size: 2em;
                     padding: 0 20px;
                 }
+
+                @media only screen and (max-width: 1440px) {
+                    font-size: 2.6em;
+                }
+
+                @media screen and (max-width: 992px) {
+                    font-size: 3em;
+                }
             }
 
             a {
@@ -172,6 +184,14 @@
                     font-size: 2em;
                     padding: 0 20px;
                     height: auto;
+                }
+
+                @media only screen and (max-width: 1440px) {
+                    font-size: 2.2em;
+                }
+
+                @media screen and (max-width: 992px) {
+                    font-size: 2em;
                 }
             }
             
