@@ -69,7 +69,7 @@ function PinnedCtaSectionMobile() {
 
       <div className="btn-box" ref={txtBoxRef}>
         <div className="cta-text" ref={textRef}>
-          <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste</h4>
+          <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste.</h4>
           <a href="https://www.savremena-gimnazija.edu.rs/prijava/">{`Upis za generaciju ${dynamicYears} je toku →`}</a>
         </div>
         <div className="floated-box" ></div>
