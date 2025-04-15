@@ -18,7 +18,7 @@ const TitleRevealHome = () => {
         ease: "power2.out",
         scrollTrigger: {
           trigger: titleRef.current,
-          start: "top 100%",
+          start: "top 60%",
           toggleActions: "play none none reverse",
         },
       }

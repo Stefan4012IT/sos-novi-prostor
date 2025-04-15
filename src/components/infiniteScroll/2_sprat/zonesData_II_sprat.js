@@ -5,7 +5,7 @@ export const zones = [
       {
         title: "Future zone",
         subtitle: "Ovo nije",
-        text: "Ovo je mesto gde je neko prvi put izgovorio ono što će jednog dana postati uvod u njegov TED Talk",
+        text: "Ovo je mesto gde je neko prvi put izgovorio ono što će jednog dana postati uvod u njegov TED Talk.",
       },
       {
         title: "Multidisciplinarni prostor za kreativna i tehnološka rešenja",

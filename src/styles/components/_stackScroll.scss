@@ -7,7 +7,8 @@
 
   @media only screen and (max-width: 992px) {
     min-height: 100lvh; 
-    // overflow: hidden;
+    min-height: 100svh; // ako podržano
+    min-height: calc(var(--vh, 1vh) * 100); // fallback za Safari
     transform: translateZ(0); 
     overflow: visible;
     padding: 0 !important;

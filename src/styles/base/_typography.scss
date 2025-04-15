@@ -41,6 +41,14 @@ h1 {
       font-size: 20em;
     }
 
+    @media only screen and (max-width: 1680px) {
+      font-size: 15em;
+    }
+
+    @media only screen and (max-width: 1440px) {
+      font-size: 14em;
+    }
+
     @media only screen and (max-width: 992px) {
       font-size: 5em;
     }
@@ -55,6 +63,14 @@ h2 {
 
     @media screen and (min-width: 2560px) {
       font-size: 15em;
+    }
+
+    @media only screen and (max-width: 1680px) {
+      font-size: 11em;
+    }
+
+    @media only screen and (max-width: 1680px) {
+      font-size: 10em;
     }
 
     @media only screen and (max-width: 992px) {
