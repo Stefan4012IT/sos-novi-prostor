@@ -29,10 +29,10 @@ function StackScrollMobile({ children }) {
       // const scrollLength = window.innerHeight * count;
       const viewportHeight = window.visualViewport?.height || window.innerHeight;
       const scrollLength = viewportHeight * count;
-      
+
       panels.forEach((panel, i) => {
         gsap.set(panel, {
-          y: i === 0 ? 0 : "100vh",
+          y: i === 0 ? 0 : viewportHeight,
           x: 0,
         });
       });
