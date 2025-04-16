@@ -1,10 +1,10 @@
 import React from "react";
 import SG_logo from "../assets/SG_logo.svg"; // prilagodi putanju
-import intro_img_1 from '../assets/hero/intro_1.jpg'
+import intro_img_1 from '../assets/hero/intro_img_01.jpg'
 import intro_img_2 from '../assets/hero/intro_2.jpg'
 import intro_img_3 from '../assets/hero/intro_3.jpg'
 import intro_img_4 from '../assets/hero/intro_4.jpg'
-import intro_img_5 from '../assets/hero/intro_5.jpg'
+import intro_img_5 from '../assets/hero/intro_1.jpg'
 import intro_img_6 from '../assets/hero/intro_6.jpg'
 
 import RotatingWords from "./RotatingWords";
