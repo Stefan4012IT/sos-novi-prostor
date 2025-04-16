@@ -1,9 +1,11 @@
 import React from "react";
 import SG_logo from "../assets/SG_logo.svg"; // prilagodi putanju
-import intro_img_1 from '../assets/intro_img_01.jpg'
-import intro_img_2 from '../assets/intro_2.jpg'
-import intro_img_3 from '../assets/intro_3.jpg'
-import intro_img_4 from '../assets/intro_4.jpg'
+import intro_img_1 from '../assets/hero/intro_1.jpg'
+import intro_img_2 from '../assets/hero/intro_2.jpg'
+import intro_img_3 from '../assets/hero/intro_3.jpg'
+import intro_img_4 from '../assets/hero/intro_4.jpg'
+import intro_img_5 from '../assets/hero/intro_5.jpg'
+import intro_img_6 from '../assets/hero/intro_6.jpg'
 
 import RotatingWords from "./RotatingWords";
 import TitleRevealHome from "./TitleRevealHome";
@@ -57,6 +59,8 @@ const SectionHero = () => {
         <img src={intro_img_2} alt="" className="img-2" />
         <img src={intro_img_3} alt="" className="img-3" />
         <img src={intro_img_4} alt="" className="img-4" />
+        <img src={intro_img_5} alt="" className="img-5" />
+        <img src={intro_img_6} alt="" className="img-6" />
       </div>
 
       <div className="title">
