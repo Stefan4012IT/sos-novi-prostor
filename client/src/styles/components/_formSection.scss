@@ -1,0 +1,77 @@
+.form-section {
+  padding: 120px 24px;
+  position: relative;
+  z-index: 2;
+
+  &__inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  &__intro {
+    margin-bottom: 32px;
+  }
+
+  &__eyebrow {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    max-width: 640px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    input {
+      width: 100%;
+      min-height: 52px;
+      padding: 0 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: transparent;
+      color: inherit;
+      outline: none;
+    }
+  }
+
+  &__phone-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 16px;
+  }
+
+  &__submit {
+    min-height: 54px;
+    padding: 0 24px;
+    cursor: pointer;
+  }
+
+  &__error {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  &__message {
+    margin-top: 8px;
+  }
+
+  @media (max-width: 767px) {
+    &__phone-row {
+      grid-template-columns: 1fr;
+    }
+  }
+}

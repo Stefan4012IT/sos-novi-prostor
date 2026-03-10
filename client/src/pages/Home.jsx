@@ -35,12 +35,12 @@ function Home() {
       <main className="home">
         <Preloader />
         <SectionHero />
-
+        <FormSection />
         <StackScrollWrapper />
 
         {/* <SectionPrizemlje />
         <InfiniteZoneScrollWrapperPrizemlje /> */}
-        <FooterCtaSection />
+        
 
         <Section_II_sprat />
         <InfiniteZoneScrollWrapper_II_sprat />

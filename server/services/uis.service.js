@@ -2,28 +2,37 @@ const axios = require("axios");
 
 const sendToUIS = async (formData) => {
   const webhookUrl = process.env.UIS_WEBHOOK_URL;
+  const accessKey = process.env.UIS_WEBHOOK_TOKEN;
 
   if (!webhookUrl) {
-    console.log("UIS_WEBHOOK_URL nije postavljen. Vraćam mock response.");
-    console.log("Primljeni podaci:", formData);
-
-    return {
-      mocked: true,
-      received: formData
-    };
+    throw new Error("UIS_WEBHOOK_URL nije postavljen.");
   }
 
-  const response = await axios.post(webhookUrl, formData, {
+  if (!accessKey) {
+    throw new Error("UIS_WEBHOOK_TOKEN nije postavljen.");
+  }
+
+  const payload = {
+    name: formData.name || "",
+    email: formData.email || "",
+    childs_age: formData.childs_age || "",
+    "country-code": formData["country-code"] || "",
+    "area-code": formData["area-code"] || "",
+    "phone-number": formData["phone-number"] || "",
+    institution: "sos"
+  };
+
+  const response = await axios.post(webhookUrl, payload, {
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "AccessKey": accessKey
     },
     timeout: 15000
   });
 
   return {
-    mocked: false,
     status: response.status,
-    response: response.data
+    data: response.data
   };
 };
 

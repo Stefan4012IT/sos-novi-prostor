@@ -4,10 +4,17 @@ const submitForm = async (req, res, next) => {
   try {
     const formData = req.body;
 
-    if (!formData || Object.keys(formData).length === 0) {
+    if (!formData) {
       return res.status(400).json({
         success: false,
         message: "Request body je prazan."
+      });
+    }
+
+    if (!formData.name || !formData.email) {
+      return res.status(400).json({
+        success: false,
+        message: "Polja name i email su obavezna."
       });
     }
 
@@ -15,8 +22,8 @@ const submitForm = async (req, res, next) => {
 
     return res.status(200).json({
       success: true,
-      message: "Forma je primljena.",
-      data: result
+      message: "Podaci su uspješno poslani na UIS webhook.",
+      webhookResponse: result
     });
   } catch (error) {
     next(error);
