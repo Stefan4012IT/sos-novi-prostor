@@ -12,7 +12,7 @@ import InfiniteZoneScrollWrapper_II_sprat from '../components/infiniteScroll/2_s
 import InfiniteZoneScrollWrapperPrizemlje from '../components/infiniteScroll/0_prizemlje/InfiniteZoneScrollWrapperPrizemlje';
 import InfiniteZoneScrollWrapper_III_sprat from '../components/infiniteScroll/3_sprat/InfiniteZoneScrollWrapper_III_sprat';
 import InfiniteZoneScrollWrapper_IV_sprat from '../components/infiniteScroll/4_sprat/InfiniteZoneScrollWrapper_IV_sprat';
-import PinnedCtaSectionWrapper from '../components/pinnedCtaSection/PinnedCtaWrapper';
+import PinnedCtaSectionWrapper from '../components/pinnedCtaSection/pinnedCtaWrapper';
 import ParallaxSection8Wrapper from '../components/parallaxSection-8/ParallaxSection8Wrapper';
 import ParallaxSection9Wrapper from '../components/parallaxSection-9/ParallaxSection9Wrapper';
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -20,6 +20,7 @@ import FloatingWrapper from '../components/floatingImagesSection/FloatingWrapper
 import StackScrollWrapper from '../components/stackScroll/StackScrollWrapper';
 import Preloader from '../components/Preloader';
 import FooterCtaSection from '../components/FooterCtaSection';
+import FormSection from '../components/FormSection';
 
 
 
@@ -37,8 +38,9 @@ function Home() {
 
         <StackScrollWrapper />
 
-        <SectionPrizemlje />
-        <InfiniteZoneScrollWrapperPrizemlje />
+        {/* <SectionPrizemlje />
+        <InfiniteZoneScrollWrapperPrizemlje /> */}
+        <FooterCtaSection />
 
         <Section_II_sprat />
         <InfiniteZoneScrollWrapper_II_sprat />
