@@ -22,6 +22,7 @@ import Preloader from '../components/Preloader';
 import FooterCtaSection from '../components/FooterCtaSection';
 import FormSection from '../components/FormSection';
 import TitleRevealHomeHolder from '../components/TitleRevealHomeHolder';
+import InfiniteSOSScroll from '../components/InfiniteSOSScroll';
 
 
 
@@ -43,7 +44,7 @@ function Home() {
         {/* <SectionPrizemlje />
         <InfiniteZoneScrollWrapperPrizemlje /> */}
         
-        
+        <InfiniteSOSScroll />
         <Section_II_sprat />
         <InfiniteZoneScrollWrapper_II_sprat />
 

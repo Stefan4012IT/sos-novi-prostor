@@ -30,12 +30,15 @@
     font-display: swap;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
 h1 {
-    font-family: 'KHTeka', sans-serif;
-    font-weight: 300;
+    // font-family: 'KHTeka', sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 500;
     font-size: 17.5em;
     line-height: 0.9em;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.02em;
 
     @media screen and (min-width: 2560px) {
       font-size: 20em;
@@ -63,11 +66,12 @@ h1 {
 }
 
 h2 {
-    font-family: 'KHTeka', sans-serif;
-    font-weight: 300;
+    // font-family: 'KHTeka', sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 400;
     font-size: 13em;
     line-height: 0.9em;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.0em;
 
     @media screen and (min-width: 2560px) {
       font-size: 15em;
@@ -91,11 +95,12 @@ h2 {
 }
 
 h3 {
-  font-family: 'KHTeka', sans-serif;
+  // font-family: 'KHTeka', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 7.5em; //bilo 4.4em
-  font-weight: 300;
+  font-weight: 400;
   line-height: .9em;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.02em;
 
   @media screen and (min-width: 2560px) {
     font-size: 10em;
@@ -107,12 +112,13 @@ h3 {
 }
 
 h4 {
-    font-family: 'KHTeka', sans-serif;
+    // font-family: 'KHTeka', sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-weight: 200;
     font-size: 3.2em;
     line-height: 0.8em;
     line-height: 1.1;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.02em;
 
     @media screen and (min-width: 2560px) {
       font-size: 5em;
@@ -120,12 +126,13 @@ h4 {
 }
 
 h6 {
-    font-family: 'KHTeka', sans-serif;
+    // font-family: 'KHTeka', sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-weight: 500;
     font-size: 2.6em;
     line-height: 0.8em;
     line-height: 1.1;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.02em;
 
     @media screen and (min-width: 2560px) {
       font-size: 3.4em;
@@ -140,7 +147,7 @@ p {
   font-size: 2.6em;
   font-weight: 200;
   line-height: 1.1;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
 
   @media screen and (min-width: 2560px) {
     font-size: 3.2em;

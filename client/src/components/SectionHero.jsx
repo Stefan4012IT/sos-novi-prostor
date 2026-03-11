@@ -35,26 +35,33 @@ const SectionHero = () => {
         <h1>NEW Savremeni prostor za više:</h1>
       </div>
 
-      <div className="hero--title-left">
-        <RotatingWords
-          words={[
-            "uspeha",
-            "ideja",
-            "uspomena",
-            "pitanja",
-            "projekata",
-            "osmeha",
-            "pobeda",
-            "inovacija",
-          ]}
-        />
+      <div className="hero--second-title-line">
+        <div className="hero--title-left">
+          <RotatingWords
+            words={[
+              "uspeha",
+              "ideja",
+              "uspomena",
+              "pitanja",
+              "projekata",
+              "osmeha",
+              "pobeda",
+              "inovacija",
+            ]}
+          />
+          <img src="https://placehold.co/900x300" alt="" />
+        </div>
+        <div className="hero--paragraph-text">
+          <h3>Novo odeljenje</h3>
+          <p>
+          Od septembra 2025. učenici Savremene gimnazije dobijaju i II sprat u okviru modernog prostora Beograđanke. Nastava će se odvijati na 1.557 kvadrata raspoređenih na prizemlje, II, III i IV sprat, sa sedam novih obrazovnih zona potpuno renoviranih i opremljenih po najvišim svetskim standardima.
+          </p>
+        </div>
       </div>
 
-      <div className="hero--paragraph-text">
-        <p>
-        Od septembra 2025. učenici Savremene gimnazije dobijaju i II sprat u okviru modernog prostora Beograđanke. Nastava će se odvijati na 1.557 kvadrata raspoređenih na prizemlje, II, III i IV sprat, sa sedam novih obrazovnih zona potpuno renoviranih i opremljenih po najvišim svetskim standardima.
-        </p>
-      </div>
+      
+
+      
 
       <div className="hero-img">
         <img src={intro_img_1} alt="" className="img-1" />
