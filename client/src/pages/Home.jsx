@@ -44,8 +44,8 @@ function Home() {
         {/* <SectionPrizemlje />
         <InfiniteZoneScrollWrapperPrizemlje /> */}
         
-        <InfiniteSOSScroll />
         <Section_II_sprat />
+        <InfiniteSOSScroll />
         <InfiniteZoneScrollWrapper_II_sprat />
 
         <Section_III_sprat /> 
