@@ -21,6 +21,7 @@ import StackScrollWrapper from '../components/stackScroll/StackScrollWrapper';
 import Preloader from '../components/Preloader';
 import FooterCtaSection from '../components/FooterCtaSection';
 import FormSection from '../components/FormSection';
+import TitleRevealHomeHolder from '../components/TitleRevealHomeHolder';
 
 
 
@@ -33,15 +34,16 @@ function Home() {
   }, []);
     return (
       <main className="home">
-        <Preloader />
+        {/* <Preloader /> */}
         <SectionHero />
         <FormSection />
+        <TitleRevealHomeHolder />
         <StackScrollWrapper />
 
         {/* <SectionPrizemlje />
         <InfiniteZoneScrollWrapperPrizemlje /> */}
         
-
+        
         <Section_II_sprat />
         <InfiniteZoneScrollWrapper_II_sprat />
 

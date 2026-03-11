@@ -1,0 +1,35 @@
+
+.title-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0vh 3vw;
+    padding-top: 5vh;
+
+    .title {
+        width: 70%;
+        text-align: right;
+        align-self: flex-end;
+        // margin-bottom: 10vh;
+
+        @media only screen and (max-width: 992px) {
+            width: 100%; 
+            margin-bottom: 5vh;
+        }
+
+        h2 {
+            //font-size: inherit;
+            width: 100%;
+        }
+
+        
+    }
+    .text {
+        text-align: right;
+        width: 60%;
+        align-self: flex-end;
+        padding: 20px 0;
+        padding-bottom: 5vh;
+    }
+}
+

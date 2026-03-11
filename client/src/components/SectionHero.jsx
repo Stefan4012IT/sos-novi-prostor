@@ -63,10 +63,6 @@ const SectionHero = () => {
         <img src={intro_img_4} alt="" className="img-4" />
       </div>
 
-      <div className="title">
-        <h2>Novi prostorni koncept,</h2>
-        <TitleRevealHome />
-      </div>
     </section>
   );
 };

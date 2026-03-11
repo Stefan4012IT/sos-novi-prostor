@@ -15,6 +15,7 @@ function FormSection() {
   const [errors, setErrors] = useState({});
   const [submitMessage, setSubmitMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
 
   const openedAt = useMemo(() => Date.now(), []);
 
@@ -45,48 +46,51 @@ function FormSection() {
     return cleaned.slice(0, 5);
   };
 
-  const validate = () => {
+  
+  
+
+    const validate = (data = formData) => {
     const newErrors = {};
 
-    const name = formData.name.trim();
-    const email = formData.email.trim();
-    const childsAge = String(formData.childs_age).trim();
-    const countryCode = String(formData["country-code"]).trim();
-    const areaCode = String(formData["area-code"]).trim();
-    const phoneNumber = String(formData["phone-number"]).trim();
-    const website = String(formData.website).trim();
+    const name = data.name.trim();
+    const email = data.email.trim();
+    const childsAge = String(data.childs_age).trim();
+    const countryCode = String(data["country-code"]).trim();
+    const areaCode = String(data["area-code"]).trim();
+    const phoneNumber = String(data["phone-number"]).trim();
+    const website = String(data.website).trim();
 
     if (website) {
-      newErrors.website = "Spam detected.";
+        newErrors.website = "Spam detected.";
     }
 
     if (!/^[A-Za-zÀ-žĆČŠĐŽćčšđž\s'-]{2,60}$/.test(name)) {
-      newErrors.name = "Unesite ispravno ime i prezime.";
+        newErrors.name = "Unesite ispravno ime i prezime.";
     }
 
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      newErrors.email = "Unesite ispravnu email adresu.";
+        newErrors.email = "Unesite ispravnu email adresu.";
     }
 
     const ageNum = Number(childsAge);
     if (!Number.isInteger(ageNum) || ageNum < 3 || ageNum > 19) {
-      newErrors.childs_age = "Unesite uzrast djeteta između 3 i 19.";
+        newErrors.childs_age = "Unesite uzrast djeteta između 3 i 19.";
     }
 
     if (!/^\+\d{1,4}$/.test(countryCode)) {
-      newErrors["country-code"] = "Unesite ispravan pozivni broj države.";
+        newErrors["country-code"] = "Unesite ispravan pozivni broj države.";
     }
 
     if (!/^\d{1,4}$/.test(areaCode)) {
-      newErrors["area-code"] = "Unesite ispravan pozivni broj mreže.";
+        newErrors["area-code"] = "Unesite ispravan pozivni broj mreže.";
     }
 
     if (!/^\d{5,12}$/.test(phoneNumber)) {
-      newErrors["phone-number"] = "Unesite ispravan broj telefona.";
+        newErrors["phone-number"] = "Unesite ispravan broj telefona.";
     }
 
     return newErrors;
-  };
+    };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -101,28 +105,28 @@ function FormSection() {
     if (name === "phone-number") nextValue = sanitizeDigits(value, 12);
     if (name === "website") nextValue = value;
 
-    setFormData((prev) => ({
-      ...prev,
-      [name]: nextValue,
-    }));
+    const updatedFormData = {
+        ...formData,
+        [name]: nextValue,
+    };
 
-    if (errors[name]) {
-      setErrors((prev) => ({
-        ...prev,
-        [name]: "",
-      }));
+    setFormData(updatedFormData);
+
+    if (hasSubmitted) {
+        setErrors(validate(updatedFormData));
     }
   };
 
-  const handleBlur = () => {
-    setErrors(validate());
-  };
+//   const handleBlur = () => {
+//     setErrors(validate());
+//   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSubmitMessage("");
+    setHasSubmitted(true);
 
-    const validationErrors = validate();
+    const validationErrors = validate(formData);
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length > 0) {
@@ -152,6 +156,7 @@ function FormSection() {
       setSubmitMessage("Forma je validna i spremna za slanje.");
       setFormData(initialFormData);
       setErrors({});
+      setHasSubmitted(false);
     } catch (error) {
       setSubmitMessage("Došlo je do greške. Pokušajte ponovo.");
     } finally {
@@ -188,61 +193,52 @@ function FormSection() {
             />
           </div>
 
-          <div className="form-section__field">
-            <label htmlFor="name">Ime i prezime</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              onBlur={handleBlur}
-              placeholder="Unesite ime i prezime"
-            />
-            {errors.name && <p className="form-section__error">{errors.name}</p>}
+          <div className="form-section__name-row">
+            <div className="form-section__field">
+                <input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="Ime i prezime"
+                />
+                {errors.name && <p className="form-section__error">{errors.name}</p>}
+            </div>
+            <div className="form-section__field">
+                <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="E-mail"
+                />
+                {errors.email && <p className="form-section__error">{errors.email}</p>}
+            </div>
+            <div className="form-section__field">
+                <input
+                type="text"
+                inputMode="numeric"
+                id="childs_age"
+                name="childs_age"
+                value={formData.childs_age}
+                onChange={handleChange}
+                placeholder="Godine deteta"
+                />
+                {errors.childs_age && (
+                <p className="form-section__error">{errors.childs_age}</p>
+                )}
+            </div>
           </div>
-
-          <div className="form-section__field">
-            <label htmlFor="email">Email adresa</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              onBlur={handleBlur}
-              placeholder="Unesite email adresu"
-            />
-            {errors.email && <p className="form-section__error">{errors.email}</p>}
-          </div>
-
-          <div className="form-section__field">
-            <label htmlFor="childs_age">Uzrast djeteta</label>
-            <input
-              type="text"
-              inputMode="numeric"
-              id="childs_age"
-              name="childs_age"
-              value={formData.childs_age}
-              onChange={handleChange}
-              onBlur={handleBlur}
-              placeholder="npr. 12"
-            />
-            {errors.childs_age && (
-              <p className="form-section__error">{errors.childs_age}</p>
-            )}
-          </div>
-
           <div className="form-section__phone-row">
             <div className="form-section__field">
-              <label htmlFor="country-code">Državni kod</label>
               <input
                 type="text"
                 id="country-code"
                 name="country-code"
                 value={formData["country-code"]}
                 onChange={handleChange}
-                onBlur={handleBlur}
                 placeholder="+381"
               />
               {errors["country-code"] && (
@@ -251,7 +247,6 @@ function FormSection() {
             </div>
 
             <div className="form-section__field">
-              <label htmlFor="area-code">Mrežni kod</label>
               <input
                 type="text"
                 inputMode="numeric"
@@ -259,7 +254,6 @@ function FormSection() {
                 name="area-code"
                 value={formData["area-code"]}
                 onChange={handleChange}
-                onBlur={handleBlur}
                 placeholder="64"
               />
               {errors["area-code"] && (
@@ -268,7 +262,6 @@ function FormSection() {
             </div>
 
             <div className="form-section__field">
-              <label htmlFor="phone-number">Broj telefona</label>
               <input
                 type="text"
                 inputMode="numeric"
@@ -276,7 +269,6 @@ function FormSection() {
                 name="phone-number"
                 value={formData["phone-number"]}
                 onChange={handleChange}
-                onBlur={handleBlur}
                 placeholder="1234567"
               />
               {errors["phone-number"] && (

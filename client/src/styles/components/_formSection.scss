@@ -1,15 +1,19 @@
 .form-section {
-  padding: 120px 24px;
+  padding: 5vh 3vw;
   position: relative;
   z-index: 2;
+  background: #f7b815;
 
   &__inner {
-    max-width: 900px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    align-items: center;
   }
 
   &__intro {
     margin-bottom: 32px;
+    width: 60%;
   }
 
   &__eyebrow {
@@ -30,6 +34,13 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: fit-content;
+  }
+
+  &__name-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr .75fr;
+    gap: 16px;
   }
 
   &__field {
@@ -41,28 +52,51 @@
       width: 100%;
       min-height: 52px;
       padding: 0 16px;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      background: transparent;
+      border: none;
+    //   border: 1px solid #000;
+      background: rgb(277 209 23 / 50%);
+      border-radius: 50px;
       color: inherit;
       outline: none;
+
+      &::placeholder {
+        color: #555;
+        font-family: 'KHTeka', sans-serif;
+        font-weight: 300;
+      }
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+    -webkit-text-fill-color: #000; // boja teksta
+    transition: background-color 9999s ease-in-out 0s;
+    box-shadow: 0 0 0px 1000px #ffd11780 inset; // tvoja pozadina
     }
   }
 
   &__phone-row {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: .5fr .5fr 2fr;
     gap: 16px;
   }
 
   &__submit {
-    min-height: 54px;
-    padding: 0 24px;
+    padding: 15px 25px;
     cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
   }
 
   &__error {
     font-size: 14px;
     line-height: 1.4;
+    min-height: 60px;
   }
 
   &__message {

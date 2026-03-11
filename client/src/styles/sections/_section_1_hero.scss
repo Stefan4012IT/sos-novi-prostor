@@ -248,22 +248,7 @@
 
     }
 
-    .title {
-        width: 70%;
-        text-align: right;
-        align-self: flex-end;
-        margin-bottom: 10vh;
 
-        @media only screen and (max-width: 992px) {
-            width: 100%; 
-            margin-bottom: 5vh;
-        }
-
-        h2 {
-            //font-size: inherit;
-            width: 100%;
-        }
-    }
 
     .hero-img {
         position: relative;
