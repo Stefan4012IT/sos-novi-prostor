@@ -16,7 +16,7 @@ function InfiniteSOSScroll() {
 
   const zones = [
     {
-      bgColor: "#2b446b",
+      bgColor: "#f7b815",
       image: sprat_II_1,
       subtitle: "Ovo nije",
       title: "Future zone",
@@ -33,7 +33,7 @@ function InfiniteSOSScroll() {
       list: ["76m2", "aktivna zona", "kolektivno"],
     },
     {
-      bgColor: "#f7b815",
+      bgColor: "#9d1516",
       image: sprat_II_3,
       subtitle: "Ovo nije",
       title: "Classroom zone",
@@ -51,7 +51,7 @@ function InfiniteSOSScroll() {
       list: ["247m2", "interaktivna zona", "u grupama"],
     },
     {
-      bgColor: "#427042",
+      bgColor: "#2b446b",
       image: sprat_II_5,
       subtitle: "Ovo nije",
       title: "Innovation zone",
@@ -66,6 +66,38 @@ function InfiniteSOSScroll() {
         </>
       ),
       list: ["126m2", "aktivna zona", "individualno / u malim grupama"],
+    },
+    {
+      bgColor: "#427042",
+      image: sprat_II_7,
+      subtitle: "Ovo nije",
+      title: "Reading zone",
+      text: (
+        <>
+          Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen
+          tišini, samostalnom radu i čitanju.
+          <br />
+          <br />
+          Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog.
+        </>
+      ),
+      list: ["33m2", "tiha zona", "individualno / u malim grupama"],
+    },
+    {
+      bgColor: "#f7b815",
+      image: sprat_II_7,
+      subtitle: "Ovo nije",
+      title: "Reading zone",
+      text: (
+        <>
+          Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen
+          tišini, samostalnom radu i čitanju.
+          <br />
+          <br />
+          Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog.
+        </>
+      ),
+      list: ["33m2", "tiha zona", "individualno / u malim grupama"],
     },
     {
       bgColor: "#9d1516",

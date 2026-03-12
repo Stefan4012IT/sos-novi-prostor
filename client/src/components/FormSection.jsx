@@ -10,7 +10,7 @@ const initialFormData = {
   website: "", // honeypot
 };
 
-function FormSection() {
+function FormSection({ className = "" }) {
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState({});
   const [submitMessage, setSubmitMessage] = useState("");
@@ -165,7 +165,7 @@ function FormSection() {
   };
 
   return (
-    <section className="form-section" id="prijava-forma">
+    <section className={`form-section ${className}`} id="prijava-forma">
       <div className="form-section__inner">
         <div className="form-section__intro">
           <p className="form-section__eyebrow">Prijava</p>

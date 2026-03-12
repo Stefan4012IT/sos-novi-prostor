@@ -46,14 +46,15 @@ function Home() {
         
         <Section_II_sprat />
         <InfiniteSOSScroll />
-        <InfiniteZoneScrollWrapper_II_sprat />
+        <FormSection className="form-section-2"/>
+        {/* <InfiniteZoneScrollWrapper_II_sprat />
 
         <Section_III_sprat /> 
         <InfiniteZoneScrollWrapper_III_sprat />
 
         <Section_IV_sprat />
         <InfiniteZoneScrollWrapper_IV_sprat />
-        
+         */}
         <PinnedCtaSectionWrapper />
         <ParallaxSection8Wrapper />
         <ParallaxSection9Wrapper />

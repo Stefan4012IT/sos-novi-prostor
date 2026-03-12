@@ -20,14 +20,17 @@
     margin-bottom: 12px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
+    color: #FFF;
   }
 
   &__title {
     margin-bottom: 12px;
+    color: #FFF;
   }
 
   &__text {
     max-width: 640px;
+    color: #FFF;
   }
 
   &__form {
@@ -88,8 +91,8 @@
     margin: 0 auto;
     border: none;
     border-radius: 50px;
-    background-color: #000;
-    color: #fff;
+    background-color: #FFF;
+    color: #000;
     text-transform: uppercase;
   }
 
@@ -108,4 +111,34 @@
       grid-template-columns: 1fr;
     }
   }
+}
+
+.form-section-2 {
+    background: #9d1516;
+
+    input {
+      width: 100%;
+      min-height: 52px;
+      padding: 0 16px;
+      border: none;
+      background: #7a1016;
+      border-radius: 50px;
+      color: #FFF;
+      outline: none;
+
+      &::placeholder {
+        color: #aeaeae;
+        font-family: 'KHTeka', sans-serif;
+        font-weight: 300;
+      }
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+    -webkit-text-fill-color: #000; // boja teksta
+    transition: background-color 9999s ease-in-out 0s;
+    box-shadow: 0 0 0px 1000px #FFF inset; // tvoja pozadina
+    }
+
 }
