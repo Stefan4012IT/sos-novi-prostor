@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9e8a27c4.css",
-    "main.js": "./static/js/main.1d8c0184.js",
+    "main.css": "./static/css/main.8fdd6e05.css",
+    "main.js": "./static/js/main.5a71573f.js",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
     "static/media/beogradjanka.png": "./static/media/beogradjanka.a2c85000022003557963.png",
@@ -65,15 +65,15 @@
     "static/media/preloaderSG_logo.svg": "./static/media/preloaderSG_logo.1ec94bc4835d358a505f2beb606de8fd.svg",
     "static/media/SG_logo.svg": "./static/media/SG_logo.b043558f87a42c45fd1cf6d9392f8500.svg",
     "index.html": "./index.html",
-    "static/media/num_3_black.svg": "./static/media/num_3_black.b690443c617f1258cbe4dae2fce45131.svg",
-    "static/media/num_2_black.svg": "./static/media/num_2_black.c466874cfb518d66c19b436ec7a807d2.svg",
-    "static/media/num_4_black.svg": "./static/media/num_4_black.ef3b22d6c40df7a15ca7115a3e181551.svg",
-    "static/media/num_1_black.svg": "./static/media/num_1_black.601151d7e7d7ee1dd29f4490e4920a5b.svg",
-    "main.9e8a27c4.css.map": "./static/css/main.9e8a27c4.css.map",
-    "main.1d8c0184.js.map": "./static/js/main.1d8c0184.js.map"
+    "static/media/num_2_white.svg": "./static/media/num_2_white.84ccc1b3138efe4c865513af7848b8af.svg",
+    "static/media/num_3_white.svg": "./static/media/num_3_white.2e148b5cd3d1dcbc9820360ea244ee51.svg",
+    "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
+    "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
+    "main.8fdd6e05.css.map": "./static/css/main.8fdd6e05.css.map",
+    "main.5a71573f.js.map": "./static/js/main.5a71573f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8a27c4.css",
-    "static/js/main.1d8c0184.js"
+    "static/css/main.8fdd6e05.css",
+    "static/js/main.5a71573f.js"
   ]
 }
