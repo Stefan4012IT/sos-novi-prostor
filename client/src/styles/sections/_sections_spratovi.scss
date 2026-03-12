@@ -76,6 +76,8 @@
         width: 400px;
         z-index: 2;
         transition: opacity 0.5s ease;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
 
         @media screen and (min-width: 2560px) {
           width: 600px;

@@ -79,19 +79,19 @@ function ParallaxSection_9() {
         
           <div>
             <p>Adresa škole:</p>
-            <span>Masarikova 5 (ulaz iz Kralja Milana)</span>
-            <span>Palata Beograd, Srbija</span>
-            <span>(0)11/40-11-223</span> 
+            <span>Bulevar heroja sa Košara 17,</span>
+            <span>Novi Beograd</span>
+            <span>(0)11/40-11-222</span> 
           </div>
           
           <div>
             <p>Sajt škole:</p>
-            <span><a href="www.savremena-gimnazija.edu.rs">www.savremena-gimnazija.edu.rs</a></span>
+            <span><a href="www.savremena-osnovna.edu.rs">www.savremena-osnovna.edu.rs</a></span>
           </div>
 
           <div>
             <p>Sektor za upis:</p>
-            <span><a href="mailto:upis@savremena-gimnazija.edu.rs">upis@savremena-gimnazija.edu.rs</a></span>
+            <span><a href="mailto:office@savremena-osnovna.edu.rs">office@savremena-osnovna.edu.rs</a></span>
           </div>
         </div>
 
@@ -99,7 +99,7 @@ function ParallaxSection_9() {
       </div>
       <div className="text_2">
         <div className="line" ref={textRef_2}></div>
-        <p ref={textRef_2}>Savremena ne raste slučajno – raste planski, sa ciljem da svakom učeniku pruži prostor u kojem može da uči, razmišlja, pita, stvara: četiri sprata, sedam novih zona i bezbroj novih mogućnosti.</p>
+        <p ref={textRef_2}>Novi prostor nije slučajnost. To je odgovor na poverenje stotina porodica koje su prepoznale da obrazovanje može da bude drugačije. Ako ste razmišljali — ovo je pravi trenutak.</p>
       </div>
       <img src={img_1} alt="Get in touch" className="img_gttouch" ref={imgRef} />
     </section>

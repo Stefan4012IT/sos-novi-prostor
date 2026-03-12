@@ -157,6 +157,10 @@
         text-align: left;
         align-self: flex-start;
 
+        img {
+            border-radius: 50px;
+        }
+
         @media screen and (min-width: 2560px) {
             height: 200px;
         }
@@ -288,6 +292,7 @@
             height: auto;
             width: 22%;
             object-fit: cover;
+            border-radius: 50px;
 
             @media only screen and (max-width: 992px) {
                 width: 45%;

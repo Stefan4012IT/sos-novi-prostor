@@ -19,7 +19,7 @@ const SectionHero = () => {
       <div className="logo-box">
         <img src={SG_logo} alt="SG_logo" />
       </div>
-      <div className="sg_watermark">
+      {/* <div className="sg_watermark">
         <div className="line_1"></div>
         <div className="square-name">
             <div className="square"></div>
@@ -29,32 +29,32 @@ const SectionHero = () => {
             </div>
         </div>
 
-      </div>
+      </div> */}
 
       <div className="hero--title-right">
-        <h1>NEW Savremeni prostor za više:</h1>
+        <h1>Novi prostor. Novo odeljenje.</h1>
       </div>
 
       <div className="hero--second-title-line">
         <div className="hero--title-left">
           <RotatingWords
             words={[
-              "uspeha",
-              "ideja",
-              "uspomena",
+              "uspesi",
+              "ideje",
+              "uspomene",
               "pitanja",
-              "projekata",
-              "osmeha",
-              "pobeda",
-              "inovacija",
+              "projekati",
+              "osmeh",
+              "pobede",
+              "inovacije",
             ]}
           />
-          <img src="https://placehold.co/900x300" alt="" />
+          <img src="https://placehold.co/900x400" alt="" />
         </div>
         <div className="hero--paragraph-text">
-          <h3>Novo odeljenje</h3>
+          <h3>Više mesta, više mogućnosti, više iskustava za svako dete</h3>
           <p>
-          Od septembra 2025. učenici Savremene gimnazije dobijaju i II sprat u okviru modernog prostora Beograđanke. Nastava će se odvijati na 1.557 kvadrata raspoređenih na prizemlje, II, III i IV sprat, sa sedam novih obrazovnih zona potpuno renoviranih i opremljenih po najvišim svetskim standardima.
+          Savremena osnovna škola se širi. U septembru 2026. otvara se novi prostor koji je osmišljen od prve do poslednje prostorije sa jednim ciljem: da deca imaju sve što im treba da se razvijaju, istražuju i rastu. Uz novi prostor, otvara se još jedno odeljenje prvog razreda — jer verujemo da svako dete zaslužuje savremeno obrazovanje. 
           </p>
         </div>
       </div>

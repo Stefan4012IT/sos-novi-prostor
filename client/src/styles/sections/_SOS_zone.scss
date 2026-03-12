@@ -58,6 +58,15 @@
 
         .zone-text-sos {
             color: #FFF;
+
+            .heading-box {
+
+              h2{
+                padding-top: 10px;
+                padding-bottom: 60px;
+              }
+                
+            }
         }
       }
     }
@@ -213,6 +222,7 @@
         border-radius: 0;
         opacity: 1;
         transition: all 0.25s ease-in;
+        border-radius: 50px;
 
         @media screen and (max-width: 500px) {
           height: 100px;
@@ -247,7 +257,7 @@
         height: 100%;
         width: 50%;
         right: 0;
-        background-image: url('../../assets/sprat_II/nacrt_II_sprat_scroll.png');
+        background-image: url('../../assets/sos_zone/ptice.png');
         background-repeat: repeat;
 
         @media screen and (min-width: 2560px) {

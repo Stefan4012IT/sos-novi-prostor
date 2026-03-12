@@ -96,7 +96,7 @@ function PinnedCtaSection() {
     <section className="section-7" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title" ref={titleRef}>
-          Savremen dizajn za<br/>najbolje rezultate u učenju
+          Ovo nije samo prostor.<br/>Ovo je sredina koja formira decu.
         </h2>
       </div>
 
@@ -104,8 +104,8 @@ function PinnedCtaSection() {
       <img src={ctaImg} alt="Kids" className="kids-img" ref={imgRef} />
 
       <div className="text" ref={textRef}>
-        <p>Savremena gimnazija nisu samo aktuelni programi i tehnologije – ona podrazumeva podršku, razumevanje i put ka samostalnosti. Odabir prave škole je osnovni korak za budući uspeh.</p>
-        <p>Kombinacijom Cambridge standarda, savremenih nastavnih programa, inovativnog pristupa i okruženja punog podrške stvara se temelj za uspešnu i sigurnu budućnost svakog učenika.</p>
+        <p>Obrazovanje se ne dešava samo za stolom. Dešava se u laboratoriji, na tepihu art kabineta, u sali gde se rešavaju problemi, za stolom gde se deli obrok. </p>
+        <p>Novi prostor Savremene je osmišljen tako da svaki deo dana deteta ima smisao — i kvalitet.</p>
       </div>
 
       <div className="btn-box">

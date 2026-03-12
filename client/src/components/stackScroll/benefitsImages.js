@@ -1,7 +1,7 @@
-import benefits_1_img from "../../assets/benefits/benefits_1.png";
-import benefits_2_img from "../../assets/benefits/benefits_2.png";
-import benefits_3_img from "../../assets/benefits/benefits_3.png";
-import benefits_4_img from "../../assets/benefits/benefits_4.png";
+import benefits_1_img from "../../assets/benefits/boje/crvena.png";
+import benefits_2_img from "../../assets/benefits/boje/zelena.png";
+import benefits_3_img from "../../assets/benefits/boje/zuta.png";
+import benefits_4_img from "../../assets/benefits/boje/plava.png";
 
 import num_1 from "../../assets/benefits/nums/num_1_white.svg";
 import num_2 from "../../assets/benefits/nums/num_2_white.svg";

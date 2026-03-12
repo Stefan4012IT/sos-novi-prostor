@@ -18,102 +18,86 @@ function InfiniteSOSScroll() {
     {
       bgColor: "#f7b815",
       image: sprat_II_1,
-      subtitle: "Ovo nije",
-      title: "Future zone",
+      subtitle: "Vežbaonice",
+      title: "Učenje kroz prostor",
       text: (
         <>
-          U ovoj zoni učenici razvijaju veštine timskog rada, kreativnog mišljenja
-          i rešavanja problema kroz multidisciplinarne zadatke.
+          Nije svako dete isto — i nije svaki čas isti. Vežbaonice u Savremenoj su prostori osmišljeni za aktivno učenje: za rad u grupama, projekte, praktične zadatke i sve ono što ne staje za školsku klupu. 
           <br />
           <br />
-          Savremeni prostor za prezentacije i projekcije opremljen je modernim
-          gledalištem i projekcionim zidom.
+          Manje zidova, više kretanja kroz znanje. Jer deca ne uče samo sedeći — uče kada su u pokretu, u dijalogu, u akciji.
         </>
-      ),
-      list: ["76m2", "aktivna zona", "kolektivno"],
+      )
     },
     {
       bgColor: "#9d1516",
       image: sprat_II_3,
-      subtitle: "Ovo nije",
-      title: "Classroom zone",
+      subtitle: "Science kabinet",
+      title: "Eksperimenti koji ostaju u sećanju",
       text: (
         <>
-          Učionice su opremljene u skladu sa savremenim standardima, kombinujući
-          prirodno osvetljenje, funkcionalan raspored i tehničku podršku za
-          različite oblike nastave.
+          Zamislite čas hemije gde dete zaista meša, posmatra, zaključuje. Čas biologije gde se ne čita — već istražuje. Savremeni science kabinet je opremljena laboratorija u kojoj teorija dobija miris, boju i oblik.
           <br />
           <br />
-          Digitalna opremljenost i pažljivo birani elementi enterijera omogućavaju
-          lako prilagođavanje različitim nastavnim formatima i metodama rada.
+          Ovde se rađaju prava pitanja, a ne samo tačni odgovori. Jer nauka nije gradivo — nauka je način razmišljanja.
         </>
-      ),
-      list: ["247m2", "interaktivna zona", "u grupama"],
+      )
     },
     {
       bgColor: "#2b446b",
       image: sprat_II_5,
-      subtitle: "Ovo nije",
-      title: "Innovation zone",
+      subtitle: "Art kabinet",
+      title: "Studio ideja i stvaralaštva",
       text: (
         <>
-          Innovation zone sastoji se iz niza manjih ambijenata prilagođenih
-          timskom radu, razmeni znanja i praktičnoj primeni različitih oblasti.
+          Boje, materijali, ideje bez granica — i prostor koji to sve nosi. Art kabinet u Savremenoj nije učionica sa crtankama. To je pravi studio gde deca crtaju, projektuju, prave, izražavaju. Gde se maštanje tretira ozbiljno.
           <br />
           <br />
-          Prostor uključuje interaktivne zidne površine, brainstorming zone i
-          studio, osmišljen da podstakne inovativno razmišljanje i saradnju.
+          Svaki učenik ovde ima pravo na svoju viziju — i alate da je ostvari. Kreativnost nije talent. Ona je veština koja se gradi. I mi joj dajemo prostor.
         </>
-      ),
-      list: ["126m2", "aktivna zona", "individualno / u malim grupama"],
+      )
     },
     {
       bgColor: "#427042",
       image: sprat_II_7,
-      subtitle: "Ovo nije",
-      title: "Reading zone",
+      subtitle: "Sala za sastanke",
+      title: "Prostor koji gradi poverenje",
       text: (
         <>
-          Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen
-          tišini, samostalnom radu i čitanju.
+          Savremena je oduvek bila škola koja komunicira sa roditeljima — ne samo kroz dnevnik, već licem u lice. Nova sala za sastanke je prostor gde se grade partnerstva između škole i porodice.
           <br />
           <br />
-          Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog.
+          Gde se razgovara, sluša i zajedno traže rešenja. Jer obrazovanje funkcioniše kada su roditelji i škola tim. A tim se gradi razgovorom, razumevanjem i poverenjem.
         </>
-      ),
-      list: ["33m2", "tiha zona", "individualno / u malim grupama"],
+      )
     },
     {
       bgColor: "#f7b815",
       image: sprat_II_7,
-      subtitle: "Ovo nije",
-      title: "Reading zone",
+      subtitle: "Kantine",
+      title: "Prava pauza, pravi obrok",
       text: (
         <>
-          Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen
-          tišini, samostalnom radu i čitanju.
+          Pauza nije samo odmor od časa. Ona je deo dana koji se računa. Kantine Savremene je topao, osmišljen prostor gde deca sede, jedu i razgovaraju bez žurbe. Gde se ručak ne guta stojeći — već deli uz smeh i priču.
           <br />
           <br />
-          Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog.
+          Jer kultura stola, zdrava ishrana i trenutak zajedništva nisu sitnice. To su navike koje ostaju za ceo život.
         </>
-      ),
-      list: ["33m2", "tiha zona", "individualno / u malim grupama"],
+      )
     },
     {
       bgColor: "#9d1516",
       image: sprat_II_7,
-      subtitle: "Ovo nije",
-      title: "Reading zone",
+      subtitle: "Učionice + novo odeljenje I razreda",
+      title: "Više mesta",
       text: (
         <>
-          Reading zone predstavlja savremeno uređeni bibliotečki prostor namenjen
-          tišini, samostalnom radu i čitanju.
+          Ista posvećenost. Savremena raste — i to znači novo odeljenje prvog razreda, sa svim onim što je Savremenu i definisalo: mali razredi, posvećeni nastavnici, inovativan pristup i sredina u kojoj se svako dete oseća viđenim.
           <br />
           <br />
-          Ovde se razvijaju fokus, strpljenje i navika razumevanja pročitanog.
+          Novo odeljenje nije samo još jedna učionica. To je novi start za još jednu generaciju koja zaslužuje više od prosečnog.
         </>
-      ),
-      list: ["33m2", "tiha zona", "individualno / u malim grupama"],
+      )
     },
   ];
 

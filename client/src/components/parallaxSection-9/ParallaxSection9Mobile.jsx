@@ -80,19 +80,19 @@ function ParallaxSection9Mobile() {
         <div className="contact-box">
           <div>
             <p>Adresa škole:</p>
-            <span>Masarikova 5 (ulaz iz Kralja Milana)</span>
-            <span>Palata Beograd, Srbija</span>
-            <span>(0)11/40-11-223</span>
+            <span>Bulevar heroja sa Košara 17,</span>
+            <span>Novi Beograd</span>
+            <span>(0)11/40-11-222</span> 
           </div>
 
           <div>
             <p>Sajt škole:</p>
-            <span><a href="www.savremena-gimnazija.edu.rs">www.savremena-gimnazija.edu.rs</a></span>
+            <span><a href="www.savremena-osnovna.edu.rs">www.savremena-osnovna.edu.rs</a></span>
           </div>
 
           <div>
             <p>Sektor za upis:</p>
-            <span><a href="mailto:upis@savremena-gimnazija.edu.rs">upis@savremena-gimnazija.edu.rs</a></span>
+            <span><a href="mailto:office@savremena-osnovna.edu.rs">office@savremena-osnovna.edu.rs</a></span>
           </div>
         </div>
       </div>

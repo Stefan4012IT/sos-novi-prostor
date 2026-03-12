@@ -26,9 +26,9 @@ const TitleRevealHome = () => {
   }, []);
 
   return (
-    <h2 ref={titleRef} className="title-reveal">
-      nova era obrazovanja.
-    </h2>
+    <h3 ref={titleRef} className="title-reveal">
+      sada u još boljem okruženju.
+    </h3>
   );
 };
 
