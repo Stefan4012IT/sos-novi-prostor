@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.8fdd6e05.css",
-    "main.js": "./static/js/main.5a71573f.js",
+    "main.css": "./static/css/main.0b37b93f.css",
+    "main.js": "./static/js/main.f4b74d8d.js",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
     "static/media/beogradjanka.png": "./static/media/beogradjanka.a2c85000022003557963.png",
@@ -9,8 +9,8 @@
     "static/media/nacrt_II_sprat_scroll.png": "./static/media/nacrt_II_sprat_scroll.66005e498287aa17de56.png",
     "static/media/img_cta_1.jpg": "./static/media/img_cta_1.a35e78bf69127ac48e32.jpg",
     "static/media/sprat_IV_2.1.jpg": "./static/media/sprat_IV_2.1.3fa27a8a64554999ebdb.jpg",
-    "static/media/benefits_3.png": "./static/media/benefits_3.b7a516e5f31de6d3ffa8.png",
     "static/media/sprat_IV_1.jpg": "./static/media/sprat_IV_1.522ada5b4b9dfcfbc0b6.jpg",
+    "static/media/zuta.png": "./static/media/zuta.7023c84e48f5a5490fd1.png",
     "static/media/img_1_II_sprat.png": "./static/media/img_1_II_sprat.12c436d8c8bd52acd0d8.png",
     "static/media/sprat_III_2.1.jpg": "./static/media/sprat_III_2.1.69fff12e206a35b882d8.jpg",
     "static/media/sprat_III_2.jpg": "./static/media/sprat_III_2.c1e9a4f5b0a552b3d6d0.jpg",
@@ -19,7 +19,6 @@
     "static/media/floating_1.png": "./static/media/floating_1.951802df9fb05858a8b7.png",
     "static/media/sprat_II_8.1.jpg": "./static/media/sprat_II_8.1.9ebf5716cefc9c096333.jpg",
     "static/media/sprat_III_4.1.jpg": "./static/media/sprat_III_4.1.45d0400864b9776bae68.jpg",
-    "static/media/benefits_2.png": "./static/media/benefits_2.f45e6b0ca35fc0161ee5.png",
     "static/media/sprat_II_7.jpg": "./static/media/sprat_II_7.f5702257a893aba3aadb.jpg",
     "static/media/img_1.png": "./static/media/img_1.e80a9bb5ac6bcdbd94a0.png",
     "static/media/sprat_III_5.jpg": "./static/media/sprat_III_5.f103afdd63a4f76c0719.jpg",
@@ -27,11 +26,12 @@
     "static/media/floating_3.png": "./static/media/floating_3.7362e7d9593f26e11a50.png",
     "static/media/sprat_IV_3.jpg": "./static/media/sprat_IV_3.2f22af57b08bcae657e3.jpg",
     "static/media/floating_5.png": "./static/media/floating_5.39f8f0a9f84321920387.png",
+    "static/media/zelena.png": "./static/media/zelena.10674bd03d06e1237c24.png",
     "static/media/sprat_III_6.jpg": "./static/media/sprat_III_6.8c1475d565a934fd49ec.jpg",
     "static/media/sprat_IV_4.jpg": "./static/media/sprat_IV_4.44dccd3413f263e42684.jpg",
+    "static/media/crvena.png": "./static/media/crvena.476859329d23ee93fa83.png",
     "static/media/sprat_III_8.1.jpg": "./static/media/sprat_III_8.1.2990fbcff1143f6f446a.jpg",
     "static/media/sprat_II_4.jpg": "./static/media/sprat_II_4.f833198303470b1bf223.jpg",
-    "static/media/benefits_4.png": "./static/media/benefits_4.061d2f7772ed20cc5fe2.png",
     "static/media/sprat_II_3.jpg": "./static/media/sprat_II_3.fc98f7de74ebd0e5bb89.jpg",
     "static/media/img_1_III_sprat.png": "./static/media/img_1_III_sprat.09ba64e734851812b1ca.png",
     "static/media/floating_4.png": "./static/media/floating_4.2eef7d86040517da9db2.png",
@@ -42,6 +42,7 @@
     "static/media/floating_8.png": "./static/media/floating_8.b3cfaa30f234ec0b6710.png",
     "static/media/floating_7.png": "./static/media/floating_7.1de7dcff116a740bb3bc.png",
     "static/media/sprat_II_6.jpg": "./static/media/sprat_II_6.a6bf11dcfb294c8df843.jpg",
+    "static/media/plava.png": "./static/media/plava.f5707c0dc37f29db2527.png",
     "static/media/img_1_IV_sprat.png": "./static/media/img_1_IV_sprat.5f14b7404e53944f074d.png",
     "static/media/KHTeka-Bold.ttf": "./static/media/KHTeka-Bold.0a0c0f135b0eec2ee58f.ttf",
     "static/media/sprat_II_5.jpg": "./static/media/sprat_II_5.fddff4f588d6ca574cf3.jpg",
@@ -51,7 +52,6 @@
     "static/media/KHTeka-Light.ttf": "./static/media/KHTeka-Light.133669dc3b565911724f.ttf",
     "static/media/sprat_II_1.jpg": "./static/media/sprat_II_1.a987d43336ac6aefb4b3.jpg",
     "static/media/sg_mapa.jpg": "./static/media/sg_mapa.e00ebafdd3c8da82cc47.jpg",
-    "static/media/benefits_1.png": "./static/media/benefits_1.86661359616217e5078b.png",
     "static/media/intro_3.jpg": "./static/media/intro_3.e73fae8df7f14508989f.jpg",
     "static/media/intro_6.jpg": "./static/media/intro_6.48f6c700cd464b1eeaf9.jpg",
     "static/media/intro_4.jpg": "./static/media/intro_4.c8b21020ae14c1431734.jpg",
@@ -69,11 +69,11 @@
     "static/media/num_3_white.svg": "./static/media/num_3_white.2e148b5cd3d1dcbc9820360ea244ee51.svg",
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
-    "main.8fdd6e05.css.map": "./static/css/main.8fdd6e05.css.map",
-    "main.5a71573f.js.map": "./static/js/main.5a71573f.js.map"
+    "main.0b37b93f.css.map": "./static/css/main.0b37b93f.css.map",
+    "main.f4b74d8d.js.map": "./static/js/main.f4b74d8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fdd6e05.css",
-    "static/js/main.5a71573f.js"
+    "static/css/main.0b37b93f.css",
+    "static/js/main.f4b74d8d.js"
   ]
 }
