@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 require("dotenv").config();
 
 const formRoutes = require("./routes/form.routes");
@@ -21,6 +22,16 @@ app.get("/api/health", (req, res) => {
 
 app.use("/api/form", formRoutes);
 
+// Posluži statične fajlove iz React builda
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+// Sve što nije /api neka ide na React
+app.get("/{*splat}", (req, res, next) => {
+  if (req.path.startsWith("/api")) return next();
+  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+});
+
+// 404 i error handler tek na kraju
 app.use(notFound);
 app.use(errorHandler);
 

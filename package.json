@@ -1,0 +1,13 @@
+{
+  "name": "sos-novi-prostor",
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --prefix server",
+    "postinstall": "npm run install-client && npm run install-server && npm run build --prefix client",
+    "start": "node server/server.js"
+  }
+}
