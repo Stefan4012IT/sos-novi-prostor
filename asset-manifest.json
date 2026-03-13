@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "./static/css/main.91cf1540.css",
-    "main.js": "./static/js/main.059db767.js",
+    "main.js": "./static/js/main.1ee7798c.js",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
-    "static/media/beogradjanka.png": "./static/media/beogradjanka.a2c85000022003557963.png",
     "static/media/prizemlje_nacrt_optimized.svg": "./static/media/prizemlje_nacrt_optimized.212d262e56065c442f7c.svg",
+    "static/media/savremena_novi_prostor.png": "./static/media/savremena_novi_prostor.5ec7d662087ff69ba764.png",
     "static/media/nacrt_II_sprat_scroll.png": "./static/media/nacrt_II_sprat_scroll.66005e498287aa17de56.png",
     "static/media/img_cta_1.jpg": "./static/media/img_cta_1.a35e78bf69127ac48e32.jpg",
     "static/media/sprat_IV_2.1.jpg": "./static/media/sprat_IV_2.1.3fa27a8a64554999ebdb.jpg",
@@ -82,10 +82,10 @@
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
     "main.91cf1540.css.map": "./static/css/main.91cf1540.css.map",
-    "main.059db767.js.map": "./static/js/main.059db767.js.map"
+    "main.1ee7798c.js.map": "./static/js/main.1ee7798c.js.map"
   },
   "entrypoints": [
     "static/css/main.91cf1540.css",
-    "static/js/main.059db767.js"
+    "static/js/main.1ee7798c.js"
   ]
 }
