@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.3e124919.css",
-    "main.js": "./static/js/main.13ce3878.js",
+    "main.css": "./static/css/main.b1e3071a.css",
+    "main.js": "./static/js/main.e1b74ee3.js",
     "static/media/sos_novi_prostor.mov": "./static/media/sos_novi_prostor.5cb323b04d7fabc02f7a.mov",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
     "static/media/prizemlje_nacrt_optimized.svg": "./static/media/prizemlje_nacrt_optimized.212d262e56065c442f7c.svg",
     "static/media/savremena_novi_prostor.png": "./static/media/savremena_novi_prostor.5ec7d662087ff69ba764.png",
     "static/media/savremena_novi_prostor-1.png": "./static/media/savremena_novi_prostor-1.9a722f92017922df2d0d.png",
+    "static/media/Novo_odeljenje.jpg": "./static/media/Novo_odeljenje.c022204b569fc217f246.jpg",
+    "static/media/Science_Hub.jpg": "./static/media/Science_Hub.a57a8eac890e849a7415.jpg",
+    "static/media/Art_Hub.jpg": "./static/media/Art_Hub.5ea28a3df5ce44764618.jpg",
+    "static/media/Sports_Hub.jpg": "./static/media/Sports_Hub.f213be3b8309c89b5210.jpg",
     "static/media/img_cta_960x500.jpg": "./static/media/img_cta_960x500.892970043af30a08c300.jpg",
+    "static/media/Lunch_Time_Hub.jpg": "./static/media/Lunch_Time_Hub.308cbb12d273d4eecd41.jpg",
     "static/media/nacrt_II_sprat_scroll.png": "./static/media/nacrt_II_sprat_scroll.66005e498287aa17de56.png",
     "static/media/sprat_IV_2.1.jpg": "./static/media/sprat_IV_2.1.3fa27a8a64554999ebdb.jpg",
     "static/media/intro_sos_2.jpg": "./static/media/intro_sos_2.f306cca118d7d3763667.jpg",
@@ -19,6 +24,7 @@
     "static/media/floating_sos_1.png": "./static/media/floating_sos_1.5b4795398913b7e23734.png",
     "static/media/sprat_III_2.1.jpg": "./static/media/sprat_III_2.1.69fff12e206a35b882d8.jpg",
     "static/media/intro_sos_3.jpg": "./static/media/intro_sos_3.312905ceb63119a1692d.jpg",
+    "static/media/Parents_Hub.jpg": "./static/media/Parents_Hub.e1bca309234cec3c760e.jpg",
     "static/media/presection_img.png": "./static/media/presection_img.e56f184c7d5380779a0b.png",
     "static/media/sprat_III_2.jpg": "./static/media/sprat_III_2.c1e9a4f5b0a552b3d6d0.jpg",
     "static/media/sprat_III_7.jpg": "./static/media/sprat_III_7.44b30d546ca03f8d3f19.jpg",
@@ -46,7 +52,6 @@
     "static/media/sprat_II_4.jpg": "./static/media/sprat_II_4.f833198303470b1bf223.jpg",
     "static/media/intro_sos_4.jpg": "./static/media/intro_sos_4.08644cb90d50d1581a6e.jpg",
     "static/media/sprat_II_3.jpg": "./static/media/sprat_II_3.fc98f7de74ebd0e5bb89.jpg",
-    "static/media/novi_prostor_img_1.jpg": "./static/media/novi_prostor_img_1.05e172d4b05f9c4fa549.jpg",
     "static/media/img_1_III_sprat.png": "./static/media/img_1_III_sprat.09ba64e734851812b1ca.png",
     "static/media/floating_4.png": "./static/media/floating_4.2eef7d86040517da9db2.png",
     "static/media/floating_2.png": "./static/media/floating_2.4104aa18985be0a58516.png",
@@ -85,11 +90,11 @@
     "static/media/num_3_white.svg": "./static/media/num_3_white.2e148b5cd3d1dcbc9820360ea244ee51.svg",
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
-    "main.3e124919.css.map": "./static/css/main.3e124919.css.map",
-    "main.13ce3878.js.map": "./static/js/main.13ce3878.js.map"
+    "main.b1e3071a.css.map": "./static/css/main.b1e3071a.css.map",
+    "main.e1b74ee3.js.map": "./static/js/main.e1b74ee3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e124919.css",
-    "static/js/main.13ce3878.js"
+    "static/css/main.b1e3071a.css",
+    "static/js/main.e1b74ee3.js"
   ]
 }
