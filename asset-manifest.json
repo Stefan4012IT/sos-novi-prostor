@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.b3888e7c.css",
-    "main.js": "./static/js/main.d332667a.js",
+    "main.css": "./static/css/main.e56b14c2.css",
+    "main.js": "./static/js/main.b3ec5ddb.js",
     "static/media/sos_novi_prostor.mov": "./static/media/sos_novi_prostor.5cb323b04d7fabc02f7a.mov",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
@@ -77,19 +77,19 @@
     "static/media/ministarstvo_logo_wh.webp": "./static/media/ministarstvo_logo_wh.79effb86efc05dec91f5.webp",
     "static/media/skola.svg": "./static/media/skola.3fa5308bc7883cc5664e1c0c7942582a.svg",
     "static/media/cambridge_logo_white.webp": "./static/media/cambridge_logo_white.0ea1520b20b00e24ac69.webp",
+    "static/media/ptice2.svg": "./static/media/ptice2.e9b0499434a9870552693b9734168095.svg",
     "static/media/preloaderSG_logo.svg": "./static/media/preloaderSG_logo.1ec94bc4835d358a505f2beb606de8fd.svg",
-    "static/media/pticice.svg": "./static/media/pticice.ad54be31d4a283f7fbbc2eefd3710544.svg",
     "static/media/SG_logo.svg": "./static/media/SG_logo.b043558f87a42c45fd1cf6d9392f8500.svg",
     "index.html": "./index.html",
     "static/media/num_2_white.svg": "./static/media/num_2_white.84ccc1b3138efe4c865513af7848b8af.svg",
     "static/media/num_3_white.svg": "./static/media/num_3_white.2e148b5cd3d1dcbc9820360ea244ee51.svg",
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
-    "main.b3888e7c.css.map": "./static/css/main.b3888e7c.css.map",
-    "main.d332667a.js.map": "./static/js/main.d332667a.js.map"
+    "main.e56b14c2.css.map": "./static/css/main.e56b14c2.css.map",
+    "main.b3ec5ddb.js.map": "./static/js/main.b3ec5ddb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3888e7c.css",
-    "static/js/main.d332667a.js"
+    "static/css/main.e56b14c2.css",
+    "static/js/main.b3ec5ddb.js"
   ]
 }
