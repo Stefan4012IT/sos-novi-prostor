@@ -122,47 +122,66 @@ function FormSection({ className = "" }) {
 //   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setSubmitMessage("");
-    setHasSubmitted(true);
+      e.preventDefault();
+      setSubmitMessage("");
+      setHasSubmitted(true);
 
-    const validationErrors = validate(formData);
-    setErrors(validationErrors);
+      const validationErrors = validate(formData);
+      setErrors(validationErrors);
 
-    if (Object.keys(validationErrors).length > 0) {
-      return;
-    }
+      if (Object.keys(validationErrors).length > 0) {
+        return;
+      }
 
-    const timeSpent = Date.now() - openedAt;
-    if (timeSpent < 3000) {
-      setSubmitMessage("Molimo sačekajte trenutak i pokušajte ponovo.");
-      return;
-    }
+      const timeSpent = Date.now() - openedAt;
+      if (timeSpent < 3000) {
+        setSubmitMessage("Molimo sačekajte trenutak i pokušajte ponovo.");
+        return;
+      }
 
-    setIsSubmitting(true);
+      setIsSubmitting(true);
 
-    try {
-      // Za sada samo frontend test / preview payload
-      console.log("Form payload ready:", {
-        name: formData.name.trim(),
-        email: formData.email.trim(),
-        childs_age: formData.childs_age.trim(),
-        "country-code": formData["country-code"].trim(),
-        "area-code": formData["area-code"].trim(),
-        "phone-number": formData["phone-number"].trim(),
-        institution: "sg",
-      });
+      try {
+        const payload = {
+          name: formData.name.trim(),
+          email: formData.email.trim(),
+          childs_age: formData.childs_age.trim(),
+          "country-code": formData["country-code"].trim(),
+          "area-code": formData["area-code"].trim(),
+          "phone-number": formData["phone-number"].trim(),
+          institution: "sos",
+        };
 
-      setSubmitMessage("Forma je validna i spremna za slanje.");
-      setFormData(initialFormData);
-      setErrors({});
-      setHasSubmitted(false);
-    } catch (error) {
-      setSubmitMessage("Došlo je do greške. Pokušajte ponovo.");
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+        const apiUrl =
+          process.env.NODE_ENV === "development"
+            ? "http://localhost:5000/api/form"
+            : "/api/form";
+
+        const response = await fetch(apiUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data?.message || `Server error: ${response.status}`);
+        }
+
+        setFormData(initialFormData);
+        setErrors({});
+        setHasSubmitted(false);
+        setSubmitMessage("");
+      } catch (error) {
+        console.error(error);
+        setSubmitMessage("Došlo je do greške prilikom slanja. Pokušajte ponovo.");
+      } finally {
+        setIsSubmitting(false);
+      }
+    };
 
   return (
     <section className={`form-section ${className}`} id="prijava-forma">

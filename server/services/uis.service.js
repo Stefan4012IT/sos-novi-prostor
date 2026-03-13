@@ -19,7 +19,7 @@ const sendToUIS = async (formData) => {
     "country-code": formData["country-code"],
     "area-code": formData["area-code"],
     "phone-number": formData["phone-number"],
-    institution: "sos",
+    institution: formData.institution,
   };
 
   try {
