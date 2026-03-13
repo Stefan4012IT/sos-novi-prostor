@@ -35,7 +35,7 @@ function Home() {
   }, []);
     return (
       <main className="home">
-        {/* <Preloader /> */}
+        <Preloader />
         <SectionHero />
         <FormSection />
         <TitleRevealHomeHolder />

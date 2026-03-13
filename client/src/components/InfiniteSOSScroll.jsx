@@ -2,10 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-import sprat_II_1 from "../assets/sprat_II/sprat_II_1.jpg";
-import sprat_II_3 from "../assets/sprat_II/sprat_II_3.jpg";
-import sprat_II_5 from "../assets/sprat_II/sprat_II_5.jpg";
-import sprat_II_7 from "../assets/sprat_II/sprat_II_7.jpg";
+import img_1 from "../assets/sos_zone/Sports_Hub.jpg";
+import img_2 from "../assets/sos_zone/Science_Hub.jpg";
+import img_3 from "../assets/sos_zone/Art_Hub.jpg";
+import img_4 from "../assets/sos_zone/Parents_Hub.jpg";
+import img_5 from "../assets/sos_zone/Lunch_Time_Hub.jpg";
+import img_6 from "../assets/sos_zone/Novo_odeljenje.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,9 +19,9 @@ function InfiniteSOSScroll() {
   const zones = [
     {
       bgColor: "#f7b815",
-      image: sprat_II_1,
+      image: img_1,
       subtitle: "Sports Hub",
-      title: "Profesionalno opremljen prostor za sve sportove",
+      title: "Prostor za buduće šampione",
       text: (
         <>
           Sports Hub u Savremenoj je potpuno opremljen prostor za sve što fizičko vaspitanje treba da bude. Najsavremenija oprema stiže u Savremeni Sports Hub.
@@ -31,21 +33,21 @@ function InfiniteSOSScroll() {
     },
     {
       bgColor: "#9d1516",
-      image: sprat_II_3,
+      image: img_2,
       subtitle: "Science Hub",
-      title: "Eksperimenti koji ostaju u sećanju",
+      title: "STEAM Lab za uzbudljive eksperimente",
       text: (
         <>
-          Zamislite čas hemije gde dete zaista pravi eksperimente, posmatra, zaključuje. Čas biologije gde se ne čita — već istražuje. Savremeni science kabinet je opremljena laboratorija u kojoj teorija dobija miris, boju i oblik.
+          Savremeni Science Hub je opremljena laboratorija sa svom potrebnom opremom za izvođenje pravih eksperimenata — od hemijskih i bioloških ogleda do fizičkih istraživanja. Deca rade u grupama, koriste laboratorijsku opremu, izvode eksperimente i dokumentuju rezultate kao pravi istraživači
           <br />
           <br />
-          Ovde se rađaju prava pitanja, a ne samo tačni odgovori. Jer nauka nije gradivo — nauka je način razmišljanja.
+          Svaki čas je praktičan, vođen od strane stručnog nastavnika i osmišljen tako da deca razumeju — ne pamte napamet. Jer dete koje je samo otkrilo kako nešto funkcioniše, to ne zaboravlja.
         </>
       )
     },
     {
       bgColor: "#2b446b",
-      image: sprat_II_5,
+      image: img_3,
       subtitle: "Creative Art Hub",
       title: "Studio ideja i stvaralaštva",
       text: (
@@ -59,7 +61,7 @@ function InfiniteSOSScroll() {
     },
     {
       bgColor: "#427042",
-      image: sprat_II_7,
+      image: img_4,
       subtitle: "Parents Hub",
       title: "Prostor koji gradi poverenje",
       text: (
@@ -73,9 +75,9 @@ function InfiniteSOSScroll() {
     },
     {
       bgColor: "#f7b815",
-      image: sprat_II_7,
+      image: img_5,
       subtitle: "Lunch Time Hub",
-      title: "Udoban prostor za obrok, odmor i razgovor",
+      title: "Kutak za obrok, odmor i razgovor",
       text: (
         <>
           U Lunch Time Hubu Topao i pažljivo osmišljen prostor namenjen je odmoru, razgovoru i kratkom predahu tokom školskog dana. Mesto gde učenici prave pauzu od časova, druže se i uživaju u obroku sa drugarima. Učenici mogu unapred poručiti zdrav i raznovrstan ketering obrok, koji ih čeka spreman u vreme ručka.
@@ -87,7 +89,7 @@ function InfiniteSOSScroll() {
     },
     {
       bgColor: "#9d1516",
-      image: sprat_II_7,
+      image: img_6,
       subtitle: "Nova prilika za upis u Savremenu",
       title: (<>Novo odeljenje <br/>I razreda</>),
       text: (

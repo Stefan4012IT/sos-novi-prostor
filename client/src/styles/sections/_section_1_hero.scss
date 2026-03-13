@@ -153,6 +153,10 @@
         flex-direction: row;
         color: #2b446b;
 
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+        }
+
         p {
             color:#787878;
         }
@@ -193,14 +197,14 @@
         }
 
         @media only screen and (max-width: 992px) {
-            height: 50px;
+            height: 100%;
             width: 100%;
             padding-left: 40px;
             left: 0;
         }
 
         @media only screen and (max-width: 992px) {
-            height: 50px;
+            height: 100%;
             width: 100%;
             padding-left: 0px;
             left: 0;
@@ -260,6 +264,11 @@
             }
         }
 
+        @media only screen and (max-width: 1600px) {
+            margin-top: 150px;
+            width: 50%;
+        }
+
         @media only screen and (max-width: 1280px) {
             width: 50%;
         }
@@ -270,8 +279,9 @@
 
         @media only screen and (max-width: 992px) {
             margin: 5vh 0;
-            width: 60%;
+            width: 100%;
             margin-left: auto;
+            margin-top: 0px;
         }
 
         @media only screen and (max-width: 776px) {

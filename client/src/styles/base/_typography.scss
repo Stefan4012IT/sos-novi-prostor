@@ -45,19 +45,19 @@ h1 {
     }
 
     @media only screen and (max-width: 1680px) {
-      font-size: 14em;
+      font-size: 12em;
     }
 
     @media only screen and (max-width: 1440px) {
-      font-size: 13em;
-    }
-
-    @media only screen and (max-width: 1366px) {
       font-size: 11em;
     }
 
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1366px) {
       font-size: 9em;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 7em;
     }
 
     @media only screen and (max-width: 992px) {

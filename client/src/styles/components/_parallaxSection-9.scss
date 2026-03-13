@@ -118,6 +118,8 @@
         height: 500px;
         bottom: 0;
         transform: translateX(-50%) !important;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
 
         @media screen and (max-width: 1366px) {
             height: 400px;

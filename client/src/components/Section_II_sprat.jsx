@@ -2,8 +2,8 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import img_1 from "../assets/sprat_II/presection_img.png";
-import nacrt_II_sprat from '../assets/sprat_II/nacrt_II_sprat.svg'
-import pticice from '../assets/pticice.svg'
+// import nacrt_II_sprat from '../assets/sprat_II/nacrt_II_sprat.svg'
+import pticice from '../assets/ptice2.svg'
 
 gsap.registerPlugin(ScrollTrigger);
 

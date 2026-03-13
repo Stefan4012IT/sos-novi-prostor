@@ -1,7 +1,7 @@
 .infinite-sos-scroll-wrapper {
     position: relative;
     padding: 10vh 3vw;
-    padding-bottom: 200px;
+    padding-bottom: 75px;
     will-change: background-color;
     background-color: #FFF;
     width: 100%;
@@ -56,6 +56,11 @@
         width: 45%;
         row-gap: 400px;
 
+        @media screen and (max-width: 500px) {
+          width: 100%;
+          row-gap: 40px;
+        }
+
         .zone-text-sos {
             color: #FFF;
 
@@ -65,6 +70,10 @@
                 padding-top: 10px;
                 padding-bottom: 60px;
                 font-weight: 600;
+
+                @media screen and (max-width: 500px) {
+                  padding-bottom: 10px;
+                }
               }
                 
             }

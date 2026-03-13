@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import img_1 from "../assets/sprat_IV/img_1_IV_sprat.png";
-import nacrt_III_sprat from '../assets/sprat_II/nacrt_II_sprat.svg'
+// import nacrt_III_sprat from '../assets/sprat_II/nacrt_II_sprat.svg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -39,7 +39,7 @@ useEffect(() => {
     Svaka ideja dobija priliku da se čuje.
     </h2>
     <div className="section-img">
-      <img src={nacrt_III_sprat} alt="" />
+      {/* <img src={nacrt_III_sprat} alt="" /> */}
     </div>
     <div className="img_box">
       <div className="img-wrapper">
