@@ -18,25 +18,25 @@ function InfiniteSOSScroll() {
     {
       bgColor: "#f7b815",
       image: sprat_II_1,
-      subtitle: "Vežbaonice",
-      title: "Učenje kroz prostor",
+      subtitle: "Sports Hub",
+      title: "Pokreni telo. Oslobodi um.",
       text: (
         <>
-          Nije svako dete isto — i nije svaki čas isti. Vežbaonice u Savremenoj su prostori osmišljeni za aktivno učenje: za rad u grupama, projekte, praktične zadatke i sve ono što ne staje za školsku klupu. 
+          Savremena vežbaonica nije privilegija — ona je deo obrazovanja. Jer kretanje nije odmor od učenja. Ono je deo njega.
           <br />
           <br />
-          Manje zidova, više kretanja kroz znanje. Jer deca ne uče samo sedeći — uče kada su u pokretu, u dijalogu, u akciji.
+          Istraživanja pokazuju da deca koja se redovno kreću — uče bolje, koncentruju se duže i osećaju se sigurnije.
         </>
       )
     },
     {
       bgColor: "#9d1516",
       image: sprat_II_3,
-      subtitle: "Science kabinet",
+      subtitle: "Science Hub",
       title: "Eksperimenti koji ostaju u sećanju",
       text: (
         <>
-          Zamislite čas hemije gde dete zaista meša, posmatra, zaključuje. Čas biologije gde se ne čita — već istražuje. Savremeni science kabinet je opremljena laboratorija u kojoj teorija dobija miris, boju i oblik.
+          Zamislite čas hemije gde dete zaista pravi eksperimente, posmatra, zaključuje. Čas biologije gde se ne čita — već istražuje. Savremeni science kabinet je opremljena laboratorija u kojoj teorija dobija miris, boju i oblik.
           <br />
           <br />
           Ovde se rađaju prava pitanja, a ne samo tačni odgovori. Jer nauka nije gradivo — nauka je način razmišljanja.
@@ -46,21 +46,21 @@ function InfiniteSOSScroll() {
     {
       bgColor: "#2b446b",
       image: sprat_II_5,
-      subtitle: "Art kabinet",
+      subtitle: "Creative Art Hub",
       title: "Studio ideja i stvaralaštva",
       text: (
         <>
-          Boje, materijali, ideje bez granica — i prostor koji to sve nosi. Art kabinet u Savremenoj nije učionica sa crtankama. To je pravi studio gde deca crtaju, projektuju, prave, izražavaju. Gde se maštanje tretira ozbiljno.
+          Boje, materijali, ideje bez granica — i prostor koji to sve nosi. Creative Art kabinet u Savremenoj nije obična učionica. To je pravi studio gde deca crtaju, projektuju, prave, izražavaju. Gde se maštanje pretvara u umetnost.
           <br />
           <br />
-          Svaki učenik ovde ima pravo na svoju viziju — i alate da je ostvari. Kreativnost nije talent. Ona je veština koja se gradi. I mi joj dajemo prostor.
+          Svaki učenik ovde ima pravo na svoju viziju — i alate da je ostvari. Kreativnost nije talent. Ona je veština koja se gradi. I mi joj dajemo novi prostor.
         </>
       )
     },
     {
       bgColor: "#427042",
       image: sprat_II_7,
-      subtitle: "Sala za sastanke",
+      subtitle: "Parents Hub",
       title: "Prostor koji gradi poverenje",
       text: (
         <>
@@ -75,27 +75,27 @@ function InfiniteSOSScroll() {
       bgColor: "#f7b815",
       image: sprat_II_7,
       subtitle: "Kantine",
-      title: "Prava pauza, pravi obrok",
+      title: "Važan deo školskog dana",
       text: (
         <>
-          Pauza nije samo odmor od časa. Ona je deo dana koji se računa. Kantine Savremene je topao, osmišljen prostor gde deca sede, jedu i razgovaraju bez žurbe. Gde se ručak ne guta stojeći — već deli uz smeh i priču.
+          Pitajte decu šta im se najviše sviđa u školi — često je odgovor: ručak sa drugarima. Kantine Savremene je taj prostor — topao, osmišljen, bez žurbe. 
           <br />
           <br />
-          Jer kultura stola, zdrava ishrana i trenutak zajedništva nisu sitnice. To su navike koje ostaju za ceo život.
+          Mesto gde se prave prijateljstva, gde se smeje bez povoda i gde se dan nakratko usporava. I to nije manje važno od bilo kog časa.
         </>
       )
     },
     {
       bgColor: "#9d1516",
       image: sprat_II_7,
-      subtitle: "Učionice + novo odeljenje I razreda",
-      title: "Više mesta",
+      subtitle: "Nova prilika za upis u Savremenu",
+      title: (<>Novo odeljenje <br/>I razreda</>),
       text: (
         <>
-          Ista posvećenost. Savremena raste — i to znači novo odeljenje prvog razreda, sa svim onim što je Savremenu i definisalo: mali razredi, posvećeni nastavnici, inovativan pristup i sredina u kojoj se svako dete oseća viđenim.
+          Savremena raste — i to znači novo odeljenje prvog razreda, sa svim onim što je Savremenu i definisalo: mali razredi, posvećeni nastavnici, inovativan pristup, ista posvećenost i sredina u kojoj se svako dete iskazuje svoj pun potencijal.
           <br />
           <br />
-          Novo odeljenje nije samo još jedna učionica. To je novi start za još jednu generaciju koja zaslužuje više od prosečnog.
+          To je novi start za još jednu generaciju koja zaslužuje više od prosečnog obrazovanja.
         </>
       )
     },

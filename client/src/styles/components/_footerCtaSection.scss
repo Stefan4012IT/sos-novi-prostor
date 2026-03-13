@@ -12,6 +12,7 @@
     .footer-cta-inner {
       width: 100%;
       text-align: center;
+      color: #2b446b;
 
       @media only screen and (max-width: 1680px) {
         width: 90%;
@@ -45,6 +46,7 @@
   
       h4 {
         font-size: 52px;
+        font-weight: 400;
 
         @media only screen and (max-width: 1680px) {
             font-size: 52px;

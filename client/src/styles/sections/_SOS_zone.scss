@@ -64,6 +64,7 @@
               h2{
                 padding-top: 10px;
                 padding-bottom: 60px;
+                font-weight: 600;
               }
                 
             }
@@ -251,7 +252,7 @@
         position: absolute;
         z-index: 1;
         top: 20vh;
-        transform: translateY(-20vh);
+        transform: translate(20vh, -20vh);
         background-color: transparent;
         opacity: .5;
         height: 100%;
@@ -262,6 +263,7 @@
 
         @media screen and (min-width: 2560px) {
           max-width: 990px;
+          transform: translate(20vh, -20vh);
         }
     }
   }

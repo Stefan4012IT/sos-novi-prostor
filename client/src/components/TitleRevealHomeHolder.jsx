@@ -7,7 +7,7 @@ const TitleRevealHomeHolder = () => {
             <h3>Sve što je Savremenu činilo drugačijom,</h3>
             <TitleRevealHome />
         </div>
-        <p className="text">Novi prostor Savremene je osmišljen sa istom pažnjom prema svakom detetu — samo sa više prostora da ta pažnja dođe do izražaja. Prostor koji omogućava svakom detetu da se oseća viđenim i važnim.</p>
+        <p className="text">Posvećeni nastavnici, inovativan program, sredina u kojoj se svako dete oseća važnim — sada dobija prostor koji to sve nosi sa lakoćom. Novi prostor. Novo odeljenje. Prava škola za vaše dete.</p>
     </div>
   );
 };

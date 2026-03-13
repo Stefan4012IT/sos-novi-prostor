@@ -73,7 +73,7 @@ function ParallaxSection_9() {
 
   return (
     <section className="section-9" ref={sectionRef}>
-      <h2 className="title" ref={titleRef}>Your future just got bigger.</h2>
+      <h2 className="title" ref={titleRef}>Your child's future just got bigger.</h2>
       <div className="text_1" ref={textRef_1}>
         <div className="contact-box">
         

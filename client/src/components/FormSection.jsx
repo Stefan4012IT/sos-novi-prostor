@@ -168,10 +168,10 @@ function FormSection({ className = "" }) {
     <section className={`form-section ${className}`} id="prijava-forma">
       <div className="form-section__inner">
         <div className="form-section__intro">
-          <p className="form-section__eyebrow">Prijava</p>
-          <h2 className="form-section__title">Prijavite se za više informacija</h2>
+          <p className="form-section__eyebrow">Prijavite se odmah</p>
+          <h3 className="form-section__title">Obezbetite svom detetu školovanje sa osmehom</h3>
           <p className="form-section__text">
-            Ostavite svoje podatke i naš tim će vas kontaktirati.
+            Obezbedite jedno od 20 mesta u novom odeljenju.
           </p>
         </div>
 

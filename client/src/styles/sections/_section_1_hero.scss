@@ -104,7 +104,7 @@
     &--title-right {
         position: relative;
         right: 0px;
-        width: 70%;
+        width: 75%;
         text-align: right;
         align-self: flex-end;
         word-wrap: break-word;
@@ -239,6 +239,10 @@
 
         h3 {
             margin: 30px 0;
+
+            span {
+                font-weight: 600;
+            }
         }
 
         @media only screen and (max-width: 1280px) {

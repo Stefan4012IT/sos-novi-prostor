@@ -1,9 +1,9 @@
 import React from "react";
 import SG_logo from "../assets/SG_logo.svg"; // prilagodi putanju
-import intro_img_1 from '../assets/hero/intro_img_01.jpg'
-import intro_img_2 from '../assets/hero/intro_2.jpg'
-import intro_img_3 from '../assets/hero/intro_3.jpg'
-import intro_img_4 from '../assets/hero/intro_4.jpg'
+import intro_img_1 from '../assets/hero/intro_sos_1.jpg'
+import intro_img_2 from '../assets/hero/intro_sos_2.jpg'
+import intro_img_3 from '../assets/hero/intro_sos_3.jpg'
+import intro_img_4 from '../assets/hero/intro_sos_4.jpg'
 import intro_img_5 from '../assets/hero/intro_1.jpg'
 import intro_img_6 from '../assets/hero/intro_6.jpg'
 import intro_img_7 from '../assets/hero/intro_7.jpg'
@@ -32,7 +32,7 @@ const SectionHero = () => {
       </div> */}
 
       <div className="hero--title-right">
-        <h1>Novi prostor. Novo odeljenje.</h1>
+        <h1>Savremena se širi. Mesto te čeka.</h1>
       </div>
 
       <div className="hero--second-title-line">
@@ -52,9 +52,9 @@ const SectionHero = () => {
           <img src="https://placehold.co/900x400" alt="" />
         </div>
         <div className="hero--paragraph-text">
-          <h3>Više mesta, više mogućnosti, više iskustava za svako dete</h3>
+          <h3>Više mesta, više mogućnosti: <span>Otvara se novo odeljenje I razreda</span></h3>
           <p>
-          Savremena osnovna škola se širi. U septembru 2026. otvara se novi prostor koji je osmišljen od prve do poslednje prostorije sa jednim ciljem: da deca imaju sve što im treba da se razvijaju, istražuju i rastu. Uz novi prostor, otvara se još jedno odeljenje prvog razreda — jer verujemo da svako dete zaslužuje savremeno obrazovanje. 
+          Savremena osnovna škola se širi. U septembru 2026. otvara se novi prostor koji je osmišljen od prve do poslednje prostorije sa jednim ciljem: da deca imaju sve što im treba da se razvijaju, istražuju i rastu. Ovaj dodatni prostor donosi mogućnost da se otvori upis u još jedno odeljenje prvog razreda.  
           </p>
         </div>
       </div>

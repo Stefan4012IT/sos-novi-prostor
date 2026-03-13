@@ -96,7 +96,7 @@ function PinnedCtaSection() {
     <section className="section-7" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title" ref={titleRef}>
-          Ovo nije samo prostor.<br/>Ovo je sredina koja formira decu.
+          U Savremenoj, vaše dete <br/>uvek dobija više.
         </h2>
       </div>
 
@@ -104,8 +104,8 @@ function PinnedCtaSection() {
       <img src={ctaImg} alt="Kids" className="kids-img" ref={imgRef} />
 
       <div className="text" ref={textRef}>
-        <p>Obrazovanje se ne dešava samo za stolom. Dešava se u laboratoriji, na tepihu art kabineta, u sali gde se rešavaju problemi, za stolom gde se deli obrok. </p>
-        <p>Novi prostor Savremene je osmišljen tako da svaki deo dana deteta ima smisao — i kvalitet.</p>
+        <p>Laboratorija za istraživanje. Studio za stvaranje. Vežbaonica za kretanje. Kantine za zajednički obrok.</p>
+        <p>Novi prostor osmišljen tako da svaki deo dana vašeg deteta ima smisao — i kvalitet.</p>
       </div>
 
       <div className="btn-box">

@@ -59,11 +59,11 @@
     //   border: 1px solid #000;
       background: rgb(277 209 23 / 50%);
       border-radius: 50px;
-      color: inherit;
+      color: #2b446b;
       outline: none;
 
       &::placeholder {
-        color: #555;
+        color: #eaeaea;
         font-family: 'KHTeka', sans-serif;
         font-weight: 300;
       }
@@ -72,7 +72,7 @@
     input:-webkit-autofill:hover,
     input:-webkit-autofill:focus,
     input:-webkit-autofill:active {
-    -webkit-text-fill-color: #000; // boja teksta
+    -webkit-text-fill-color: #2b446b; // boja teksta
     transition: background-color 9999s ease-in-out 0s;
     box-shadow: 0 0 0px 1000px #ffd11780 inset; // tvoja pozadina
     }
@@ -92,7 +92,7 @@
     border: none;
     border-radius: 50px;
     background-color: #FFF;
-    color: #000;
+    color: #2b446b;
     text-transform: uppercase;
   }
 
