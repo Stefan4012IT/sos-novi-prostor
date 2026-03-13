@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.91cf1540.css",
-    "main.js": "./static/js/main.423d6e5a.js",
+    "main.js": "./static/js/main.3eaf11ea.js",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
     "static/media/prizemlje_nacrt_optimized.svg": "./static/media/prizemlje_nacrt_optimized.212d262e56065c442f7c.svg",
@@ -12,13 +12,13 @@
     "static/media/intro_sos_2.jpg": "./static/media/intro_sos_2.f306cca118d7d3763667.jpg",
     "static/media/sprat_IV_1.jpg": "./static/media/sprat_IV_1.522ada5b4b9dfcfbc0b6.jpg",
     "static/media/zuta.png": "./static/media/zuta.7023c84e48f5a5490fd1.png",
-    "static/media/img_1_II_sprat.png": "./static/media/img_1_II_sprat.12c436d8c8bd52acd0d8.png",
     "static/media/floating_sos_4.png": "./static/media/floating_sos_4.483aa1270d6b4f015db5.png",
     "static/media/floating_sos_2.png": "./static/media/floating_sos_2.1d73d8a5d95660f89194.png",
     "static/media/floating_sos_3.png": "./static/media/floating_sos_3.1d8a404ac586d45ac250.png",
     "static/media/floating_sos_1.png": "./static/media/floating_sos_1.5b4795398913b7e23734.png",
     "static/media/sprat_III_2.1.jpg": "./static/media/sprat_III_2.1.69fff12e206a35b882d8.jpg",
     "static/media/intro_sos_3.jpg": "./static/media/intro_sos_3.312905ceb63119a1692d.jpg",
+    "static/media/presection_img.png": "./static/media/presection_img.e56f184c7d5380779a0b.png",
     "static/media/sprat_III_2.jpg": "./static/media/sprat_III_2.c1e9a4f5b0a552b3d6d0.jpg",
     "static/media/sprat_III_7.jpg": "./static/media/sprat_III_7.44b30d546ca03f8d3f19.jpg",
     "static/media/floating_9.png": "./static/media/floating_9.04c0af7d1a4d778d1f2f.png",
@@ -82,10 +82,10 @@
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
     "main.91cf1540.css.map": "./static/css/main.91cf1540.css.map",
-    "main.423d6e5a.js.map": "./static/js/main.423d6e5a.js.map"
+    "main.3eaf11ea.js.map": "./static/js/main.3eaf11ea.js.map"
   },
   "entrypoints": [
     "static/css/main.91cf1540.css",
-    "static/js/main.423d6e5a.js"
+    "static/js/main.3eaf11ea.js"
   ]
 }
