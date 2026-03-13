@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.91cf1540.css",
+    "main.css": "./static/css/main.2001b501.css",
     "main.js": "./static/js/main.3eaf11ea.js",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
@@ -81,11 +81,11 @@
     "static/media/num_3_white.svg": "./static/media/num_3_white.2e148b5cd3d1dcbc9820360ea244ee51.svg",
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
-    "main.91cf1540.css.map": "./static/css/main.91cf1540.css.map",
+    "main.2001b501.css.map": "./static/css/main.2001b501.css.map",
     "main.3eaf11ea.js.map": "./static/js/main.3eaf11ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.91cf1540.css",
+    "static/css/main.2001b501.css",
     "static/js/main.3eaf11ea.js"
   ]
 }
