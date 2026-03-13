@@ -34,16 +34,16 @@
     .sg_watermark {
         position: absolute;
         top: 0;
-        left: 25%;
+        left: 20%;
         width: fit-content;
         @media only screen and (max-width: 992px) {
             left: 50%;
         }
 
         .line_1 {
-            height: calc(6vh + 4px);
+            height: 100px;
             width: 2px;
-            background-color: #000;
+            background-color: #2b446b;
 
             @media only screen and (max-width: 992px) {
                 height: calc(4vh + 8px);
@@ -73,11 +73,14 @@
             }
 
             .name {
+                position: relative;
                 padding-left: 10px;
 
                 .big {
-                    text-transform: uppercase;
+                    text-transform: none;
                     transform: translateY(-2PX);
+                    font-weight: 600;
+                    color: #2b446b;
 
                     @media only screen and (max-width: 992px) {
                         transform: translateY(0PX);
@@ -86,14 +89,20 @@
 
                 .small {
                     transform: translateY(-8PX);
+                    font-weight: 600;
+                    color: #2b446b;
                     @media only screen and (max-width: 992px) {
                         transform: translateY(-6PX);
                     }
                 }
 
                 h6 {
-                    font-weight: 300;
-                    text-align: right;
+                    text-align: left;
+                }
+
+                img {
+                    width: 80px;
+                    margin-left: 75px;
                 }
             }
         }
@@ -158,6 +167,12 @@
         align-self: flex-start;
 
         img {
+            border-radius: 50px;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
             border-radius: 50px;
         }
 

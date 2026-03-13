@@ -1,6 +1,6 @@
 .section-3-prizemlje, .section-3-II, .section-3-III, .section-3-IV {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     padding: 64px 3vw;
     position: relative;
     z-index: 10;
@@ -19,8 +19,8 @@
 
     .section-img {
         position: absolute;
-        width: 75%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
         bottom: 0;
         left: 0;
         background-color: transparent;
@@ -30,11 +30,12 @@
         }
 
         img {
-            object-fit: cover;
+            object-fit: contain;
             object-position: top center;
-            opacity: 1;
+            opacity: .3;
             height: 100%;
             width: 100%;
+            z-index: 0;
         }
     }
 

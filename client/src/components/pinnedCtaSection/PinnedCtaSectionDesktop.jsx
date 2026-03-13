@@ -104,8 +104,8 @@ function PinnedCtaSection() {
       <img src={ctaImg} alt="Kids" className="kids-img" ref={imgRef} />
 
       <div className="text" ref={textRef}>
-        <p>Laboratorija za istraživanje. Studio za stvaranje. Vežbaonica za kretanje. Kantine za zajednički obrok.</p>
-        <p>Novi prostor osmišljen tako da svaki deo dana vašeg deteta ima smisao — i kvalitet.</p>
+        <p>Savremena nije samo škola sa dobrim programom. To je sredina koja formira decu — kroz mali razred gde svako dete dobija pažnju koju zaslužuje, kroz nastavu koja kombinuje tehnologiju i kreativnost, kroz Cambridge program koji otvara vrata i van granica Srbije, i kroz Life Skills Program koji uči decu veštinama koje škola najčešće preskače.</p>
+        <p> Roditelji nisu ispred zatvorenih vrata — oni su deo svega.</p>
       </div>
 
       <div className="btn-box">

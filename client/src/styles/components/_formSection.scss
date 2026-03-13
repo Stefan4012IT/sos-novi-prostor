@@ -100,10 +100,12 @@
     font-size: 14px;
     line-height: 1.4;
     min-height: 60px;
+    color: #FFF;
   }
 
   &__message {
     margin-top: 8px;
+    color: #FFF;
   }
 
   @media (max-width: 767px) {
@@ -138,7 +140,7 @@
     input:-webkit-autofill:active {
     -webkit-text-fill-color: #000; // boja teksta
     transition: background-color 9999s ease-in-out 0s;
-    box-shadow: 0 0 0px 1000px #FFF inset; // tvoja pozadina
+    box-shadow: 0 0 0px 1000px #7a1016 inset; // tvoja pozadina
     }
 
 }

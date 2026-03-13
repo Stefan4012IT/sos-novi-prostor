@@ -3,6 +3,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import img_1 from "../assets/sprat_II/presection_img.png";
 import nacrt_II_sprat from '../assets/sprat_II/nacrt_II_sprat.svg'
+import pticice from '../assets/pticice.svg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -39,7 +40,7 @@ useEffect(() => {
         Podsticajno okruženje koje oblikuje budućnost. 
         </h2>
         <div className="section-img">
-        <img src={nacrt_II_sprat} alt="" />
+        <img src={pticice} alt="" />
         </div>
         <div className="img_box">
             <div className="img-wrapper">
@@ -52,7 +53,7 @@ useEffect(() => {
             </div>
         </div>
         <h3 className="title-2">
-        II sprat
+        Šta vas očekuje u novom prostoru?
         </h3>
     </section>
   );

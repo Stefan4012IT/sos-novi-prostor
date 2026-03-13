@@ -4,10 +4,12 @@ import intro_img_1 from '../assets/hero/intro_sos_1.jpg'
 import intro_img_2 from '../assets/hero/intro_sos_2.jpg'
 import intro_img_3 from '../assets/hero/intro_sos_3.jpg'
 import intro_img_4 from '../assets/hero/intro_sos_4.jpg'
+import intro_skola from '../assets/hero/skola.svg'
 import intro_img_5 from '../assets/hero/intro_1.jpg'
 import intro_img_6 from '../assets/hero/intro_6.jpg'
 import intro_img_7 from '../assets/hero/intro_7.jpg'
 import intro_img_8 from '../assets/hero/intro_8.jpg'
+import sos_novi_prostor_video from '../assets/hero/sos_novi_prostor.mov'
 
 import RotatingWords from "./RotatingWords";
 import TitleRevealHome from "./TitleRevealHome";
@@ -19,17 +21,18 @@ const SectionHero = () => {
       <div className="logo-box">
         <img src={SG_logo} alt="SG_logo" />
       </div>
-      {/* <div className="sg_watermark">
+      <div className="sg_watermark">
         <div className="line_1"></div>
         <div className="square-name">
-            <div className="square"></div>
+            {/* <div className="square"></div> */}
             <div className="name">
-                <h6 className="big">savremena</h6>
-                <h6 className="small">gimnazija</h6>
+                <h6 className="big">Savremena</h6>
+                <h6 className="small">osnovna</h6>
+                <img src={intro_skola} alt="Skola" />
             </div>
         </div>
 
-      </div> */}
+      </div>
 
       <div className="hero--title-right">
         <h1>Savremena se širi. Mesto te čeka.</h1>
@@ -49,7 +52,8 @@ const SectionHero = () => {
               "inovacije",
             ]}
           />
-          <img src="https://placehold.co/900x400" alt="" />
+          {/* <img src="https://placehold.co/900x400" alt="" /> */}
+          <video src={sos_novi_prostor_video} autoPlay loop muted></video>
         </div>
         <div className="hero--paragraph-text">
           <h3>Više mesta, više mogućnosti: <span>Otvara se novo odeljenje I razreda</span></h3>

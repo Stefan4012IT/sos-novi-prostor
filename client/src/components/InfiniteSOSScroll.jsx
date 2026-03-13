@@ -19,13 +19,13 @@ function InfiniteSOSScroll() {
       bgColor: "#f7b815",
       image: sprat_II_1,
       subtitle: "Sports Hub",
-      title: "Pokreni telo. Oslobodi um.",
+      title: "Profesionalno opremljen prostor za sve sportove",
       text: (
         <>
-          Savremena vežbaonica nije privilegija — ona je deo obrazovanja. Jer kretanje nije odmor od učenja. Ono je deo njega.
+          Sports Hub u Savremenoj je potpuno opremljen prostor za sve što fizičko vaspitanje treba da bude. Najsavremenija oprema stiže u Savremeni Sports Hub.
           <br />
           <br />
-          Istraživanja pokazuju da deca koja se redovno kreću — uče bolje, koncentruju se duže i osećaju se sigurnije.
+          Strunjače, sprave, sportski rekviziti, prostor za timske sportove i individualne aktivnosti — sve na jednom mestu. Deca razvijaju snagu, brzinu, koordinaciju, ravnotežu i timski duh. 
         </>
       )
     },
@@ -74,14 +74,14 @@ function InfiniteSOSScroll() {
     {
       bgColor: "#f7b815",
       image: sprat_II_7,
-      subtitle: "Kantine",
-      title: "Važan deo školskog dana",
+      subtitle: "Lunch Time Hub",
+      title: "Udoban prostor za obrok, odmor i razgovor",
       text: (
         <>
-          Pitajte decu šta im se najviše sviđa u školi — često je odgovor: ručak sa drugarima. Kantine Savremene je taj prostor — topao, osmišljen, bez žurbe. 
+          U Lunch Time Hubu Topao i pažljivo osmišljen prostor namenjen je odmoru, razgovoru i kratkom predahu tokom školskog dana. Mesto gde učenici prave pauzu od časova, druže se i uživaju u obroku sa drugarima. Učenici mogu unapred poručiti zdrav i raznovrstan ketering obrok, koji ih čeka spreman u vreme ručka.
           <br />
           <br />
-          Mesto gde se prave prijateljstva, gde se smeje bez povoda i gde se dan nakratko usporava. I to nije manje važno od bilo kog časa.
+          Sve je organizovano tako da pauza bude prijatna, bez žurbe i u opuštenoj atmosferi.
         </>
       )
     },
@@ -92,10 +92,10 @@ function InfiniteSOSScroll() {
       title: (<>Novo odeljenje <br/>I razreda</>),
       text: (
         <>
-          Savremena raste — i to znači novo odeljenje prvog razreda, sa svim onim što je Savremenu i definisalo: mali razredi, posvećeni nastavnici, inovativan pristup, ista posvećenost i sredina u kojoj se svako dete iskazuje svoj pun potencijal.
+          Mesta za generaciju 2026/27. su bila popunjena. Sada, Savremena se širi — i to znači novo odeljenje prvog razreda, sa svim onim što je Savremenu i definisalo: mali razredi, posvećeni nastavnici, inovativan pristup, ista posvećenost i sredina u kojoj svako dete iskazuje svoj pun potencijal.
           <br />
           <br />
-          To je novi start za još jednu generaciju koja zaslužuje više od prosečnog obrazovanja.
+          To je novi start za još jednu generaciju koja zaslužuje više od prosečnog obrazovanja. Broj mesta je ograničen — obezbedite jedno od 20 slobodnih mesta!
         </>
       )
     },
