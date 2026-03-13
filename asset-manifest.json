@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.3e4bb921.css",
-    "main.js": "./static/js/main.1f8f9035.js",
+    "main.css": "./static/css/main.91cf1540.css",
+    "main.js": "./static/js/main.059db767.js",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
     "static/media/beogradjanka.png": "./static/media/beogradjanka.a2c85000022003557963.png",
@@ -13,6 +13,10 @@
     "static/media/sprat_IV_1.jpg": "./static/media/sprat_IV_1.522ada5b4b9dfcfbc0b6.jpg",
     "static/media/zuta.png": "./static/media/zuta.7023c84e48f5a5490fd1.png",
     "static/media/img_1_II_sprat.png": "./static/media/img_1_II_sprat.12c436d8c8bd52acd0d8.png",
+    "static/media/floating_sos_4.png": "./static/media/floating_sos_4.483aa1270d6b4f015db5.png",
+    "static/media/floating_sos_2.png": "./static/media/floating_sos_2.1d73d8a5d95660f89194.png",
+    "static/media/floating_sos_3.png": "./static/media/floating_sos_3.1d8a404ac586d45ac250.png",
+    "static/media/floating_sos_1.png": "./static/media/floating_sos_1.5b4795398913b7e23734.png",
     "static/media/sprat_III_2.1.jpg": "./static/media/sprat_III_2.1.69fff12e206a35b882d8.jpg",
     "static/media/intro_sos_3.jpg": "./static/media/intro_sos_3.312905ceb63119a1692d.jpg",
     "static/media/sprat_III_2.jpg": "./static/media/sprat_III_2.c1e9a4f5b0a552b3d6d0.jpg",
@@ -21,16 +25,20 @@
     "static/media/floating_1.png": "./static/media/floating_1.951802df9fb05858a8b7.png",
     "static/media/sprat_II_8.1.jpg": "./static/media/sprat_II_8.1.9ebf5716cefc9c096333.jpg",
     "static/media/sprat_III_4.1.jpg": "./static/media/sprat_III_4.1.45d0400864b9776bae68.jpg",
+    "static/media/floating_sos_8.png": "./static/media/floating_sos_8.373ea08c3c9bd3c318c2.png",
     "static/media/sprat_II_7.jpg": "./static/media/sprat_II_7.f5702257a893aba3aadb.jpg",
     "static/media/intro_sos_1.jpg": "./static/media/intro_sos_1.1e6adcd0eae7e252afc8.jpg",
     "static/media/img_1.png": "./static/media/img_1.e80a9bb5ac6bcdbd94a0.png",
     "static/media/sprat_III_5.jpg": "./static/media/sprat_III_5.f103afdd63a4f76c0719.jpg",
+    "static/media/floating_sos_7.png": "./static/media/floating_sos_7.99fb4a6ee9f43aada5a4.png",
     "static/media/sprat_III_3.jpg": "./static/media/sprat_III_3.1f4b12ec7c086cd11e96.jpg",
     "static/media/floating_3.png": "./static/media/floating_3.7362e7d9593f26e11a50.png",
+    "static/media/floating_sos_9.png": "./static/media/floating_sos_9.2d0d648ed592b94dd5ca.png",
     "static/media/sprat_IV_3.jpg": "./static/media/sprat_IV_3.2f22af57b08bcae657e3.jpg",
     "static/media/floating_5.png": "./static/media/floating_5.39f8f0a9f84321920387.png",
     "static/media/zelena.png": "./static/media/zelena.10674bd03d06e1237c24.png",
     "static/media/sprat_III_6.jpg": "./static/media/sprat_III_6.8c1475d565a934fd49ec.jpg",
+    "static/media/floating_sos_6.png": "./static/media/floating_sos_6.270b54f8f8896dc62aa1.png",
     "static/media/sprat_IV_4.jpg": "./static/media/sprat_IV_4.44dccd3413f263e42684.jpg",
     "static/media/crvena.png": "./static/media/crvena.476859329d23ee93fa83.png",
     "static/media/sprat_III_8.1.jpg": "./static/media/sprat_III_8.1.2990fbcff1143f6f446a.jpg",
@@ -54,6 +62,7 @@
     "static/media/KHTeka-Regular.ttf": "./static/media/KHTeka-Regular.329ba7af98e3654980a9.ttf",
     "static/media/KHTeka-Medium.ttf": "./static/media/KHTeka-Medium.a3fb9bc29c9ac931da84.ttf",
     "static/media/KHTeka-Light.ttf": "./static/media/KHTeka-Light.133669dc3b565911724f.ttf",
+    "static/media/floating_sos_5.png": "./static/media/floating_sos_5.5ad646eecbd7cf5896c8.png",
     "static/media/sprat_II_1.jpg": "./static/media/sprat_II_1.a987d43336ac6aefb4b3.jpg",
     "static/media/sg_mapa.jpg": "./static/media/sg_mapa.e00ebafdd3c8da82cc47.jpg",
     "static/media/intro_6.jpg": "./static/media/intro_6.48f6c700cd464b1eeaf9.jpg",
@@ -62,7 +71,9 @@
     "static/media/intro_7.jpg": "./static/media/intro_7.b03fc6304060278f77b4.jpg",
     "static/media/ptice.png": "./static/media/ptice.f5a3e9ead8c8d59b2511.png",
     "static/media/camb_mpn.png": "./static/media/camb_mpn.818682fdf6996fec3e95.png",
-    "static/media/sg_footer_colored.svg": "./static/media/sg_footer_colored.49220c7e73c735cc144f69282ffd7ba3.svg",
+    "static/media/SOS_log_color_white.svg": "./static/media/SOS_log_color_white.9e74695aa0cfd586e4678723d714b051.svg",
+    "static/media/ministarstvo_logo_wh.webp": "./static/media/ministarstvo_logo_wh.79effb86efc05dec91f5.webp",
+    "static/media/cambridge_logo_white.webp": "./static/media/cambridge_logo_white.0ea1520b20b00e24ac69.webp",
     "static/media/preloaderSG_logo.svg": "./static/media/preloaderSG_logo.1ec94bc4835d358a505f2beb606de8fd.svg",
     "static/media/SG_logo.svg": "./static/media/SG_logo.b043558f87a42c45fd1cf6d9392f8500.svg",
     "index.html": "./index.html",
@@ -70,11 +81,11 @@
     "static/media/num_3_white.svg": "./static/media/num_3_white.2e148b5cd3d1dcbc9820360ea244ee51.svg",
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
-    "main.3e4bb921.css.map": "./static/css/main.3e4bb921.css.map",
-    "main.1f8f9035.js.map": "./static/js/main.1f8f9035.js.map"
+    "main.91cf1540.css.map": "./static/css/main.91cf1540.css.map",
+    "main.059db767.js.map": "./static/js/main.059db767.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e4bb921.css",
-    "static/js/main.1f8f9035.js"
+    "static/css/main.91cf1540.css",
+    "static/js/main.059db767.js"
   ]
 }
