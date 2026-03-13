@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.91cf1540.css",
-    "main.js": "./static/js/main.f38b0ce2.js",
+    "main.js": "./static/js/main.423d6e5a.js",
     "static/media/nacrt_II_sprat.svg": "./static/media/nacrt_II_sprat.c66d8e64bc3f33c4295cdb01b59071ea.svg",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
     "static/media/prizemlje_nacrt_optimized.svg": "./static/media/prizemlje_nacrt_optimized.212d262e56065c442f7c.svg",
@@ -56,6 +56,7 @@
     "static/media/sprat_II_6.jpg": "./static/media/sprat_II_6.a6bf11dcfb294c8df843.jpg",
     "static/media/plava.png": "./static/media/plava.f5707c0dc37f29db2527.png",
     "static/media/img_1_IV_sprat.png": "./static/media/img_1_IV_sprat.5f14b7404e53944f074d.png",
+    "static/media/mapa_sos.jpg": "./static/media/mapa_sos.e7d44cbed7db72cb8175.jpg",
     "static/media/KHTeka-Bold.ttf": "./static/media/KHTeka-Bold.0a0c0f135b0eec2ee58f.ttf",
     "static/media/sprat_II_5.jpg": "./static/media/sprat_II_5.fddff4f588d6ca574cf3.jpg",
     "static/media/sprat_II_2.1.jpg": "./static/media/sprat_II_2.1.e2c6312b633330b76ca6.jpg",
@@ -64,7 +65,6 @@
     "static/media/KHTeka-Light.ttf": "./static/media/KHTeka-Light.133669dc3b565911724f.ttf",
     "static/media/floating_sos_5.png": "./static/media/floating_sos_5.5ad646eecbd7cf5896c8.png",
     "static/media/sprat_II_1.jpg": "./static/media/sprat_II_1.a987d43336ac6aefb4b3.jpg",
-    "static/media/sg_mapa.jpg": "./static/media/sg_mapa.e00ebafdd3c8da82cc47.jpg",
     "static/media/intro_6.jpg": "./static/media/intro_6.48f6c700cd464b1eeaf9.jpg",
     "static/media/intro_1.jpg": "./static/media/intro_1.d5bae4b456dd6b425a0f.jpg",
     "static/media/intro_8.jpg": "./static/media/intro_8.0ef590481813add4fc8b.jpg",
@@ -82,10 +82,10 @@
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
     "main.91cf1540.css.map": "./static/css/main.91cf1540.css.map",
-    "main.f38b0ce2.js.map": "./static/js/main.f38b0ce2.js.map"
+    "main.423d6e5a.js.map": "./static/js/main.423d6e5a.js.map"
   },
   "entrypoints": [
     "static/css/main.91cf1540.css",
-    "static/js/main.f38b0ce2.js"
+    "static/js/main.423d6e5a.js"
   ]
 }
