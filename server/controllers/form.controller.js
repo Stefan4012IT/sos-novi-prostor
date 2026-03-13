@@ -1,29 +1,31 @@
 const { sendToUIS } = require("../services/uis.service");
+const { validateFormData } = require("../utils/validateFormData");
 
 const submitForm = async (req, res, next) => {
   try {
-    const formData = req.body;
-
-    if (!formData) {
+    if (!req.body || Object.keys(req.body).length === 0) {
       return res.status(400).json({
         success: false,
-        message: "Request body je prazan."
+        message: "Request body je prazan.",
       });
     }
 
-    if (!formData.name || !formData.email) {
+    const { isValid, errors, sanitizedData } = validateFormData(req.body);
+
+    if (!isValid) {
       return res.status(400).json({
         success: false,
-        message: "Polja name i email su obavezna."
+        message: "Validacija nije prošla.",
+        errors,
       });
     }
 
-    const result = await sendToUIS(formData);
+    const result = await sendToUIS(sanitizedData);
 
     return res.status(200).json({
       success: true,
-      message: "Podaci su uspješno poslani na UIS webhook.",
-      webhookResponse: result
+      message: "Podaci su uspješno poslani.",
+      webhookResponse: result,
     });
   } catch (error) {
     next(error);
@@ -31,5 +33,5 @@ const submitForm = async (req, res, next) => {
 };
 
 module.exports = {
-  submitForm
+  submitForm,
 };

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import img_3 from "../../assets/beogradjanka.png";
+import img_3 from "../../assets/savremena_novi_prostor.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,16 +65,13 @@ function ParallaxSection8Mobile() {
     <section className="section-8 mobile" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title" ref={titleRef}>
-          <>Otvorena vrata uspešne <br />budućnosti.</>
+          <>Otvorena vrata uspešne <br/>budućnosti.</>
         </h2>
       </div>
 
       <div className="text" ref={textRef}>
-        <p>
-          Novi prostorni koncept Savremene objedinjuje inovaciju, funkcionalnost i viziju budućnosti.
-          Zone su osmišljene tako da prate obrazovne trendove i razvijaju kod učenika veštine koje
-          nadilaze školske zidove.
-        </p>
+        <p>Budućnost se ne čeka — ona se gradi. I svaki dan koji vaše dete provede Savremenoj je korak napred ka uspešnoj budućnosti.</p>
+        <p>Ovo je trenutak da postanete deo priče koja gradi uspešnu budućnost vašeg deteta. </p>
       </div>
 
       <img src={img_3} alt="Get in touch" className="img_prizemlje" ref={imgRef} />

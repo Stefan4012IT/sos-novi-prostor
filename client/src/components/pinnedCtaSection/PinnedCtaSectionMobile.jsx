@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import ctaImg from "../../assets/img_cta_1.jpg";
+import ctaImg from "../../assets/img_cta_960x500.jpg";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);

@@ -13,29 +13,39 @@ const sendToUIS = async (formData) => {
   }
 
   const payload = {
-    name: formData.name || "",
-    email: formData.email || "",
-    childs_age: formData.childs_age || "",
-    "country-code": formData["country-code"] || "",
-    "area-code": formData["area-code"] || "",
-    "phone-number": formData["phone-number"] || "",
-    institution: "sos"
+    name: formData.name,
+    email: formData.email,
+    childs_age: formData.childs_age,
+    "country-code": formData["country-code"],
+    "area-code": formData["area-code"],
+    "phone-number": formData["phone-number"],
+    institution: "sos",
   };
 
-  const response = await axios.post(webhookUrl, payload, {
-    headers: {
-      "Content-Type": "application/json",
-      "AccessKey": accessKey
-    },
-    timeout: 15000
-  });
+  try {
+    const response = await axios.post(webhookUrl, payload, {
+      headers: {
+        "Content-Type": "application/json",
+        AccessKey: accessKey,
+      },
+      timeout: 15000,
+    });
 
-  return {
-    status: response.status,
-    data: response.data
-  };
+    return {
+      status: response.status,
+      data: response.data,
+    };
+  } catch (error) {
+    if (error.response) {
+      throw new Error(
+        `UIS webhook greška: ${error.response.status} ${JSON.stringify(error.response.data)}`
+      );
+    }
+
+    throw error;
+  }
 };
 
 module.exports = {
-  sendToUIS
+  sendToUIS,
 };
