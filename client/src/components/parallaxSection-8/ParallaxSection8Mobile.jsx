@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import img_3 from "../../assets/savremena_novi_prostor.png";
+import img_3 from "../../assets/savremena_novi_prostor-1.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -74,7 +74,7 @@ function ParallaxSection8Mobile() {
         <p>Ovo je trenutak da postanete deo priče koja gradi uspešnu budućnost vašeg deteta. </p>
       </div>
 
-      <img src={img_3} alt="Get in touch" className="img_prizemlje" ref={imgRef} />
+      <img src={img_3} alt="Get in touch" className="sos_majka_dete" ref={imgRef} />
     </section>
   );
 }

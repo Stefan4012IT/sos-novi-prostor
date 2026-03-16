@@ -46,7 +46,7 @@
             background-color: #2b446b;
 
             @media only screen and (max-width: 992px) {
-                height: calc(4vh + 8px);
+                height: 50px;
             }
         }
 
@@ -57,7 +57,7 @@
             top: calc(6vh + 2px);
 
             @media only screen and (max-width: 992px) {
-                top: calc(4vh + 6px);
+                top: 10px;
             }
             .square {
                 width: 20px;
@@ -103,6 +103,10 @@
                 img {
                     width: 80px;
                     margin-left: 75px;
+
+                    @media only screen and (max-width: 992px) {
+                        width: 55px;
+                    }
                 }
             }
         }

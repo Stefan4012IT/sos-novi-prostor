@@ -9,7 +9,9 @@ import intro_img_5 from '../assets/hero/intro_1.jpg'
 import intro_img_6 from '../assets/hero/intro_6.jpg'
 import intro_img_7 from '../assets/hero/intro_7.jpg'
 import intro_img_8 from '../assets/hero/intro_8.jpg'
-import sos_novi_prostor_video from '../assets/hero/sos_novi_prostor.mov'
+import sos_novi_prostor_video_0 from '../assets/hero/sos_novi_prostor.mov'
+import sos_novi_prostor_video from '../assets/hero/sos_novi_prostor_720p_30fr.mov'
+import sos_novi_prostor_video_1 from '../assets/hero/sos_novi_prostor_420p_30fr.mov'
 
 import RotatingWords from "./RotatingWords";
 import TitleRevealHome from "./TitleRevealHome";
@@ -52,8 +54,14 @@ const SectionHero = () => {
               "inovacije",
             ]}
           />
-          {/* <img src="https://placehold.co/900x400" alt="" /> */}
-          <video src={sos_novi_prostor_video} autoPlay loop muted></video>
+          <video
+            src={sos_novi_prostor_video}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+          ></video>
         </div>
         <div className="hero--paragraph-text">
           <h3>Više mesta, više mogućnosti: <span>Otvara se novo odeljenje I razreda</span></h3>
