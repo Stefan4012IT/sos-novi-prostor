@@ -66,20 +66,15 @@
 
         @media screen and (max-width: 992px) {
             position: relative;
-            width: 70%;
-            margin-left: auto;
-            height: 275px;
+            width: 100%;
+            height: fit-content;
             object-position: center;
+            object-fit: contain;
             padding: 0 20px;
+            border-radius: 50px;
         }
 
         @media screen and (max-width: 600px) {
-            position: relative;
-            width: 70%;
-            margin-left: auto;
-            height: 175px;
-            object-position: center;
-            padding: 0 20px;
         }
     }
 
@@ -130,7 +125,7 @@
             position: relative;
             width: 100%;
             margin: 0;
-            height: 150px;
+            height: 175px;
         }
 
         .floated-box {
@@ -148,9 +143,10 @@
 
             @media screen and (max-width: 992px) {
                 position: absolute;
-                height: 150px;
+                height: 175px;
                 width: 100%;
                 left: 0;
+                border-radius: 0;
             }
         }
 
@@ -178,7 +174,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                height: 150px;
+                height: 175px;
             }
 
             h4 {

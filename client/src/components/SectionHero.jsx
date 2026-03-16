@@ -58,8 +58,9 @@ const SectionHero = () => {
         <div className="hero--paragraph-text">
           <h3>Više mesta, više mogućnosti: <span>Otvara se novo odeljenje I razreda</span></h3>
           <p>
-          Savremena osnovna škola se širi. U septembru 2026. otvara se novi prostor koji je osmišljen od prve do poslednje prostorije sa jednim ciljem: da deca imaju sve što im treba da se razvijaju, istražuju i rastu. Ovaj dodatni prostor donosi mogućnost da se otvori upis u još jedno odeljenje prvog razreda.  
-          </p>
+          Savremena osnovna škola se širi. U septembru 2026. otvara se novi prostor koji je osmišljen od prve do poslednje prostorije sa jednim ciljem: da deca imaju sve što im treba da se razvijaju, istražuju i rastu.
+          </p><br/>
+          <p>Ovaj dodatni prostor donosi mogućnost da se otvori upis u još jedno odeljenje prvog razreda.  </p>
         </div>
       </div>
 

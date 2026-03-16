@@ -38,7 +38,7 @@ const Preloader = () => {
       </div>
       <div className="title">
           <h1>Savremena</h1>
-          <h3>osnovna</h3>
+          <h3>osnovna škola</h3>
         </div>
     </div>
   );

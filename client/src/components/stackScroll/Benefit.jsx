@@ -17,5 +17,3 @@ function Benefit({ img, num, title, subtitle, text, className }) {
   }
   
   export default Benefit;
-  
-  

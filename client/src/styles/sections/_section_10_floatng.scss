@@ -34,6 +34,10 @@
 
         img {
           width: 30%;
+
+          @media only screen and (max-width: 992px) {
+            width: 90%;
+          }
         }
 
         h1 {

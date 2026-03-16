@@ -52,7 +52,7 @@ function PinnedCtaSectionMobile() {
     <section className="section-7 mobile" ref={sectionRef}>
       <div className="heading-box">
         <h2 className="title" ref={titleRef}>
-          Savremen dizajn za<br />najbolje rezultate u učenju
+          U Savremenoj, vaše dete uvek dobija više.
         </h2>
       </div>
 
