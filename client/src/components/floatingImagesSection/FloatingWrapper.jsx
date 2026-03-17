@@ -16,6 +16,10 @@ const FloatingWrapper = () => {
           <h2>gimnazija</h2> */}
           <img src={logo} alt="savremena osnovna skola" />
         </div>
+        <div className="title">
+            <h1>Savremena</h1>
+            <h3>osnovna škola</h3>
+          </div>
       </div>
       <div className="section-10--overlay">
         {isMobile ? <FloatingImagesSectionMobile /> : <FloatingImagesSectionDesktop />}

@@ -23,6 +23,7 @@ import FooterCtaSection from '../components/FooterCtaSection';
 import FormSection from '../components/FormSection';
 import TitleRevealHomeHolder from '../components/TitleRevealHomeHolder';
 import InfiniteSOSScrollWrapper from '../components/infiniteScrollSOS/InfiniteSOSScrollWrapper';
+import TestimonialsSection from '../components/testimonials/TestimonialsSection';
 
 
 
@@ -38,6 +39,7 @@ function Home() {
         <Preloader />
         <SectionHero />
         <FormSection />
+        
         <TitleRevealHomeHolder />
         <StackScrollWrapper />
 
@@ -57,10 +59,11 @@ function Home() {
          */}
         <PinnedCtaSectionWrapper />
         <ParallaxSection8Wrapper />
+        <TestimonialsSection />
         <ParallaxSection9Wrapper />
 
         <FloatingWrapper />
-        <FooterCtaSection />
+        <FormSection className="form-section-3"/>
         <Footer />
       </main>
     );

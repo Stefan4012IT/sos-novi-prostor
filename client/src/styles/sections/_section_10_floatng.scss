@@ -15,6 +15,7 @@
       top: 20%;
       height: 100vh;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       background-color: #FFF;
@@ -28,7 +29,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        transform: translateY(-50%);
         width: 100%;
         z-index: 0;
 
@@ -38,6 +38,8 @@
           @media only screen and (max-width: 992px) {
             width: 90%;
           }
+
+        
         }
 
         h1 {
@@ -71,6 +73,19 @@
           }
         }
       }
+
+      .title {
+              padding-top: 20px;
+              color: #2b446b;
+              h3 {
+                  text-align: left;
+                  margin-top: -15px;
+
+                  @media only screen and (max-width: 992px) {
+                      margin-top: -5px;
+                    }
+              }
+          }
   
 
     }

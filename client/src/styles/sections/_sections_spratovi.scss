@@ -5,9 +5,14 @@
     position: relative;
     z-index: 10;
 
+    @media screen and (max-width: 992px) {
+        height: 550px;
+        padding: 120px 3vw;
+      }
+
     .title {
         margin: 0;
-        width: 70%;
+        width: 75%;
         text-align: left;
 
         @media screen and (max-width: 992px) {
@@ -26,7 +31,9 @@
         background-color: transparent;
 
         @media screen and (max-width: 992px) {
+          position: relative;
           width: 100%;
+          height: auto;
         }
 
         img {
@@ -68,6 +75,10 @@
       @media screen and (min-width: 2560px) {
         width: 600px;
       }
+
+      @media screen and (max-width: 992px) {
+          width: auto;
+        }
 
       .sticky-img {
         position: sticky;

@@ -48,7 +48,7 @@ useEffect(() => {
                 ref={imgRef}
                 className="sticky-img"
                 src={img_1}
-                alt="II sprat"
+                alt="sos"
                 />
             </div>
         </div>

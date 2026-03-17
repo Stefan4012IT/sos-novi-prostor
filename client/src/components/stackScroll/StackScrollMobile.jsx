@@ -32,7 +32,7 @@ function StackScrollMobile({ children }) {
 
       panels.forEach((panel, i) => {
         gsap.set(panel, {
-          y: i === 0 ? 0 : '100lvh',
+          y: i === 0 ? 0 : '100vh',
           x: 0,
         });
       });
