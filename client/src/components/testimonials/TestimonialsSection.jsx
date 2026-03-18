@@ -23,7 +23,7 @@ export default function TestimonialsSection() {
       <div className="testimonials-section__inner">
         <img src={img1} alt="sos_ptice" className="ptice" />
         <div className="testimonials-section__top">
-          <h2 className="testimonials-section__heading">,,Moje dete je procvetalo u Savremenoj"</h2>
+          <h3 className="testimonials-section__heading">,,Moje dete je procvetalo u Savremenoj"</h3>
 
           <div className="testimonials-section__nav">
             <button
@@ -74,7 +74,7 @@ export default function TestimonialsSection() {
                 <div className="testimonial-card__media">
                   <img src={item.image} alt={item.name} />
                   <div className="testimonial-card__person">
-                    <h3>{item.name}</h3>
+                    <h4>{item.name}</h4>
                     <p>{item.subtitle}</p>
                   </div>
                 </div>

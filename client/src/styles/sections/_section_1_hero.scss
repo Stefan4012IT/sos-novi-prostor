@@ -176,12 +176,20 @@
 
         img {
             border-radius: 50px;
+
+            @media only screen and (max-width: 992px) {
+                border-radius: 30px;
+            }
         }
 
         video {
             width: 100%;
             height: auto;
             border-radius: 50px;
+
+            @media only screen and (max-width: 992px) {
+                border-radius: 30px;
+            }
         }
 
         @media screen and (min-width: 2560px) {
@@ -329,6 +337,7 @@
 
             @media only screen and (max-width: 992px) {
                 width: 45%;
+                border-radius: 30px;
             }
         }
     }

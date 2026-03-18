@@ -150,6 +150,8 @@
 
 
   .infinite-sos-scroll-wrapper.mobile {
+    padding-bottom: 0;
+    padding-top: 5vh;
     .zone-content {
       color: #FFF;
       .zone-texts-sos-mobile {
@@ -167,6 +169,10 @@
 
         img {
           border-radius: 50px;
+
+          @media screen and (max-width: 992px) {
+            border-radius: 30px;
+          }
         }
       }
     }

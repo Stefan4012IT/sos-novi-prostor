@@ -63,7 +63,7 @@ function Home() {
         <ParallaxSection9Wrapper />
 
         <FloatingWrapper />
-        <FormSection className="form-section-3"/>
+        <FormSection className="form-section-3" id="prijava-2"/>
         <Footer />
       </main>
     );

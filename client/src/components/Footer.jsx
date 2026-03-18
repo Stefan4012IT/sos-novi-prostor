@@ -9,13 +9,13 @@ const Footer = () => {
     <footer className="site-footer">
       <div className="footer-inner">
         <div className="footer-logo-left">
-          <h4><a href="https://www.savremena-gimnazija.edu.rs/">SAVREMENA OSNOVNA ŠKOLA</a></h4>
+          <h4><a href="https://www.savremena-osnovna.edu.rs/">SAVREMENA OSNOVNA ŠKOLA</a></h4>
           <div className="footer-copy">
             <p>&copy; {new Date().getFullYear()} <a href="https://www.savremena-osnovna.edu.rs/">Savremena osnovna škola. </a>Sva prava zadržana.</p>
           </div>
         </div>
         <div className="footer-logo-rigt">
-          <a href="https://www.savremena-gimnazija.edu.rs/">
+          <a href="https://www.savremena-osnovna.edu.rs/">
             <img src={logoSOS} alt="logo-footer-savremenaOsnovneSkole" className="logo-sg"/>
           </a>
           <img src={logoMinistarstvo} alt="logo-footer-cambridge-ministarstvo-prosvete-i-nauke" className="logo-cmpn"/>

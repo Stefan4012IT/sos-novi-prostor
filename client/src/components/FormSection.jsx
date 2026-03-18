@@ -10,7 +10,7 @@ const initialFormData = {
   website: "", // honeypot
 };
 
-function FormSection({ className = "" }) {
+function FormSection({ className, id }) {
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState({});
   const [submitMessage, setSubmitMessage] = useState("");
@@ -184,7 +184,7 @@ function FormSection({ className = "" }) {
     };
 
   return (
-    <section className={`form-section ${className}`} id="prijava-forma">
+    <section className={`form-section ${className}`} id={id}>
       <div className="form-section__inner">
         <div className="form-section__intro">
           <h4 className="form-section__eyebrow">Prijavite se odmah</h4>

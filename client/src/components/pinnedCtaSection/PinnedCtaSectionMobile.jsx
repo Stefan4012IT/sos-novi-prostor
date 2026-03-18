@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import ctaImg from "../../assets/img_cta_960x500.jpg";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { Link } from "react-scroll";
+import ctaImg from "../../assets/img_cta_960x500.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,42 +12,51 @@ function PinnedCtaSectionMobile() {
   const dynamicYears = `${currentYear}/${nextShort}`;
 
   const sectionRef = useRef(null);
-  const textRef = useRef(null);
-  const txtBoxRef = useRef(null);
   const titleRef = useRef(null);
+  const bodyTextRef = useRef(null);
+  const ctaBoxRef = useRef(null);
 
-    useEffect(() => {
-      const section = sectionRef.current;
-
-      const ctx = gsap.context(() => {
-        
+  useEffect(() => {
+    const ctx = gsap.context(() => {
       gsap.from(titleRef.current, {
-        xPercent: -90,
-        opacity: .5,
+        x: -60,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
         scrollTrigger: {
-          trigger: section,
-          start: "top 100%",
-          end: "top 10%",
-          scrub: true,
+          trigger: titleRef.current,
+          start: "top 85%",
+          toggleActions: "play none none reverse",
         },
       });
-      
 
-      gsap.from(textRef.current, {
-        xPercent: 80,
-        opacity: 1,
-        duration: 1.5,
+      gsap.from(bodyTextRef.current, {
+        x: 60,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
         scrollTrigger: {
-          trigger: section,
-          start: "top 10%",
-          end: "bottom 30%",
-          scrub: true,
+          trigger: bodyTextRef.current,
+          start: "top 85%",
+          toggleActions: "play none none reverse",
         },
       });
-      }, sectionRef);
 
-      return () => ctx.revert();
-    }, []);
+      gsap.from(ctaBoxRef.current, {
+        y: 40,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ctaBoxRef.current,
+          start: "top 90%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    }, sectionRef);
+
+    return () => ctx.revert();
+  }, []);
 
   return (
     <section className="section-7 mobile" ref={sectionRef}>
@@ -58,23 +68,38 @@ function PinnedCtaSectionMobile() {
 
       <img src={ctaImg} alt="Kids" className="kids-img" />
 
-      <div className="text">
+      <div className="text" ref={bodyTextRef}>
         <p>
-        Savremena gimnazija nisu samo aktuelni programi i tehnologije – ona podrazumeva podršku, razumevanje i put ka samostalnosti. Odabir prave škole je osnovni korak za budući uspeh.
+          Savremena gimnazija nisu samo aktuelni programi i tehnologije – ona
+          podrazumeva podršku, razumevanje i put ka samostalnosti. Odabir prave
+          škole je osnovni korak za budući uspeh.
         </p>
         <p>
-        Kombinacijom Cambridge standarda, savremenih nastavnih programa, inovativnog pristupa i okruženja punog podrške stvara se temelj za uspešnu i sigurnu budućnost svakog učenika.
+          Kombinacijom Cambridge standarda, savremenih nastavnih programa,
+          inovativnog pristupa i okruženja punog podrške stvara se temelj za
+          uspešnu i sigurnu budućnost svakog učenika.
         </p>
       </div>
 
-      <div className="btn-box" ref={txtBoxRef}>
-        <div className="cta-text" ref={textRef}>
-          <h4>Pridružite nam se. Postanite deo Savremene zajednice koja raste.</h4>
-          <a href="https://www.savremena-gimnazija.edu.rs/prijava/">{`Upis za generaciju ${dynamicYears} je toku →`}</a>
+      <div className="btn-box" ref={ctaBoxRef}>
+        <div className="cta-text">
+          <h4>
+            Pridružite nam se. Postanite deo Savremene zajednice koja raste.
+          </h4>
+
+          <Link
+            to="prijava-2"
+            smooth={true}
+            duration={700}
+            offset={-80}
+            className="cta-link"
+          >
+            {`Upis za generaciju ${dynamicYears} je toku →`}
+          </Link>
         </div>
-        <div className="floated-box" ></div>
+
+        <div className="floated-box"></div>
       </div>
-      
     </section>
   );
 }
