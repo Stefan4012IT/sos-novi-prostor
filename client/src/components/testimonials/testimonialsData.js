@@ -1,53 +1,50 @@
+import img1 from '../../assets/testimonials/VukosavaScekicJelisavac.jpg';
+import img2 from '../../assets/testimonials/MilosPavlovic.jpg';
+import img3 from '../../assets/testimonials/OliveraTesic.jpg';
+import img4 from '../../assets/testimonials/MarinaGrahovac.jpg';
+import img5 from '../../assets/testimonials/DraganStevanovic.jpg';
+
+
 const testimonialsData = [
   {
     id: 1,
-    name: "Andrea Radosavljević",
-    subtitle: "ĐAK GENERACIJE",
-    title: "„Škola u kojoj svaki učenik dobija podršku da zablista“",
-    text: `Moje školovanje u Savremenoj gimnaziji opisala bih kao inovativno i jedinstveno, jer svaki profesor ima poseban pristup prema svakom učeniku.
-Tako je i moja profesorka španskog jezika imala poseban pristup prema meni, što mi je pomoglo da ostvarim veliki uspeh i briljiram na republičkom takmičenju iz španskog jezika.`,
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=900&auto=format&fit=crop",
+    name: "Vukosava Šćekić Jelisavac",
+    subtitle: "RODITELJ",
+    title: "„Empatija, podrška i zajedništvo u praksi“",
+    text: `U Savremenoj školi moja deca imaju prostor da budu svoja, da razvijaju svoje talente i uče važne životne vrednosti poput empatije, podrške i zajedništva. Kao roditelj, posebno cenim što škola neguje različitost svakog deteta i gradi snažnu zajednicu kroz blisku saradnju sa roditeljima.`,
+    image: img1,
   },
   {
     id: 2,
-    name: "Marija Petrović",
+    name: "Miloš Pavlović",
     subtitle: "RODITELJ",
-    title: "„Pristup koji razvija samopouzdanje i znanje“",
-    text: `Najveća vrednost ove škole je individualan pristup. Dete je dobilo podršku, sigurnost i motivaciju da napreduje iz dana u dan.
-Kao roditelju, bilo mi je važno da vidim da škola ne razvija samo znanje, već i karakter.`,
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=900&auto=format&fit=crop",
+    title: "„Bezbedno i podsticajno okruženje za razvoj“",
+    text: `U Savremenoj školi pronašli smo bezbedno i podsticajno okruženje u kome naše dete uči i razvija se uz posvećene i profesionalne nastavnike. Uz otvorenu komunikaciju i dodatne edukativne sadržaje, imamo potpuno poverenje da smo napravili pravi izbor za njegovo odrastanje i obrazovanje.`,
+    image: img2,
   },
   {
     id: 3,
-    name: "Nikola Jovanović",
-    subtitle: "UČENIK",
-    title: "„Mesto gde se trud zaista vidi i ceni“",
-    text: `Profesori su uvek bili tu da objasne, usmere i motivišu. Atmosfera je takva da te tera da radiš na sebi, ali bez pritiska.
-Posebno mi znači što sam imao prostor da razvijam interesovanja i van klasične nastave.`,
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=900&auto=format&fit=crop",
+    name: "Olivera Tešić",
+    subtitle: "RODITELJ",
+    title: "„Mesto gde deca procvetaju“",
+    text: `U Savremenoj školi moje dete je uz podršku i razumevanje nastavnika procvetalo, razvilo samopouzdanje i postalo spremno za dalje obrazovanje i život.`,
+    image: img3,
   },
   {
     id: 4,
-    name: "Jelena Marković",
+    name: "Marina Grahovac",
     subtitle: "RODITELJ",
-    title: "„Bezbedno, moderno i podsticajno okruženje“",
-    text: `Od prvog dana smo imali osećaj da je dete na pravom mestu. Komunikacija sa školom je odlična, a program je savremen i dobro organizovan.
-Posebno cenimo to što se svako dete posmatra kao pojedinac sa svojim potencijalima.`,
-    image:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=900&auto=format&fit=crop",
+    title: "„Sve što želim za svoju decu – emotivni, intelektualni i fizički razvoj“",
+    text: `Ja sam od onih zadovoljnih roditelja. Ono što je meni važno jeste da primećujem na svojoj deci jedan emotivni, intelektualni i fizički razvoj. To je meni kao roditelju zaista dovoljno. Deca su prezadovoljna i mogu da razviju sve svoje talente, a samim tim mogu i da napreduju.`,
+    image: img4,
   },
   {
     id: 5,
-    name: "Ana Ilić",
-    subtitle: "ALUMNI",
-    title: "„Iskustvo koje me je pripremilo za dalje školovanje“",
-    text: `Ova škola mi je pomogla da steknem radne navike, sigurnost u sebe i jasniju sliku o tome čime želim da se bavim.
-Znanje koje sam ponela odavde zaista mi je značilo u daljem obrazovanju.`,
-    image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=900&auto=format&fit=crop",
+    name: "Dragan Stevanović",
+    subtitle: "RODITELJ",
+    title: "„Fokus na celokupan razvoj deteta“",
+    text: `Mi smo prezadovoljni školom i od srca bismo je preporučili svim našim prijateljima. Posebno cenimo način na koji se naše dete obrazuje – sa pažnjom, razumevanjem i fokusom na njegov celokupan razvoj.`,
+    image: img5,
   },
 ];
 

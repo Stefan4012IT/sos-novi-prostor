@@ -1,39 +1,49 @@
-import React from "react";
-import SG_logo from "../assets/SG_logo.svg"; // prilagodi putanju
-import intro_img_1 from '../assets/hero/intro_sos_1.jpg'
-import intro_img_2 from '../assets/hero/intro_sos_2.jpg'
-import intro_img_3 from '../assets/hero/intro_sos_3.jpg'
-import intro_img_4 from '../assets/hero/intro_sos_4.jpg'
-import intro_skola from '../assets/hero/skola.svg'
-import intro_img_5 from '../assets/hero/intro_1.jpg'
-import intro_img_6 from '../assets/hero/intro_6.jpg'
-import intro_img_7 from '../assets/hero/intro_7.jpg'
-import intro_img_8 from '../assets/hero/intro_8.jpg'
-import sos_novi_prostor_video_0 from '../assets/hero/sos_novi_prostor.mov'
-import sos_novi_prostor_video from '../assets/hero/sos_novi_prostor_720p_30fr.mov'
-import sos_novi_prostor_video_1 from '../assets/hero/sos_novi_prostor_420p_30fr.mov'
+import React, { useState } from "react";
+import SG_logo from "../assets/SG_logo.svg";
+import intro_img_1 from "../assets/hero/intro_sos_1.jpg";
+import intro_img_2 from "../assets/hero/intro_sos_2.jpg";
+import intro_img_3 from "../assets/hero/intro_sos_3.jpg";
+import intro_img_4 from "../assets/hero/intro_sos_4.jpg";
+import intro_skola from "../assets/hero/skola.svg";
+import sos_novi_prostor_video from "../assets/hero/sos_novi_prostor_720p_30fr.mov";
 
 import RotatingWords from "./RotatingWords";
-import TitleRevealHome from "./TitleRevealHome";
-
 
 const SectionHero = () => {
+  const [activeImage, setActiveImage] = useState(null);
+
+  const heroImages = [
+    { src: intro_img_1, alt: "Savremena novi prostor 1" },
+    { src: intro_img_2, alt: "Savremena novi prostor 2" },
+    { src: intro_img_3, alt: "Savremena novi prostor 3" },
+    { src: intro_img_4, alt: "Savremena novi prostor 4" },
+  ];
+
+  const openModal = (src) => {
+    setActiveImage(src);
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeModal = () => {
+    setActiveImage(null);
+    document.body.style.overflow = "";
+  };
+
   return (
     <section className="hero section-1">
       <div className="logo-box">
         <img src={SG_logo} alt="SG_logo" />
       </div>
+
       <div className="sg_watermark">
         <div className="line_1"></div>
         <div className="square-name">
-            {/* <div className="square"></div> */}
-            <div className="name">
-                <h6 className="big">Savremena</h6>
-                <h6 className="small">osnovna</h6>
-                <img src={intro_skola} alt="Skola" />
-            </div>
+          <div className="name">
+            <h6 className="big">Savremena</h6>
+            <h6 className="small">osnovna</h6>
+            <img src={intro_skola} alt="Skola" />
+          </div>
         </div>
-
       </div>
 
       <div className="hero--title-right">
@@ -61,28 +71,60 @@ const SectionHero = () => {
             muted
             playsInline
             preload="metadata"
-          ></video>
+          />
         </div>
+
         <div className="hero--paragraph-text">
-          <h3>Više mesta, više mogućnosti: <span>Otvara se novo odeljenje I razreda</span></h3>
+          <h3>
+            Više mesta, više mogućnosti:{" "}
+            <span>Otvara se novo odeljenje I razreda</span>
+          </h3>
           <p>
-          Savremena osnovna škola se širi. U septembru 2026. otvara se novi prostor koji je osmišljen od prve do poslednje prostorije sa jednim ciljem: da deca imaju sve što im treba da se razvijaju, istražuju i rastu.
-          </p><br/>
-          <p>Ovaj dodatni prostor donosi mogućnost da se otvori upis u još jedno odeljenje prvog razreda.  </p>
+            Savremena osnovna škola se širi. U septembru 2026. otvara se novi
+            prostor koji je osmišljen od prve do poslednje prostorije sa jednim
+            ciljem: da deca imaju sve što im treba da se razvijaju, istražuju i
+            rastu.
+          </p>
+          <br />
+          <p>
+            Ovaj dodatni prostor donosi mogućnost da se otvori upis u još jedno
+            odeljenje prvog razreda.
+          </p>
         </div>
       </div>
-
-      
-
-      
 
       <div className="hero-img">
-        <img src={intro_img_1} alt="" className="img-1" />
-        <img src={intro_img_2} alt="" className="img-2" />
-        <img src={intro_img_3} alt="" className="img-3" />
-        <img src={intro_img_4} alt="" className="img-4" />
+        {heroImages.map((image, index) => (
+          <div
+            key={index}
+            className={`hero-img-trigger img-${index + 1}`}
+            onClick={() => openModal(image.src)}
+            aria-label={`Otvori sliku ${index + 1}`}
+          >
+            <img src={image.src} alt={image.alt} />
+          </div>
+        ))}
       </div>
 
+      {activeImage && (
+        <div className="image-modal" onClick={closeModal}>
+          <div
+            className="image-modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="image-modal-close"
+              onClick={closeModal}
+              aria-label="Zatvori prikaz slike"
+            >
+              ×
+            </button>
+
+            <img src={activeImage} alt="Prikaz u punoj veličini" />
+          </div>
+        </div>
+      )}
     </section>
   );
 };

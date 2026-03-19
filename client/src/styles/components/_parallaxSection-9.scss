@@ -125,6 +125,10 @@
             height: 400px;
           }
 
+          @media screen and (max-width: 1025px) {
+            height: 350px;
+          }
+
         @media screen and (max-width: 992px) {
             width: 100%;
             height: auto;

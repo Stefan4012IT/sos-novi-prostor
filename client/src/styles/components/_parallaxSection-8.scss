@@ -18,6 +18,11 @@
         padding: 0;
         width: 90%;
         height: fit-content;
+
+        @media screen and (max-width: 1440px) {
+            width: 60%;
+        }
+
         @media screen and (max-width: 992px) {
             width: 100%;
         }
@@ -27,8 +32,11 @@
             width: 100%;
             word-wrap: break-word;
             color:#2b446b;
+            
+
             @media screen and (max-width: 992px) {
                 padding: 20px;
+                width: 100%;
             }
         }
     }
@@ -63,6 +71,11 @@
         z-index: 0;
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
+
+        @media screen and (max-width: 1280px) {
+            width: 45%;
+            height: auto;
+        }
 
         @media screen and (max-width: 992px) {
             width: 100%;

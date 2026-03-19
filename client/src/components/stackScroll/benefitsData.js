@@ -16,7 +16,7 @@ const benefitsData = [
     },
     {
       title: "LIFE SKILLS PROGRAM ŽIVOTNIH VEŠTINA",
-      subtitle: "Jedinstven program koji priprema dete za stvarni svet",
+      subtitle: "Priprema dete za stvarni svet",
       text: "Pored zvaničnog programa, svako dete uči i ono što mu je zaista potrebno kroz život — kako da upravlja novcem, kako da reši konflikt, kako da kuva, šije, čuva prirodu, razume emocije i snađe se u stvarnom svetu. Zato je Savremena škola koja zaista priprema decu za život.",
     },
   ];

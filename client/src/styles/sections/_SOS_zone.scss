@@ -56,7 +56,15 @@
         width: 45%;
         row-gap: 400px;
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 1680px) {
+          row-gap: 250px;
+        }
+
+        @media only screen and (max-width: 1280px) {
+            row-gap: 200px;
+        }
+
+        @media screen and (max-width: 992px) {
           width: 100%;
           row-gap: 40px;
         }
@@ -102,7 +110,8 @@
         border-radius: 50px;
 
         @media screen and (max-width: 500px) {
-          height: 100px;
+        position: relative;
+        overflow: hidden;
         }
 
         @media screen and (min-width: 2560px) {
@@ -155,6 +164,7 @@
     .zone-content {
       color: #FFF;
       .zone-texts-sos-mobile {
+        
 
           .zone-text-sos-mobile{
             h2 {

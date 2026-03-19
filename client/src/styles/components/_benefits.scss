@@ -41,6 +41,19 @@
 
     }
 
+    .img-box {
+
+      @media only screen and (max-width: 1024px) {
+        height: 240px;
+        width: 240px;
+      }
+
+      @media only screen and (max-width: 992px) {
+        height: auto;
+        width: auto;
+      }
+    }
+
     &--content {
       width: 400px;
       height: 100%;
