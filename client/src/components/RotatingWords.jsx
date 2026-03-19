@@ -57,19 +57,20 @@ function RotatingWords({ words = [], className = "" }) {
 
   return (
     <div className={`rotating-words ${className}`}>
+      <h2 className="new">NEW:</h2>
       {words.map((text, i) => (
-        <h1
+        <h2
           key={i}
           ref={(el) => (wordsRef.current[i] = el)}
+          className="rotate"
           style={{
             position: "absolute",
             top: 0,
-            left: 0,
             whiteSpace: "nowrap",
           }}
         >
           {text}
-        </h1>
+        </h2>
       ))}
     </div>
   );

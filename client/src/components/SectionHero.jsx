@@ -57,9 +57,8 @@ const SectionHero = () => {
               "uspesi",
               "ideje",
               "uspomene",
-              "pitanja",
-              "projekati",
-              "osmeh",
+              "projekti",
+              "prostor",
               "pobede",
               "inovacije",
             ]}

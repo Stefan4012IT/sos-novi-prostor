@@ -229,13 +229,46 @@
 
         .rotating-words {
             position: relative;
-            height: 17.5em; 
+            height: 12em; 
             width: 100%;
             overflow: hidden;
             margin: 5vh 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .new {
+                position: relative;
+                width: fit-content;
+            }
+
+            .rotate {
+                justify-self: flex-end;
+                left: 282px;
+
+                @media screen and (min-width: 2560px) {
+                    left: 357px;
+                }
+
+                @media only screen and (max-width: 1680px) {
+                    left: 237px;
+                }
+
+                @media only screen and (max-width: 1440px) {
+                    left: 197px;
+                }
+
+                @media only screen and (max-width: 1024px) {
+                    left: 172px;
+                }
+
+                @media only screen and (max-width: 1024px) {
+                    left: 107px;
+                }
+            }
 
             @media screen and (min-width: 2560px) {
-                height: 20em;
+                height: 15em;
             }
 
             @media only screen and (max-width: 1680px) {
