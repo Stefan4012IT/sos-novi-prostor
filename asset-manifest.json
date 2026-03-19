@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.28ca43f8.css",
-    "main.js": "./static/js/main.88e903f0.js",
+    "main.css": "./static/css/main.e0f4ac7c.css",
+    "main.js": "./static/js/main.24c44026.js",
     "static/media/sos_novi_prostor_720p_30fr.mov": "./static/media/sos_novi_prostor_720p_30fr.24f010811e044f740415.mov",
-    "static/media/sos_novi_prostor_420p_30fr.mov": "./static/media/sos_novi_prostor_420p_30fr.6f056e9b11a183a9c806.mov",
-    "static/media/sos_novi_prostor.mov": "./static/media/sos_novi_prostor.85865384e318a9baba45.mov",
     "static/media/prizemlje_nacrt.svg": "./static/media/prizemlje_nacrt.3d9c534be07f5b924ae46182593831f2.svg",
     "static/media/prizemlje_nacrt_optimized.svg": "./static/media/prizemlje_nacrt_optimized.212d262e56065c442f7c.svg",
     "static/media/savremena_novi_prostor-1.png": "./static/media/savremena_novi_prostor-1.9a722f92017922df2d0d.png",
-    "static/media/Novo_odeljenje.jpg": "./static/media/Novo_odeljenje.c022204b569fc217f246.jpg",
+    "static/media/Novo_odeljenje.jpg": "./static/media/Novo_odeljenje.3f847a8bde87b0964ab3.jpg",
+    "static/media/Art_Hub.jpg": "./static/media/Art_Hub.60c4894c114247023470.jpg",
     "static/media/Science_Hub.jpg": "./static/media/Science_Hub.a57a8eac890e849a7415.jpg",
-    "static/media/Art_Hub.jpg": "./static/media/Art_Hub.5ea28a3df5ce44764618.jpg",
     "static/media/Sports_Hub.jpg": "./static/media/Sports_Hub.f213be3b8309c89b5210.jpg",
     "static/media/img_cta_960x500.jpg": "./static/media/img_cta_960x500.892970043af30a08c300.jpg",
-    "static/media/Lunch_Time_Hub.jpg": "./static/media/Lunch_Time_Hub.308cbb12d273d4eecd41.jpg",
+    "static/media/Lunch_Time_Hub.jpg": "./static/media/Lunch_Time_Hub.b83e3aed4f61977942ef.jpg",
     "static/media/nacrt_II_sprat_scroll.png": "./static/media/nacrt_II_sprat_scroll.66005e498287aa17de56.png",
+    "static/media/Parents_Hub.jpg": "./static/media/Parents_Hub.076958643ddb5d006e8d.jpg",
     "static/media/sprat_IV_2.1.jpg": "./static/media/sprat_IV_2.1.3fa27a8a64554999ebdb.jpg",
     "static/media/intro_sos_2.jpg": "./static/media/intro_sos_2.f306cca118d7d3763667.jpg",
     "static/media/sprat_IV_1.jpg": "./static/media/sprat_IV_1.522ada5b4b9dfcfbc0b6.jpg",
@@ -25,7 +24,6 @@
     "static/media/floating_sos_1.png": "./static/media/floating_sos_1.5b4795398913b7e23734.png",
     "static/media/sprat_III_2.1.jpg": "./static/media/sprat_III_2.1.69fff12e206a35b882d8.jpg",
     "static/media/intro_sos_3.jpg": "./static/media/intro_sos_3.312905ceb63119a1692d.jpg",
-    "static/media/Parents_Hub.jpg": "./static/media/Parents_Hub.e1bca309234cec3c760e.jpg",
     "static/media/presection_img.png": "./static/media/presection_img.e56f184c7d5380779a0b.png",
     "static/media/sprat_III_2.jpg": "./static/media/sprat_III_2.c1e9a4f5b0a552b3d6d0.jpg",
     "static/media/sprat_III_7.jpg": "./static/media/sprat_III_7.44b30d546ca03f8d3f19.jpg",
@@ -64,10 +62,11 @@
     "static/media/KHTeka-Light.ttf": "./static/media/KHTeka-Light.133669dc3b565911724f.ttf",
     "static/media/floating_sos_5.png": "./static/media/floating_sos_5.5ad646eecbd7cf5896c8.png",
     "static/media/sprat_II_1.jpg": "./static/media/sprat_II_1.a987d43336ac6aefb4b3.jpg",
-    "static/media/intro_6.jpg": "./static/media/intro_6.48f6c700cd464b1eeaf9.jpg",
-    "static/media/intro_1.jpg": "./static/media/intro_1.d5bae4b456dd6b425a0f.jpg",
-    "static/media/intro_8.jpg": "./static/media/intro_8.0ef590481813add4fc8b.jpg",
-    "static/media/intro_7.jpg": "./static/media/intro_7.b03fc6304060278f77b4.jpg",
+    "static/media/OliveraTesic.jpg": "./static/media/OliveraTesic.93431296c8c6793604ea.jpg",
+    "static/media/MarinaGrahovac.jpg": "./static/media/MarinaGrahovac.8af96caddf8830da2306.jpg",
+    "static/media/MilosPavlovic.jpg": "./static/media/MilosPavlovic.bcb1855288cec1bc8e5d.jpg",
+    "static/media/VukosavaScekicJelisavac.jpg": "./static/media/VukosavaScekicJelisavac.29debeac726fed8d6b2f.jpg",
+    "static/media/DraganStevanovic.jpg": "./static/media/DraganStevanovic.f27c79abe667b86a912c.jpg",
     "static/media/ptice.png": "./static/media/ptice.f5a3e9ead8c8d59b2511.png",
     "static/media/camb_mpn.png": "./static/media/camb_mpn.818682fdf6996fec3e95.png",
     "static/media/SOS_log_color_white.svg": "./static/media/SOS_log_color_white.9e74695aa0cfd586e4678723d714b051.svg",
@@ -82,11 +81,11 @@
     "static/media/num_3_white.svg": "./static/media/num_3_white.2e148b5cd3d1dcbc9820360ea244ee51.svg",
     "static/media/num_4_white.svg": "./static/media/num_4_white.29773a923a1ab6c7234cfa62d36c336e.svg",
     "static/media/num_1_white.svg": "./static/media/num_1_white.5a4468f01afc52e6eacfa9291d439edd.svg",
-    "main.28ca43f8.css.map": "./static/css/main.28ca43f8.css.map",
-    "main.88e903f0.js.map": "./static/js/main.88e903f0.js.map"
+    "main.e0f4ac7c.css.map": "./static/css/main.e0f4ac7c.css.map",
+    "main.24c44026.js.map": "./static/js/main.24c44026.js.map"
   },
   "entrypoints": [
-    "static/css/main.28ca43f8.css",
-    "static/js/main.88e903f0.js"
+    "static/css/main.e0f4ac7c.css",
+    "static/js/main.24c44026.js"
   ]
 }
