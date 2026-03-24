@@ -16,6 +16,7 @@ function FormSection({ className, id }) {
   const [submitMessage, setSubmitMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [hasSubmitted, setHasSubmitted] = useState(false);
+  const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
 
   const openedAt = useMemo(() => Date.now(), []);
 
@@ -117,9 +118,9 @@ function FormSection({ className, id }) {
     }
   };
 
-//   const handleBlur = () => {
-//     setErrors(validate());
-//   };
+  const closeSuccessModal = () => {
+    setIsSuccessModalOpen(false);
+  };
 
   const handleSubmit = async (e) => {
       e.preventDefault();
@@ -175,6 +176,7 @@ function FormSection({ className, id }) {
         setErrors({});
         setHasSubmitted(false);
         setSubmitMessage("");
+        setIsSuccessModalOpen(true);
       } catch (error) {
         console.error(error);
         setSubmitMessage("Došlo je do greške prilikom slanja. Pokušajte ponovo.");
@@ -309,6 +311,27 @@ function FormSection({ className, id }) {
           )}
         </form>
       </div>
+      {isSuccessModalOpen && (
+        <div
+          className="form-section__modal-overlay"
+          onClick={closeSuccessModal}
+        >
+          <div
+            className="form-section__modal"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="form-section__modal-check">✓</div>
+            <h4 className="form-section__modal-text">Vaša prijava je poslata</h4>
+            <button
+              type="button"
+              className="form-section__modal-button"
+              onClick={closeSuccessModal}
+            >
+              Ok
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

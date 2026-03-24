@@ -20,6 +20,7 @@ const sendToUIS = async (formData) => {
     "area-code": formData["area-code"],
     "phone-number": formData["phone-number"],
     institution: formData.institution,
+    form_name: "novi prostor - sos",
   };
 
   try {

@@ -5,7 +5,7 @@ import intro_img_2 from "../assets/hero/intro_sos_2.jpg";
 import intro_img_3 from "../assets/hero/intro_sos_3.jpg";
 import intro_img_4 from "../assets/hero/intro_sos_4.jpg";
 import intro_skola from "../assets/hero/skola.svg";
-import sos_novi_prostor_video from "../assets/hero/sos_novi_prostor_720p_30fr.mov";
+import sos_novi_prostor_video from "../assets/hero/sos_novi_prostor_final_720p_30fr.mov";
 
 import RotatingWords from "./RotatingWords";
 

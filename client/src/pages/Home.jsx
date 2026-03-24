@@ -42,9 +42,6 @@ function Home() {
         
         <TitleRevealHomeHolder />
         <StackScrollWrapper />
-
-        {/* <SectionPrizemlje />
-        <InfiniteZoneScrollWrapperPrizemlje /> */}
         
         <Section_II_sprat />
         <InfiniteSOSScrollWrapper />
