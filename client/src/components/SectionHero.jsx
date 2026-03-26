@@ -47,7 +47,7 @@ const SectionHero = () => {
       </div>
 
       <div className="hero--title-right">
-        <h1>Savremena se širi. Mesto te čeka.</h1>
+        <h1>Savremena se širi. <br className="mobile-break" />Mesto vas čeka.</h1>
       </div>
 
       <div className="hero--second-title-line">
